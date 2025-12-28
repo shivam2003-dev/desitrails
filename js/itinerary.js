@@ -215,8 +215,21 @@
     el.className = 'space-y-6 mb-12';
     
     // Extract location name from day title for image
-    const locationMatch = d.day.match(/—\s*(.+)/);
-    const locationName = locationMatch ? locationMatch[1].split(' ')[0].toLowerCase() : '';
+    const locationMap = {
+      'trivandrum': 'trivandrum', 'kovalam': 'kovalam', 'varkala': 'varkala',
+      'alleppey': 'alleppey', 'kumarakom': 'kumarakom', 'kochi': 'kochi',
+      'munnar': 'munnar', 'thekkady': 'thekkady', 'wayanad': 'wayanad', 'calicut': 'calicut'
+    };
+    
+    let locationName = '';
+    const dayLower = d.day.toLowerCase();
+    for (const [key, value] of Object.entries(locationMap)) {
+      if (dayLower.includes(key)) {
+        locationName = value;
+        break;
+      }
+    }
+    
     const imagePath = locationName ? `${basePath}/assets/images/states/kerala/gallery/${locationName}.jpg` : '';
     
     // Beautiful day card with gradient and shadow
