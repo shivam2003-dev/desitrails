@@ -84,7 +84,7 @@
           console.error('HTML: State.js did not run! Loading manually...');
           // Try to load and run state.js manually
           const script = document.createElement('script');
-          script.src = '../../js/state.js';
+          script.src = '/desitrails/js/state.js';
           script.onerror = function() {
             console.error('HTML: Failed to load state.js');
             if (statusEl) {
@@ -96,6 +96,6 @@
       }, 2000);
     });
   </script>
-  <script src="../../js/state.js"></script>
+  <script src="/desitrails/js/state.js"></script>
 </body>
 </html>
