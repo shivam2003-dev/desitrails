@@ -74,14 +74,13 @@
   function createStateCard(state, basePath){
     basePath = basePath || '';
     const link = (state.hasDetailPage ? `${basePath}/states/${state.slug}/` : `${basePath}/states/index.html?state=${state.slug}`);
-    const fallback = unsplashUrl(state.heroQuery || state.name);
-    const localHero = `${basePath}/assets/images/states/${state.slug}/hero.jpg`;
+    const heroImage = unsplashUrl(state.heroQuery || state.name);
     const card = document.createElement('a');
     card.href = link;
     card.className = 'group block rounded-xl overflow-hidden border border-gray-100 hover:shadow transition-shadow fade-in';
     card.innerHTML = `
       <div class="aspect-video bg-gray-100">
-        <img alt="${state.name}" loading="lazy" class="w-full h-full object-cover" src="${localHero}" onerror="this.onerror=null; this.src='${fallback}';" />
+        <img alt="${state.name}" loading="lazy" class="w-full h-full object-cover" src="${heroImage}" />
       </div>
       <div class="p-4">
         <div class="flex items-center justify-between">

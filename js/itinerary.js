@@ -63,12 +63,9 @@
   }
 
   function imageCard(q, dayNum, idx, itineraryId){
-    const base = document.querySelector('base')?.href || '';
-    const basePath = base.endsWith('/') ? base.slice(0, -1) : base;
-    const local = `${basePath}/assets/images/itineraries/${itineraryId}/day-${dayNum}-${idx+1}.jpg`;
     const src = unsplashUrl(q);
     return `<figure class="rounded-xl overflow-hidden border border-gray-100">
-      <img class="w-full h-40 sm:h-48 object-cover fade-in" alt="${q}" src="${local}" loading="lazy" onerror="this.onerror=null; this.dataset.src='${src}'; this.removeAttribute('src');" data-src="${src}" />
+      <img class="w-full h-40 sm:h-48 object-cover fade-in" alt="${q}" src="${src}" loading="lazy" />
       <figcaption class="px-3 py-2 text-xs text-gray-600">${q}</figcaption>
     </figure>`;
   }

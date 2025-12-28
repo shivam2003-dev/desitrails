@@ -35,11 +35,10 @@
         const card = document.createElement('a');
         card.href = `${basePath}/states/${state.slug}/itinerary-${it.durationDays}-days.html`;
         card.className = 'block rounded-xl overflow-hidden border border-gray-100 hover:shadow transition-shadow';
-        const local = `${basePath}/assets/images/states/${state.slug}/routes/${it.durationDays}.jpg`;
-        const img = unsplashUrl(`${state.name} ${it.durationDays} days`);
+        const routeImage = unsplashUrl(`${state.name} ${it.durationDays} days route`);
         card.innerHTML = `
           <div class="aspect-video bg-gray-100">
-            <img alt="${it.title}" loading="lazy" class="w-full h-full object-cover" src="${local}" onerror="this.onerror=null; this.src='${img}';" />
+            <img alt="${it.title}" loading="lazy" class="w-full h-full object-cover" src="${routeImage}" />
           </div>
           <div class="p-4">
             <h3 class="text-xl font-semibold">${it.durationDays} Days</h3>
