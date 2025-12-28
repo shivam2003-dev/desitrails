@@ -167,18 +167,28 @@
   startApp();
 
   function renderHeroImage(state, basePath){
+    console.log('renderHeroImage called for state:', state.slug, 'basePath:', basePath);
     basePath = basePath || '';
     const heroImg = document.getElementById('hero-img');
-    if (!heroImg) return;
+    console.log('renderHeroImage: heroImg element:', heroImg);
+    
+    if (!heroImg) {
+      console.error('renderHeroImage: hero-img element not found!');
+      return;
+    }
     
     const localHero = `${basePath}/assets/images/states/${state.slug}/hero.jpg`;
     const fallbackHero = getImageUrl(state.heroQuery || state.name, 1600, 900);
+    console.log('renderHeroImage: Setting src to:', localHero);
+    console.log('renderHeroImage: Fallback will be:', fallbackHero);
     
     heroImg.src = localHero;
     heroImg.onerror = function() {
+      console.log('renderHeroImage: Local image failed, using fallback');
       this.onerror = null;
       this.src = fallbackHero;
     };
+    console.log('renderHeroImage: Image src set to:', heroImg.src);
   }
 
   function renderRoutes(state, basePath){
