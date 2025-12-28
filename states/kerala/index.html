@@ -53,14 +53,14 @@
         <img id="hero-img" alt="Kerala" class="w-full h-full object-cover" src="" />
       </div>
       <div id="routes" class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        <div class="col-span-full text-gray-500">Loading routes...</div>
+        <div class="col-span-full text-gray-500" id="routes-status">Loading routes...</div>
       </div>
     </section>
 
     <section class="max-w-7xl mx-auto px-4 pb-16">
       <h2 class="text-2xl font-semibold mb-4">Travel Themes</h2>
       <div id="themes" class="flex flex-wrap gap-3">
-        <div class="text-gray-500">Loading themes...</div>
+        <div class="text-gray-500" id="themes-status">Loading themes...</div>
       </div>
     </section>
   </main>
@@ -73,11 +73,27 @@
 
   <script>
     // Immediate test to see if scripts are running
-    console.log('HTML: Script tag reached');
+    console.log('HTML: Inline script running');
+    
+    // Force run state.js after a delay if it hasn't run
     window.addEventListener('load', function() {
-      console.log('HTML: Window loaded');
-      const routesEl = document.getElementById('routes');
-      console.log('HTML: routesEl found:', !!routesEl);
+      console.log('HTML: Window loaded event');
+      setTimeout(function() {
+        const statusEl = document.getElementById('routes-status');
+        if (statusEl && statusEl.textContent === 'Loading routes...') {
+          console.error('HTML: State.js did not run! Loading manually...');
+          // Try to load and run state.js manually
+          const script = document.createElement('script');
+          script.src = '../../js/state.js';
+          script.onerror = function() {
+            console.error('HTML: Failed to load state.js');
+            if (statusEl) {
+              statusEl.innerHTML = '<div class="text-red-600">Error: Could not load state.js script</div>';
+            }
+          };
+          document.body.appendChild(script);
+        }
+      }, 2000);
     });
   </script>
   <script src="../../js/state.js"></script>
