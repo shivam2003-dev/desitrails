@@ -58,6 +58,480 @@
           "galleryQueries": ["Fort Kochi","Chinese fishing nets","Mattancherry"]
         }
       ]
+    },
+    {
+      "id": "rajasthan-7-days",
+      "state": "rajasthan",
+      "title": "Rajasthan 7 Days: Jaipur → Pushkar → Udaipur → Jodhpur → Jaisalmer",
+      "durationDays": 7,
+      "summary": "Heritage circuit covering forts, palaces, and desert landscapes with slow exploration.",
+      "bestTime": "October to March",
+      "route": ["Jaipur","Pushkar","Udaipur","Jodhpur","Jaisalmer"],
+      "days": [
+        {
+          "day": "Day 1 — Jaipur: Pink City Wonders",
+          "theme": "Heritage & Architecture",
+          "morning": "Arrive in Jaipur. Visit Hawa Mahal from outside, then explore City Palace.",
+          "afternoon": "Lunch at local thali restaurant. Visit Jantar Mantar observatory.",
+          "evening": "Stroll through Bapu Bazaar. Dinner at rooftop with city views.",
+          "distanceKm": 15,
+          "driveTime": "30m",
+          "mustSee": ["Hawa Mahal","City Palace","Jantar Mantar"],
+          "optional": ["Albert Hall Museum","Nahargarh Fort"],
+          "galleryQueries": ["Jaipur","Hawa Mahal","City Palace","Jantar Mantar"]
+        },
+        {
+          "day": "Day 2 — Amber Fort & Pushkar Drive",
+          "theme": "Forts & Temples",
+          "morning": "Early visit to Amber Fort. Explore palace courtyards and mirror work.",
+          "afternoon": "Drive to Pushkar (150 km). Check in and relax.",
+          "evening": "Sunset at Pushkar Lake. Explore ghats and temples.",
+          "distanceKm": 150,
+          "driveTime": "3h",
+          "mustSee": ["Amber Fort","Pushkar Lake","Brahma Temple"],
+          "optional": ["Jaigarh Fort","Panna Meena Ka Kund"],
+          "galleryQueries": ["Amber Fort","Pushkar","Pushkar Lake","Brahma Temple"]
+        },
+        {
+          "day": "Day 3 — Pushkar & Udaipur Drive",
+          "theme": "Sacred & Scenic",
+          "morning": "Morning walk around Pushkar ghats. Visit local cafes.",
+          "afternoon": "Drive to Udaipur (280 km) through Aravalli hills. Scenic stops.",
+          "evening": "Arrive Udaipur. Evening walk at Lake Pichola.",
+          "distanceKm": 280,
+          "driveTime": "5h 30m",
+          "mustSee": ["Pushkar Ghats","Lake Pichola"],
+          "optional": ["Savitri Temple","Camel Fair Grounds"],
+          "galleryQueries": ["Pushkar ghats","Udaipur","Lake Pichola","Aravalli hills"]
+        },
+        {
+          "day": "Day 4 — Udaipur: City of Lakes",
+          "theme": "Lakes & Palaces",
+          "morning": "Visit City Palace complex overlooking Lake Pichola.",
+          "afternoon": "Boat ride to Jag Mandir. Lunch at lakeside cafe.",
+          "evening": "Sunset from Gangaur Ghat. Explore old city lanes.",
+          "distanceKm": 10,
+          "driveTime": "20m",
+          "mustSee": ["City Palace Udaipur","Jag Mandir","Gangaur Ghat"],
+          "optional": ["Saheliyon Ki Bari","Bagore Ki Haveli"],
+          "galleryQueries": ["Udaipur City Palace","Jag Mandir","Lake Pichola sunset"]
+        },
+        {
+          "day": "Day 5 — Jodhpur: Blue City",
+          "theme": "Forts & Markets",
+          "morning": "Drive to Jodhpur (250 km). Visit Mehrangarh Fort.",
+          "afternoon": "Explore fort museum and palaces with audio guide.",
+          "evening": "Walk through blue city lanes. Clock Tower market visit.",
+          "distanceKm": 250,
+          "driveTime": "5h",
+          "mustSee": ["Mehrangarh Fort","Blue City Streets","Clock Tower"],
+          "optional": ["Jaswant Thada","Umaid Bhawan Palace"],
+          "galleryQueries": ["Mehrangarh Fort","Jodhpur Blue City","Clock Tower Jodhpur"]
+        },
+        {
+          "day": "Day 6 — Jaisalmer: Golden City",
+          "theme": "Desert & Heritage",
+          "morning": "Drive to Jaisalmer (285 km). Check in and rest.",
+          "afternoon": "Explore Jaisalmer Fort living fort with shops and havelis.",
+          "evening": "Sunset at Gadisar Lake. Dinner at rooftop with fort views.",
+          "distanceKm": 285,
+          "driveTime": "5h 30m",
+          "mustSee": ["Jaisalmer Fort","Patwon Ki Haveli","Gadisar Lake"],
+          "optional": ["Salim Singh Ki Haveli","Bada Bagh"],
+          "galleryQueries": ["Jaisalmer Fort","Patwon Ki Haveli","Gadisar Lake"]
+        },
+        {
+          "day": "Day 7 — Sam Sand Dunes & Departure",
+          "theme": "Desert Experience",
+          "morning": "Explore fort interiors and craft shops at leisure.",
+          "afternoon": "Drive to Sam Sand Dunes (40 km). Camel ride (optional).",
+          "evening": "Sunset over dunes. Folk music and dinner. Return for departure.",
+          "distanceKm": 40,
+          "driveTime": "1h",
+          "mustSee": ["Sam Sand Dunes","Desert Sunset"],
+          "optional": ["Kuldhara Abandoned Village","Desert Camp Stay"],
+          "galleryQueries": ["Sam Sand Dunes","Thar Desert","Rajasthan camel"]
+        }
+      ]
+    },
+    {
+      "id": "goa-4-days",
+      "state": "goa",
+      "title": "Goa 4 Days: Beaches, Heritage & Slow Vibes",
+      "durationDays": 4,
+      "summary": "Balanced mix of North Goa beaches, South Goa serenity, and Old Goa heritage.",
+      "bestTime": "November to February",
+      "route": ["North Goa","Panaji","Old Goa","South Goa"],
+      "days": [
+        {
+          "day": "Day 1 — North Goa Beaches",
+          "theme": "Beach & Nightlife",
+          "morning": "Arrive in Goa. Head to Anjuna or Vagator Beach. Breakfast shack.",
+          "afternoon": "Beach time, swim, and lunch. Explore Chapora Fort for sunset views.",
+          "evening": "Dinner at beachside cafe. Optional: Night market if Saturday.",
+          "distanceKm": 25,
+          "driveTime": "45m",
+          "mustSee": ["Anjuna Beach","Vagator Beach","Chapora Fort"],
+          "optional": ["Saturday Night Market","Ozran Beach"],
+          "galleryQueries": ["Anjuna Beach","Vagator","Chapora Fort","Goa sunset"]
+        },
+        {
+          "day": "Day 2 — Old Goa & Panaji",
+          "theme": "Heritage & Culture",
+          "morning": "Visit Old Goa churches: Basilica of Bom Jesus and Se Cathedral.",
+          "afternoon": "Drive to Panaji. Explore Fontainhas Latin Quarter. Goan lunch.",
+          "evening": "Walk along Mandovi River. Dinner cruise (optional).",
+          "distanceKm": 30,
+          "driveTime": "1h",
+          "mustSee": ["Basilica of Bom Jesus","Se Cathedral","Fontainhas"],
+          "optional": ["Church of St. Francis","Reis Magos Fort"],
+          "galleryQueries": ["Old Goa churches","Basilica Bom Jesus","Fontainhas Panaji"]
+        },
+        {
+          "day": "Day 3 — South Goa Serenity",
+          "theme": "Peaceful Beaches",
+          "morning": "Drive to South Goa. Visit Palolem Beach for calm vibes.",
+          "afternoon": "Lunch at beach shack. Swim and relax. Optional kayaking.",
+          "evening": "Sunset at Cabo de Rama Fort. Dinner at Agonda.",
+          "distanceKm": 70,
+          "driveTime": "2h",
+          "mustSee": ["Palolem Beach","Cabo de Rama Fort","Agonda Beach"],
+          "optional": ["Butterfly Beach","Cola Beach"],
+          "galleryQueries": ["Palolem Beach","Agonda Beach","Cabo de Rama"]
+        },
+        {
+          "day": "Day 4 — Beach Hopping & Departure",
+          "theme": "Leisure & Local Food",
+          "morning": "Visit Colva Beach or Benaulim. Breakfast at local cafe.",
+          "afternoon": "Last beach time. Try Goan fish curry rice. Shopping for souvenirs.",
+          "evening": "Sunset view and departure preparations.",
+          "distanceKm": 20,
+          "driveTime": "30m",
+          "mustSee": ["Colva Beach","Benaulim Beach"],
+          "optional": ["Margao Market","Dudhsagar Falls"],
+          "galleryQueries": ["Colva Beach","South Goa beaches","Goan cuisine"]
+        }
+      ]
+    },
+    {
+      "id": "himachal-6-days",
+      "state": "himachal-pradesh",
+      "title": "Himachal 6 Days: Manali → Kasol → Dharamshala Circuit",
+      "durationDays": 6,
+      "summary": "Mountains, valleys, and monasteries with adventure and peace.",
+      "bestTime": "March to June, September to November",
+      "route": ["Manali","Solang Valley","Kasol","Tosh","Dharamshala","McLeod Ganj"],
+      "days": [
+        {
+          "day": "Day 1 — Manali Arrival & Local Exploration",
+          "theme": "Mountain Town",
+          "morning": "Arrive in Manali. Check in and rest. Visit Hadimba Temple.",
+          "afternoon": "Walk through Old Manali. Lunch at cafe with mountain views.",
+          "evening": "Stroll along Mall Road. Dinner and acclimatize.",
+          "distanceKm": 10,
+          "driveTime": "20m",
+          "mustSee": ["Hadimba Temple","Old Manali","Mall Road"],
+          "optional": ["Manu Temple","Vashisht Hot Springs"],
+          "galleryQueries": ["Manali","Hadimba Temple","Old Manali","Beas River"]
+        },
+        {
+          "day": "Day 2 — Solang Valley & Adventure",
+          "theme": "Adventure & Scenic Beauty",
+          "morning": "Drive to Solang Valley (15 km). Paragliding or zorbing (optional).",
+          "afternoon": "Ropeway ride for panoramic views. Lunch at dhaba.",
+          "evening": "Return to Manali. Relax at hotel or cafe.",
+          "distanceKm": 30,
+          "driveTime": "1h",
+          "mustSee": ["Solang Valley","Mountain Views"],
+          "optional": ["Paragliding","Rohtang Pass"],
+          "galleryQueries": ["Solang Valley","Manali adventure","Himachal mountains"]
+        },
+        {
+          "day": "Day 3 — Kasol: Hippie Village",
+          "theme": "Valleys & Cafes",
+          "morning": "Drive to Kasol (75 km) through Kullu Valley. Scenic stops.",
+          "afternoon": "Check in. Explore Kasol market and riverside cafes.",
+          "evening": "Walk along Parvati River. Dinner at Israeli cafe.",
+          "distanceKm": 75,
+          "driveTime": "2h 30m",
+          "mustSee": ["Kasol Village","Parvati River","Kasol Cafes"],
+          "optional": ["Manikaran Gurudwara","Chalal Trek"],
+          "galleryQueries": ["Kasol","Parvati Valley","Kasol cafes"]
+        },
+        {
+          "day": "Day 4 — Tosh Village Trek",
+          "theme": "Village Life & Trek",
+          "morning": "Drive to Barshaini (20 km). Trek to Tosh village (5 km, 2-3 hours).",
+          "afternoon": "Explore Tosh. Lunch at village cafe with valley views.",
+          "evening": "Trek back or stay overnight in Tosh. Starry night.",
+          "distanceKm": 25,
+          "driveTime": "1h + 3h trek",
+          "mustSee": ["Tosh Village","Himalayan Views"],
+          "optional": ["Kheerganga Trek","Stay in Tosh"],
+          "galleryQueries": ["Tosh village","Parvati Valley trek","Himachal village"]
+        },
+        {
+          "day": "Day 5 — Dharamshala & McLeod Ganj",
+          "theme": "Tibetan Culture & Monasteries",
+          "morning": "Drive to Dharamshala (200 km). Long scenic journey.",
+          "afternoon": "Arrive McLeod Ganj. Visit Tsuglagkhang Complex (Dalai Lama Temple).",
+          "evening": "Explore McLeod Ganj market. Tibetan dinner.",
+          "distanceKm": 200,
+          "driveTime": "6h",
+          "mustSee": ["Tsuglagkhang Complex","McLeod Ganj"],
+          "optional": ["Bhagsu Falls","Tibetan Museum"],
+          "galleryQueries": ["McLeod Ganj","Tsuglagkhang","Dharamshala"]
+        },
+        {
+          "day": "Day 6 — Triund Trek or Leisure & Departure",
+          "theme": "Trek or Relax",
+          "morning": "Option 1: Trek to Triund (9 km, 4-5 hours). Option 2: Visit Norbulingka Institute.",
+          "afternoon": "Lunch and last mountain views. Shopping for Tibetan crafts.",
+          "evening": "Departure from Dharamshala or overnight for next day flight.",
+          "distanceKm": 18,
+          "driveTime": "5h trek or 30m drive",
+          "mustSee": ["Triund Trek","Dhauladhar Range"],
+          "optional": ["Norbulingka Institute","Dal Lake Dharamshala"],
+          "galleryQueries": ["Triund trek","Dhauladhar mountains","McLeod Ganj views"]
+        }
+      ]
+    },
+    {
+      "id": "karnataka-5-days",
+      "state": "karnataka",
+      "title": "Karnataka 5 Days: Coorg → Mysuru → Hampi Heritage Trail",
+      "durationDays": 5,
+      "summary": "Coffee plantations, royal palaces, and ancient ruins with diverse Karnataka.",
+      "bestTime": "October to March",
+      "route": ["Coorg","Mysuru","Hampi"],
+      "days": [
+        {
+          "day": "Day 1 — Coorg: Coffee Land",
+          "theme": "Plantations & Nature",
+          "morning": "Arrive in Coorg (Madikeri). Visit Raja's Seat for valley views.",
+          "afternoon": "Coffee plantation tour. Learn coffee making process.",
+          "evening": "Walk through Abbey Falls. Dinner with Kodava cuisine.",
+          "distanceKm": 20,
+          "driveTime": "45m",
+          "mustSee": ["Raja's Seat","Coffee Plantation","Abbey Falls"],
+          "optional": ["Omkareshwara Temple","Madikeri Fort"],
+          "galleryQueries": ["Coorg","Coffee plantation","Abbey Falls Coorg"]
+        },
+        {
+          "day": "Day 2 — Coorg to Mysuru",
+          "theme": "Scenic Drive & Palace City",
+          "morning": "Leisurely morning in Coorg. Visit Dubare Elephant Camp (optional).",
+          "afternoon": "Drive to Mysuru (120 km). Check in and rest.",
+          "evening": "Visit Brindavan Gardens for musical fountain show.",
+          "distanceKm": 120,
+          "driveTime": "3h",
+          "mustSee": ["Brindavan Gardens"],
+          "optional": ["Dubare Elephant Camp","Talakaveri"],
+          "galleryQueries": ["Coorg landscape","Mysuru","Brindavan Gardens"]
+        },
+        {
+          "day": "Day 3 — Mysuru: Royal Heritage",
+          "theme": "Palaces & Markets",
+          "morning": "Visit Mysore Palace. Explore ornate halls and courtyards.",
+          "afternoon": "Climb Chamundi Hills. Visit Chamundeshwari Temple. City views.",
+          "evening": "Explore Devaraja Market. Buy Mysore silk and sandalwood.",
+          "distanceKm": 25,
+          "driveTime": "1h",
+          "mustSee": ["Mysore Palace","Chamundi Hills","Devaraja Market"],
+          "optional": ["St. Philomena's Cathedral","Mysore Zoo"],
+          "galleryQueries": ["Mysore Palace","Chamundi Hills","Devaraja Market"]
+        },
+        {
+          "day": "Day 4 — Hampi: Ancient Ruins",
+          "theme": "Heritage & Boulders",
+          "morning": "Drive to Hampi (340 km). Long journey with lunch break.",
+          "afternoon": "Arrive Hampi. Visit Virupaksha Temple and Hampi Bazaar.",
+          "evening": "Sunset from Hemakuta Hill with boulder landscape views.",
+          "distanceKm": 340,
+          "driveTime": "7h",
+          "mustSee": ["Virupaksha Temple","Hampi Bazaar","Hemakuta Hill"],
+          "optional": ["Riverside cafes","Hampi Sunset Point"],
+          "galleryQueries": ["Hampi","Virupaksha Temple","Hampi boulders"]
+        },
+        {
+          "day": "Day 5 — Hampi Exploration & Departure",
+          "theme": "UNESCO World Heritage",
+          "morning": "Visit Vittala Temple Complex. Famous stone chariot and musical pillars.",
+          "afternoon": "Explore Royal Enclosure and Lotus Mahal. Lunch at local restaurant.",
+          "evening": "Last views of Hampi ruins. Depart or stay overnight.",
+          "distanceKm": 15,
+          "driveTime": "30m",
+          "mustSee": ["Vittala Temple","Stone Chariot","Lotus Mahal"],
+          "optional": ["Queen's Bath","Elephant Stables"],
+          "galleryQueries": ["Vittala Temple","Hampi stone chariot","Royal Enclosure Hampi"]
+        }
+      ]
+    },
+    {
+      "id": "uttarakhand-5-days",
+      "state": "uttarakhand",
+      "title": "Uttarakhand 5 Days: Rishikesh → Mussoorie → Nainital",
+      "durationDays": 5,
+      "summary": "Spiritual Ganges, hill station charm, and lake serenity.",
+      "bestTime": "March to June, September to November",
+      "route": ["Rishikesh","Mussoorie","Nainital"],
+      "days": [
+        {
+          "day": "Day 1 — Rishikesh: Yoga Capital",
+          "theme": "Spiritual & Adventure",
+          "morning": "Arrive Rishikesh. Visit Laxman Jhula and Ram Jhula.",
+          "afternoon": "Walk through ashram areas. Lunch at organic cafe.",
+          "evening": "Attend Ganga Aarti at Triveni Ghat or Parmarth Niketan.",
+          "distanceKm": 10,
+          "driveTime": "30m",
+          "mustSee": ["Laxman Jhula","Ram Jhula","Ganga Aarti"],
+          "optional": ["Beatles Ashram","Neelkanth Mahadev Temple"],
+          "galleryQueries": ["Rishikesh","Laxman Jhula","Ganga Aarti Rishikesh"]
+        },
+        {
+          "day": "Day 2 — Rishikesh Adventure",
+          "theme": "River Rafting & Nature",
+          "morning": "White water rafting on Ganges (16 km stretch, 2-3 hours).",
+          "afternoon": "Lunch and relax. Optional: Visit waterfall or yoga session.",
+          "evening": "Leisurely walk along Ganges. Dinner at river cafe.",
+          "distanceKm": 20,
+          "driveTime": "1h + rafting",
+          "mustSee": ["River Rafting","Ganges River"],
+          "optional": ["Neer Garh Waterfall","Cafe hopping"],
+          "galleryQueries": ["Rishikesh rafting","Ganges river","Rishikesh adventure"]
+        },
+        {
+          "day": "Day 3 — Mussoorie: Queen of Hills",
+          "theme": "Hill Station Charm",
+          "morning": "Drive to Mussoorie (75 km). Check in and rest.",
+          "afternoon": "Walk on Mall Road. Visit Gun Hill by ropeway.",
+          "evening": "Sunset views. Explore local shops and cafes.",
+          "distanceKm": 75,
+          "driveTime": "2h 30m",
+          "mustSee": ["Mall Road","Gun Hill","Mussoorie Views"],
+          "optional": ["Kempty Falls","Camel's Back Road"],
+          "galleryQueries": ["Mussoorie","Mall Road Mussoorie","Gun Hill"]
+        },
+        {
+          "day": "Day 4 — Nainital: Lake District",
+          "theme": "Lakes & Hills",
+          "morning": "Drive to Nainital (300 km). Long scenic journey.",
+          "afternoon": "Arrive and check in. Boating on Naini Lake.",
+          "evening": "Walk on Mall Road. Dinner at lakeside restaurant.",
+          "distanceKm": 300,
+          "driveTime": "7h",
+          "mustSee": ["Naini Lake","Mall Road Nainital"],
+          "optional": ["Snow View Point","Tiffin Top"],
+          "galleryQueries": ["Nainital","Naini Lake","Nainital hills"]
+        },
+        {
+          "day": "Day 5 — Nainital Exploration & Departure",
+          "theme": "Viewpoints & Lakes",
+          "morning": "Visit Naina Devi Temple. Take cable car to Snow View Point.",
+          "afternoon": "Explore Eco Cave Gardens. Last lake views and lunch.",
+          "evening": "Shopping for local handicrafts. Departure.",
+          "distanceKm": 15,
+          "driveTime": "1h",
+          "mustSee": ["Naina Devi Temple","Snow View Point","Eco Cave Gardens"],
+          "optional": ["Bhimtal Lake","Sattal"],
+          "galleryQueries": ["Nainital temple","Snow View Point","Nainital panorama"]
+        }
+      ]
+    },
+    {
+      "id": "ladakh-7-days",
+      "state": "ladakh",
+      "title": "Ladakh 7 Days: Leh → Nubra → Pangong → Tso Moriri",
+      "durationDays": 7,
+      "summary": "High altitude adventure with lakes, valleys, and monasteries.",
+      "bestTime": "June to September",
+      "route": ["Leh","Nubra Valley","Pangong Lake","Tso Moriri","Leh"],
+      "days": [
+        {
+          "day": "Day 1 — Leh Arrival & Acclimatization",
+          "theme": "Acclimatization Day",
+          "morning": "Arrive in Leh (3,500m). Complete rest at hotel.",
+          "afternoon": "Light walk to Leh Market. Stay hydrated.",
+          "evening": "Visit Shanti Stupa for sunset. Early dinner and rest.",
+          "distanceKm": 5,
+          "driveTime": "15m",
+          "mustSee": ["Leh Market","Shanti Stupa"],
+          "optional": ["Leh Palace","Local cafes"],
+          "galleryQueries": ["Leh","Shanti Stupa","Leh market"]
+        },
+        {
+          "day": "Day 2 — Leh Local Sightseeing",
+          "theme": "Monasteries & Culture",
+          "morning": "Visit Hemis Monastery (largest in Ladakh). Museum and murals.",
+          "afternoon": "Explore Thiksey Monastery. Similar to Potala Palace.",
+          "evening": "Visit Rancho School (3 Idiots fame) at Shey. Return to Leh.",
+          "distanceKm": 80,
+          "driveTime": "3h",
+          "mustSee": ["Hemis Monastery","Thiksey Monastery","Shey Palace"],
+          "optional": ["Stakna Monastery","Indus River views"],
+          "galleryQueries": ["Hemis Monastery","Thiksey Monastery","Ladakh monasteries"]
+        },
+        {
+          "day": "Day 3 — Nubra Valley via Khardung La",
+          "theme": "Highest Motorable Pass",
+          "morning": "Early start. Cross Khardung La (5,359m). Photo stop at pass.",
+          "afternoon": "Descend to Nubra Valley (120 km total). Visit Diskit Monastery.",
+          "evening": "Camel ride at Hunder sand dunes. Stay in Nubra.",
+          "distanceKm": 120,
+          "driveTime": "5h",
+          "mustSee": ["Khardung La Pass","Diskit Monastery","Hunder Sand Dunes"],
+          "optional": ["Bactrian Camel Ride","Turtuk Village"],
+          "galleryQueries": ["Khardung La","Nubra Valley","Hunder sand dunes"]
+        },
+        {
+          "day": "Day 4 — Nubra to Pangong Lake",
+          "theme": "Blue Lake Magic",
+          "morning": "Drive from Nubra to Pangong via Shyok route (150 km).",
+          "afternoon": "Arrive at Pangong Lake (4,350m). Marvel at changing colors.",
+          "evening": "Sunset at lakeside. Stay in camps near lake.",
+          "distanceKm": 150,
+          "driveTime": "5h",
+          "mustSee": ["Pangong Lake","Lake Shore Views"],
+          "optional": ["3 Idiots Shooting Location","Merak Village"],
+          "galleryQueries": ["Pangong Lake","Pangong Tso","Ladakh blue lake"]
+        },
+        {
+          "day": "Day 5 — Pangong to Tso Moriri",
+          "theme": "Remote Lake Journey",
+          "morning": "Drive to Tso Moriri via Mahe Bridge (240 km). Spectacular route.",
+          "afternoon": "Stop at Chumathang hot springs (optional). Continue journey.",
+          "evening": "Arrive at Tso Moriri. Peaceful lakeside evening. Stay in Korzok.",
+          "distanceKm": 240,
+          "driveTime": "7h",
+          "mustSee": ["Tso Moriri Lake","Korzok Village"],
+          "optional": ["Chumathang Hot Springs","Mahe Bridge"],
+          "galleryQueries": ["Tso Moriri","Korzok","Ladakh remote lakes"]
+        },
+        {
+          "day": "Day 6 — Tso Moriri to Leh via Tso Kar",
+          "theme": "Salt Lake & Return",
+          "morning": "Early morning at Tso Moriri. Bird watching (Brahminy ducks).",
+          "afternoon": "Drive back to Leh via Tso Kar (220 km). Salt lake stop.",
+          "evening": "Arrive Leh. Rest and last evening in Leh market.",
+          "distanceKm": 220,
+          "driveTime": "6h",
+          "mustSee": ["Tso Kar","Taglang La Pass"],
+          "optional": ["Nomadic settlements","Wildlife spotting"],
+          "galleryQueries": ["Tso Kar","Taglang La","Ladakh landscape"]
+        },
+        {
+          "day": "Day 7 — Leh Leisure & Departure",
+          "theme": "Relaxation & Goodbyes",
+          "morning": "Visit Hall of Fame Museum. Learn about Ladakh's military history.",
+          "afternoon": "Last minute shopping at Leh market. Tibetan artifacts, pashmina.",
+          "evening": "Departure from Leh. Carry altitude memories.",
+          "distanceKm": 10,
+          "driveTime": "30m",
+          "mustSee": ["Hall of Fame","Leh Market Shopping"],
+          "optional": ["Magnetic Hill","Gurudwara Pathar Sahib"],
+          "galleryQueries": ["Leh Hall of Fame","Leh bazaar","Ladakh souvenirs"]
+        }
+      ]
     }
   ]
 }
