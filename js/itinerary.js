@@ -1,6 +1,7 @@
 /* DesiTrails — itinerary renderer */
+/* Version: 2.0 - Fixed sidebar scope issue */
 (function(){
-  console.log('Itinerary.js: Script loaded!');
+  console.log('Itinerary.js: Script loaded! (v2.0)');
   
   function init() {
     const root = document.getElementById('itinerary-root');
