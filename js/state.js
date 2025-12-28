@@ -53,6 +53,7 @@
           routesEl.innerHTML = '<div class="text-gray-600 col-span-full">State not found.</div>';
           return;
         }
+        renderHeroImage(state, basePath);
         renderRoutes(state, basePath);
         renderThemes(state);
       })
@@ -67,6 +68,21 @@
     document.addEventListener('DOMContentLoaded', init);
   } else {
     init();
+  }
+
+  function renderHeroImage(state, basePath){
+    basePath = basePath || '';
+    const heroImg = document.getElementById('hero-img');
+    if (!heroImg) return;
+    
+    const localHero = `${basePath}/assets/images/states/${state.slug}/hero.jpg`;
+    const fallbackHero = getImageUrl(state.heroQuery || state.name, 1600, 900);
+    
+    heroImg.src = localHero;
+    heroImg.onerror = function() {
+      this.onerror = null;
+      this.src = fallbackHero;
+    };
   }
 
   function renderRoutes(state, basePath){
