@@ -5,25 +5,47 @@
   if (yearEl) yearEl.textContent = new Date().getFullYear();
   if (!gridEl) return;
 
-  const base = document.querySelector('base')?.href || '';
-  const basePath = base.endsWith('/') ? base.slice(0, -1) : base;
+  // Get base path - check if we're on GitHub Pages
+  let basePath = '';
+  const base = document.querySelector('base');
+  if (base && base.href) {
+    basePath = base.href.endsWith('/') ? base.href.slice(0, -1) : base.href;
+  } else if (window.location.hostname.includes('github.io')) {
+    // Fallback: extract from pathname
+    const pathParts = window.location.pathname.split('/');
+    if (pathParts.length > 1 && pathParts[1]) {
+      basePath = '/' + pathParts[1];
+    }
+  }
   
-  fetch(`${basePath}/data/states.json`)
-    .then(r => r.json())
+  const dataUrl = basePath ? `${basePath}/data/states.json` : '/data/states.json';
+  console.log('Fetching from:', dataUrl);
+  
+  fetch(dataUrl)
+    .then(r => {
+      if (!r.ok) {
+        throw new Error(`HTTP error! status: ${r.status}`);
+      }
+      return r.json();
+    })
     .then(data => {
+      console.log('Loaded states:', data.states?.length || 0);
       const states = data.states;
-      const cards = states.map(state => createStateCard(state));
+      if (!states || states.length === 0) {
+        gridEl.innerHTML = '<div class="text-gray-600">No states found.</div>';
+        return;
+      }
+      const cards = states.map(state => createStateCard(state, basePath));
       cards.forEach(card => gridEl.appendChild(card));
       observeFadeIns();
     })
     .catch(err => {
       console.error('Failed to load states', err);
-      gridEl.innerHTML = '<div class="text-gray-600">Unable to load states right now.</div>';
+      gridEl.innerHTML = '<div class="text-gray-600">Unable to load states right now. Error: ' + err.message + '</div>';
     });
 
-  function createStateCard(state){
-    const base = document.querySelector('base')?.href || '';
-    const basePath = base.endsWith('/') ? base.slice(0, -1) : base;
+  function createStateCard(state, basePath){
+    basePath = basePath || '';
     const link = (state.hasDetailPage ? `${basePath}/states/${state.slug}/` : `${basePath}/states/index.html?state=${state.slug}`);
     const fallback = unsplashUrl(state.heroQuery || state.name);
     const localHero = `${basePath}/assets/images/states/${state.slug}/hero.jpg`;
