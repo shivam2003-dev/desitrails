@@ -25,6 +25,11 @@
   <style>
     .fade-in { opacity: 0; transform: translateY(6px); transition: opacity .5s ease, transform .5s ease; }
     .fade-in.show { opacity: 1; transform: translateY(0); }
+    details summary::-webkit-details-marker { display: none; }
+    details summary { list-style: none; }
+    details[open] summary .arrow { transform: rotate(180deg); }
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(-10px); } to { opacity: 1; transform: translateY(0); } }
+    .animate-fadeIn { animation: fadeIn 0.3s ease-out; }
   </style>
 </head>
 <body class="bg-white text-gray-900 min-h-screen" data-itinerary-id="kerala-10-days-complete">

@@ -1,6 +1,6 @@
 /* DesiTrails — itinerary renderer */
-/* Version: 5.2 - ENHANCED KERALA - Detailed Food, Hotels, Tips & Interesting Facts */
-/* Updated: 2025-12-28 - Added collapsible interesting facts section for each place */
+/* Version: 5.3 - ENHANCED KERALA - Detailed Food, Hotels, Tips & Interesting Facts (FIXED) */
+/* Updated: 2025-12-28 - Fixed collapsible interesting facts section with proper CSS and arrow animation */
 (function(){
   console.log('Itinerary.js: Script loaded! (v4.0 - Beautiful design with timeline)');
   
@@ -456,16 +456,16 @@
         <!-- Interesting Facts - Collapsible -->
         <div class="mt-6">
           <details class="group">
-            <summary class="cursor-pointer list-none">
+            <summary class="cursor-pointer list-none outline-none">
               <div class="bg-gradient-to-r from-purple-50 to-indigo-50 rounded-xl p-5 border-2 border-purple-200 shadow-md hover:shadow-lg transition-all flex items-center justify-between">
                 <div class="flex items-center gap-3">
                   <span class="text-3xl">🔍</span>
                   <h3 class="text-lg font-bold text-gray-900">Interesting Facts About This Place</h3>
                 </div>
-                <span class="text-purple-600 font-bold text-xl transform transition-transform group-open:rotate-180">▼</span>
+                <span class="arrow text-purple-600 font-bold text-xl transform transition-transform duration-300">▼</span>
               </div>
             </summary>
-            <div class="mt-3 bg-gradient-to-br from-purple-50 via-white to-indigo-50 rounded-xl p-6 border-2 border-purple-100 shadow-md">
+            <div class="mt-3 bg-gradient-to-br from-purple-50 via-white to-indigo-50 rounded-xl p-6 border-2 border-purple-100 shadow-md animate-fadeIn">
               <ul class="space-y-3">
                 ${d.interestingFacts.map((fact, idx) => `
                   <li class="flex items-start gap-3 bg-white/80 p-4 rounded-lg border border-purple-100 hover:shadow-sm transition-all">
