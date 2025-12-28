@@ -1,8 +1,8 @@
 /* DesiTrails — itinerary renderer */
-/* Version: 5.3 - ENHANCED KERALA - Detailed Food, Hotels, Tips & Interesting Facts (FIXED) */
-/* Updated: 2025-12-28 - Fixed collapsible interesting facts section with proper CSS and arrow animation */
+/* Version: 5.4 - ENHANCED KERALA - Detailed Food, Hotels, Tips & Interesting Facts (DEBUG) */
+/* Updated: 2025-12-28 - Added debug logging and forced cache refresh for interesting facts */
 (function(){
-  console.log('Itinerary.js: Script loaded! (v4.0 - Beautiful design with timeline)');
+  console.log('Itinerary.js: Script loaded! (v5.3 - Enhanced with Interesting Facts)');
   
   function init() {
     const root = document.getElementById('itinerary-root');
@@ -211,6 +211,12 @@
 
   function renderDay(d, n, itineraryId, basePath){
     basePath = basePath || '';
+    
+    // Debug: Log interesting facts
+    if (d.interestingFacts && d.interestingFacts.length > 0) {
+      console.log(`Itinerary.js: Day ${n} has ${d.interestingFacts.length} interesting facts`);
+    }
+    
     const el = document.createElement('section');
     el.className = 'space-y-6 mb-12';
     
