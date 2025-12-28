@@ -1,48 +1,63 @@
 /* DesiTrails — common app code */
 (function(){
-  const gridEl = document.getElementById('state-grid');
-  const yearEl = document.getElementById('year');
-  if (yearEl) yearEl.textContent = new Date().getFullYear();
-  if (!gridEl) return;
-
-  // Get base path - check if we're on GitHub Pages
-  let basePath = '';
-  const base = document.querySelector('base');
-  if (base && base.href) {
-    basePath = base.href.endsWith('/') ? base.href.slice(0, -1) : base.href;
-  } else if (window.location.hostname.includes('github.io')) {
-    // Fallback: extract from pathname
-    const pathParts = window.location.pathname.split('/');
-    if (pathParts.length > 1 && pathParts[1]) {
-      basePath = '/' + pathParts[1];
-    }
+  // Wait for DOM to be ready
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
   }
   
-  const dataUrl = basePath ? `${basePath}/data/states.json` : '/data/states.json';
-  console.log('Fetching from:', dataUrl);
-  
-  fetch(dataUrl)
-    .then(r => {
-      if (!r.ok) {
-        throw new Error(`HTTP error! status: ${r.status}`);
+  function init() {
+    const gridEl = document.getElementById('state-grid');
+    const yearEl = document.getElementById('year');
+    if (yearEl) yearEl.textContent = new Date().getFullYear();
+    if (!gridEl) {
+      console.error('state-grid element not found');
+      return;
+    }
+
+    // Get base path - check if we're on GitHub Pages
+    let basePath = '';
+    const base = document.querySelector('base');
+    if (base && base.href) {
+      basePath = base.href.endsWith('/') ? base.href.slice(0, -1) : base.href;
+    } else if (window.location.hostname.includes('github.io')) {
+      // Fallback: extract from pathname
+      const pathParts = window.location.pathname.split('/').filter(p => p);
+      if (pathParts.length > 0 && pathParts[0] !== 'desitrails') {
+        basePath = '/' + pathParts[0];
+      } else if (pathParts.length > 0) {
+        basePath = '/desitrails';
       }
-      return r.json();
-    })
-    .then(data => {
-      console.log('Loaded states:', data.states?.length || 0);
-      const states = data.states;
-      if (!states || states.length === 0) {
-        gridEl.innerHTML = '<div class="text-gray-600">No states found.</div>';
-        return;
-      }
-      const cards = states.map(state => createStateCard(state, basePath));
-      cards.forEach(card => gridEl.appendChild(card));
-      observeFadeIns();
-    })
-    .catch(err => {
-      console.error('Failed to load states', err);
-      gridEl.innerHTML = '<div class="text-gray-600">Unable to load states right now. Error: ' + err.message + '</div>';
-    });
+    }
+    
+    const dataUrl = basePath ? `${basePath}/data/states.json` : '/data/states.json';
+    console.log('Fetching from:', dataUrl, 'Base path:', basePath);
+    
+    fetch(dataUrl)
+      .then(r => {
+        console.log('Response status:', r.status);
+        if (!r.ok) {
+          throw new Error(`HTTP error! status: ${r.status}`);
+        }
+        return r.json();
+      })
+      .then(data => {
+        console.log('Loaded states:', data.states?.length || 0);
+        const states = data.states;
+        if (!states || states.length === 0) {
+          gridEl.innerHTML = '<div class="text-gray-600">No states found.</div>';
+          return;
+        }
+        const cards = states.map(state => createStateCard(state, basePath));
+        cards.forEach(card => gridEl.appendChild(card));
+        observeFadeIns();
+      })
+      .catch(err => {
+        console.error('Failed to load states', err);
+        gridEl.innerHTML = '<div class="text-gray-600 p-4">Unable to load states right now. Error: ' + err.message + '<br>URL tried: ' + dataUrl + '</div>';
+      });
+  }
 
   function createStateCard(state, basePath){
     basePath = basePath || '';
