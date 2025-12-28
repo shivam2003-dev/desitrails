@@ -4,10 +4,11 @@
   
   // Wait for DOM to be ready
   function init() {
-    console.log('State.js: init() called');
-    const body = document.body;
-    const stateSlug = new URL(location.href).searchParams.get('state') || body.dataset.state || 'kerala';
-    console.log('State.js: State slug:', stateSlug);
+    try {
+      console.log('State.js: init() called');
+      const body = document.body;
+      const stateSlug = new URL(location.href).searchParams.get('state') || body.dataset.state || 'kerala';
+      console.log('State.js: State slug:', stateSlug);
     
     const routesEl = document.getElementById('routes');
     const themesEl = document.getElementById('themes');
