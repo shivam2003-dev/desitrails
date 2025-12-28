@@ -1,5 +1,7 @@
 /* DesiTrails — state page renderer */
 (function(){
+  console.log('State.js: Script loaded!');
+  
   // Wait for DOM to be ready
   function init() {
     console.log('State.js: init() called');
