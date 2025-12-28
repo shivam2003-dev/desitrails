@@ -90,12 +90,16 @@
         return r.json();
       })
       .then(data => {
+        console.log('State.js: State data loaded, finding state:', stateSlug);
         const state = data.states.find(s => s.slug === stateSlug);
         if (!state){
+          console.error('State.js: State not found:', stateSlug);
           routesEl.innerHTML = '<div class="text-gray-600 col-span-full">State not found.</div>';
           return;
         }
+        console.log('State.js: Found state:', state.name, 'calling renderHeroImage');
         renderHeroImage(state, basePath);
+        console.log('State.js: renderHeroImage completed');
         renderRoutes(state, basePath);
         renderThemes(state);
       })
