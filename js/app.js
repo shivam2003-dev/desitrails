@@ -12,27 +12,33 @@
   startApp();
   
   function init() {
+    console.log('App.js: init() called');
     const gridEl = document.getElementById('state-grid');
     const yearEl = document.getElementById('year');
     if (yearEl) yearEl.textContent = new Date().getFullYear();
     if (!gridEl) {
-      console.error('state-grid element not found');
+      console.error('App.js: state-grid element not found');
       return;
     }
+    console.log('App.js: state-grid element found:', gridEl);
 
     // Get base path - check if we're on GitHub Pages
     let basePath = '';
     const base = document.querySelector('base');
     if (base && base.href) {
+      console.log('App.js: Base href:', base.href);
       // base.href returns full URL, extract just the pathname
       try {
-        const url = new URL(base.href, window.location.origin);
+        const url = new URL(base.href);
         basePath = url.pathname.endsWith('/') ? url.pathname.slice(0, -1) : url.pathname;
+        console.log('App.js: Extracted basePath from URL:', basePath);
       } catch (e) {
+        console.log('App.js: URL parsing failed, trying regex');
         // Fallback: extract from base.href string
         const match = base.href.match(/\/\/[^\/]+(\/.*)/);
         if (match) {
           basePath = match[1].endsWith('/') ? match[1].slice(0, -1) : match[1];
+          console.log('App.js: Extracted basePath from regex:', basePath);
         }
       }
     }

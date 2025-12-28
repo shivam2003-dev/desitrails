@@ -65,7 +65,7 @@
         }
         console.log('Itinerary.js: Found itinerary:', it.title);
         document.title = `${it.title} — DesiTrails`;
-        renderSidebar(it, basePath);
+        renderSidebar(it, basePath, sidebar);
         it.days.forEach((d, idx) => root.appendChild(renderDay(d, idx+1, id, basePath)) );
         setupLazyImages();
       })
@@ -98,10 +98,14 @@
     setTimeout(init, 100);
   }
 
-  function renderSidebar(it, basePath){
+  function renderSidebar(it, basePath, sidebarEl){
     basePath = basePath || '';
+    if (!sidebarEl) {
+      console.error('Itinerary.js: sidebar element not provided to renderSidebar');
+      return;
+    }
     const routeSummary = it.route.join(' → ');
-    sidebar.innerHTML = `
+    sidebarEl.innerHTML = `
       <h3 class="text-xl font-semibold mb-2">${it.title}</h3>
       <div class="text-gray-700 mb-3">${routeSummary}</div>
       <div class="grid grid-cols-2 gap-3 mb-4">
