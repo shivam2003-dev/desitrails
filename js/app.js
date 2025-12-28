@@ -77,11 +77,14 @@
 
   function createStateCard(state, basePath){
     basePath = basePath || '';
-    const link = (state.hasDetailPage ? `${basePath}/states/${state.slug}/` : `${basePath}/states/index.html?state=${state.slug}`);
-    const localHero = `${basePath}/assets/images/states/${state.slug}/hero.jpg`;
+    // Ensure basePath starts with / if it's not empty
+    const normalizedBasePath = basePath && !basePath.startsWith('/') ? '/' + basePath : basePath;
+    const link = (state.hasDetailPage ? `${normalizedBasePath}/states/${state.slug}/` : `${normalizedBasePath}/states/index.html?state=${state.slug}`);
+    const localHero = `${normalizedBasePath}/assets/images/states/${state.slug}/hero.jpg`;
     const fallbackImage = getImageUrl(state.heroQuery || state.name, 1600, 900);
     const card = document.createElement('a');
     card.href = link;
+    console.log('Creating card for', state.name, 'with link:', link);
     card.className = 'group block rounded-xl overflow-hidden border border-gray-100 hover:shadow transition-shadow fade-in';
     card.innerHTML = `
       <div class="aspect-video bg-gray-100">
