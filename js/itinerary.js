@@ -214,9 +214,25 @@
     const el = document.createElement('section');
     el.className = 'space-y-6 mb-12';
     
+    // Extract location name from day title for image
+    const locationMatch = d.day.match(/—\s*(.+)/);
+    const locationName = locationMatch ? locationMatch[1].split(' ')[0].toLowerCase() : '';
+    const imagePath = locationName ? `${basePath}/assets/images/states/kerala/gallery/${locationName}.jpg` : '';
+    
     // Beautiful day card with gradient and shadow
     el.innerHTML = `
-      <div class="bg-gradient-to-r from-earth-50 to-white rounded-2xl shadow-lg border border-earth-100 p-6 md:p-8">
+      <div class="bg-gradient-to-r from-earth-50 to-white rounded-2xl shadow-lg border border-earth-100 p-6 md:p-8 overflow-hidden">
+        ${imagePath ? `
+        <!-- Location Image -->
+        <div class="mb-6 -mx-6 -mt-6">
+          <img src="${imagePath}" 
+               alt="${d.day}" 
+               class="w-full h-64 object-cover"
+               onerror="this.style.display='none'"
+               loading="lazy">
+        </div>
+        ` : ''}
+        
         <!-- Day Header with Icon -->
         <div class="flex items-start justify-between mb-6 pb-4 border-b-2 border-earth-200">
           <div class="flex-1">
