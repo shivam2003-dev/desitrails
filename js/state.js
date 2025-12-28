@@ -92,16 +92,34 @@
   // Wait for DOM to be ready and base tag to be set
   function startApp() {
     console.log('State.js: Starting app, readyState:', document.readyState);
+    
+    // Try multiple times to ensure base tag is set
+    function tryInit(attempts) {
+      if (attempts <= 0) {
+        console.error('State.js: Failed to initialize after multiple attempts');
+        return;
+      }
+      
+      const base = document.querySelector('base');
+      if (!base || !base.href) {
+        console.log('State.js: Base tag not ready, retrying...', attempts);
+        setTimeout(() => tryInit(attempts - 1), 100);
+        return;
+      }
+      
+      console.log('State.js: Base tag found, initializing...');
+      init();
+    }
+    
     if (document.readyState === 'loading') {
       document.addEventListener('DOMContentLoaded', function() {
         console.log('State.js: DOMContentLoaded fired');
-        // Wait a bit for base tag to be processed
-        setTimeout(init, 200);
+        setTimeout(() => tryInit(5), 100);
       });
     } else {
-      // DOM already loaded, wait for base tag
+      // DOM already loaded
       console.log('State.js: DOM already loaded, initializing...');
-      setTimeout(init, 200);
+      setTimeout(() => tryInit(5), 100);
     }
   }
   startApp();
