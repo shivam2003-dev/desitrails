@@ -532,6 +532,503 @@
           "galleryQueries": ["Leh Hall of Fame","Leh bazaar","Ladakh souvenirs"]
         }
       ]
+    },
+    {
+      "id": "tamil-nadu-6-days",
+      "state": "tamil-nadu",
+      "title": "Tamil Nadu 6 Days: Chennai → Pondicherry → Madurai → Ooty",
+      "durationDays": 6,
+      "summary": "Temples, French colonial charm, and hill station retreat.",
+      "bestTime": "October to March",
+      "route": ["Chennai","Mahabalipuram","Pondicherry","Madurai","Ooty"],
+      "days": [
+        {
+          "day": "Day 1 — Chennai & Mahabalipuram",
+          "theme": "Coast & Monuments",
+          "morning": "Arrive Chennai. Visit Marina Beach and Kapaleeshwarar Temple.",
+          "afternoon": "Drive to Mahabalipuram (60 km). Visit Shore Temple.",
+          "evening": "Explore Five Rathas and Arjuna's Penance. Seafood dinner.",
+          "distanceKm": 60,
+          "driveTime": "1h 30m",
+          "mustSee": ["Marina Beach","Shore Temple","Five Rathas"],
+          "optional": ["Kapaleeshwarar Temple","DakshinaChitra"],
+          "galleryQueries": ["Chennai Marina Beach","Mahabalipuram","Shore Temple"]
+        },
+        {
+          "day": "Day 2 — Pondicherry: French Riviera",
+          "theme": "Colonial Heritage & Beaches",
+          "morning": "Drive to Pondicherry (100 km). Explore French Quarter streets.",
+          "afternoon": "Visit Auroville. Lunch at French cafe. Beach time at Promenade.",
+          "evening": "Walk along Rock Beach. Dinner at rooftop restaurant.",
+          "distanceKm": 100,
+          "driveTime": "2h 30m",
+          "mustSee": ["French Quarter","Auroville","Rock Beach"],
+          "optional": ["Aurobindo Ashram","Paradise Beach"],
+          "galleryQueries": ["Pondicherry French Quarter","Auroville","Pondicherry beach"]
+        },
+        {
+          "day": "Day 3 — Pondicherry to Madurai",
+          "theme": "Temple City Journey",
+          "morning": "Leisurely breakfast in Pondy. Last French Quarter walk.",
+          "afternoon": "Long drive to Madurai (310 km). Check in and rest.",
+          "evening": "Visit Meenakshi Temple for evening aarti. Spectacular architecture.",
+          "distanceKm": 310,
+          "driveTime": "6h",
+          "mustSee": ["Meenakshi Temple Evening Aarti"],
+          "optional": ["Puducherry Museum","Shopping"],
+          "galleryQueries": ["Pondicherry streets","Madurai Meenakshi Temple"]
+        },
+        {
+          "day": "Day 4 — Madurai: Temple Capital",
+          "theme": "Dravidian Architecture",
+          "morning": "Full exploration of Meenakshi Temple complex. Intricate gopurams.",
+          "afternoon": "Visit Thirumalai Nayak Palace. Local lunch with authentic Chettinad cuisine.",
+          "evening": "Gandhi Memorial Museum. Explore local markets.",
+          "distanceKm": 15,
+          "driveTime": "30m",
+          "mustSee": ["Meenakshi Temple Complex","Thirumalai Nayak Palace"],
+          "optional": ["Gandhi Museum","Local Bazaar"],
+          "galleryQueries": ["Meenakshi Temple gopuram","Madurai palace","Tamil Nadu temple"]
+        },
+        {
+          "day": "Day 5 — Ooty: Queen of Hill Stations",
+          "theme": "Hill Station Escape",
+          "morning": "Early drive to Ooty (280 km). Scenic ghat roads.",
+          "afternoon": "Arrive Ooty. Visit Botanical Gardens. Tea at colonial-era cafes.",
+          "evening": "Boat ride on Ooty Lake. Cool mountain evening.",
+          "distanceKm": 280,
+          "driveTime": "6h",
+          "mustSee": ["Ooty Botanical Gardens","Ooty Lake"],
+          "optional": ["Rose Garden","Thread Garden"],
+          "galleryQueries": ["Ooty","Nilgiri mountains","Ooty Botanical Gardens"]
+        },
+        {
+          "day": "Day 6 — Ooty Exploration & Departure",
+          "theme": "Tea Estates & Views",
+          "morning": "Toy train ride from Ooty to Coonoor (optional). Tea estate visit.",
+          "afternoon": "Visit Doddabetta Peak for panoramic views. Shopping for tea and chocolates.",
+          "evening": "Departure from Ooty or Coimbatore airport.",
+          "distanceKm": 40,
+          "driveTime": "2h",
+          "mustSee": ["Doddabetta Peak","Tea Estates"],
+          "optional": ["Toy Train","Sim's Park Coonoor"],
+          "galleryQueries": ["Ooty toy train","Doddabetta","Tea plantations Ooty"]
+        }
+      ]
+    },
+    {
+      "id": "maharashtra-5-days",
+      "state": "maharashtra",
+      "title": "Maharashtra 5 Days: Mumbai → Lonavala → Mahabaleshwar",
+      "durationDays": 5,
+      "summary": "City energy, Sahyadri hills, and scenic viewpoints.",
+      "bestTime": "October to February",
+      "route": ["Mumbai","Lonavala","Mahabaleshwar"],
+      "days": [
+        {
+          "day": "Day 1 — Mumbai: Maximum City",
+          "theme": "Urban Exploration",
+          "morning": "Visit Gateway of India and Taj Hotel. Boat to Elephanta Caves (optional).",
+          "afternoon": "Explore Colaba Causeway. Lunch at Irani cafe. Marine Drive walk.",
+          "evening": "Sunset at Marine Drive. Dinner at Leopold Cafe or local seafood.",
+          "distanceKm": 25,
+          "driveTime": "1h",
+          "mustSee": ["Gateway of India","Marine Drive","Colaba"],
+          "optional": ["Elephanta Caves","Chhatrapati Shivaji Terminus"],
+          "galleryQueries": ["Mumbai Gateway of India","Marine Drive","Colaba"]
+        },
+        {
+          "day": "Day 2 — Mumbai Heritage & Lonavala Drive",
+          "theme": "Heritage & Hills",
+          "morning": "Visit Chhatrapati Shivaji Museum. Walk through Fort area.",
+          "afternoon": "Drive to Lonavala (85 km). Stop at viewpoints. Check in.",
+          "evening": "Visit Lonavala Lake. Try chikki (local sweet). Evening walk.",
+          "distanceKm": 85,
+          "driveTime": "2h 30m",
+          "mustSee": ["CST Mumbai","Lonavala Lake"],
+          "optional": ["Crawford Market","Hanging Gardens Mumbai"],
+          "galleryQueries": ["CST Mumbai","Mumbai heritage","Lonavala"]
+        },
+        {
+          "day": "Day 3 — Lonavala & Khandala Sightseeing",
+          "theme": "Waterfalls & Forts",
+          "morning": "Visit Bhushi Dam (seasonal waterfall). Tiger Point for valley views.",
+          "afternoon": "Explore Karla and Bhaja Caves (ancient Buddhist rock-cut caves).",
+          "evening": "Sunset at Lion's Point. Dinner at local restaurant.",
+          "distanceKm": 40,
+          "driveTime": "1h 30m",
+          "mustSee": ["Tiger Point","Karla Caves","Lion's Point"],
+          "optional": ["Bhushi Dam","Rajmachi Fort Trek"],
+          "galleryQueries": ["Lonavala waterfalls","Karla Caves","Tiger Point Lonavala"]
+        },
+        {
+          "day": "Day 4 — Mahabaleshwar: Hill Station",
+          "theme": "Viewpoints & Strawberries",
+          "morning": "Drive to Mahabaleshwar (65 km). Visit Arthur's Seat viewpoint.",
+          "afternoon": "Explore Venna Lake. Boating and horse riding. Strawberry shopping.",
+          "evening": "Visit Mapro Garden. Strawberry cream and local products.",
+          "distanceKm": 65,
+          "driveTime": "2h",
+          "mustSee": ["Arthur's Seat","Venna Lake","Mapro Garden"],
+          "optional": ["Pratapgad Fort","Wilson Point"],
+          "galleryQueries": ["Mahabaleshwar","Arthur's Seat viewpoint","Venna Lake"]
+        },
+        {
+          "day": "Day 5 — Mahabaleshwar Exploration & Return",
+          "theme": "Scenic Points & Temples",
+          "morning": "Visit Elephant's Head Point and Lodwick Point. Panoramic valley views.",
+          "afternoon": "Mahabaleshwar Temple visit. Last views and shopping.",
+          "evening": "Drive back to Mumbai (265 km) or Pune (120 km) for departure.",
+          "distanceKm": 120,
+          "driveTime": "3h",
+          "mustSee": ["Elephant's Head Point","Mahabaleshwar Temple"],
+          "optional": ["Kate's Point","Lingmala Waterfall"],
+          "galleryQueries": ["Mahabaleshwar viewpoints","Sahyadri mountains"]
+        }
+      ]
+    },
+    {
+      "id": "gujarat-5-days",
+      "state": "gujarat",
+      "title": "Gujarat 5 Days: Ahmedabad → Gir → Somnath → Dwarka",
+      "durationDays": 5,
+      "summary": "Heritage, wildlife, and spiritual coastal circuit.",
+      "bestTime": "November to February",
+      "route": ["Ahmedabad","Gir National Park","Somnath","Dwarka"],
+      "days": [
+        {
+          "day": "Day 1 — Ahmedabad: Heritage Walk",
+          "theme": "UNESCO World Heritage",
+          "morning": "Arrive Ahmedabad. Heritage walk through old city pols (traditional houses).",
+          "afternoon": "Visit Sabarmati Ashram (Gandhi's residence). Calico Museum.",
+          "evening": "Dinner at local Gujarati thali restaurant. Kankaria Lake walk.",
+          "distanceKm": 20,
+          "driveTime": "45m",
+          "mustSee": ["Sabarmati Ashram","Old City Heritage Walk","Kankaria Lake"],
+          "optional": ["Sidi Saiyyed Mosque","Adalaj Stepwell"],
+          "galleryQueries": ["Ahmedabad heritage","Sabarmati Ashram","Ahmedabad old city"]
+        },
+        {
+          "day": "Day 2 — Gir National Park: Asiatic Lions",
+          "theme": "Wildlife Safari",
+          "morning": "Early drive to Gir (350 km). Long journey with lunch break.",
+          "afternoon": "Arrive and check into resort near Gir. Rest and prepare for safari.",
+          "evening": "Evening safari in Gir National Park. Spot Asiatic lions and other wildlife.",
+          "distanceKm": 350,
+          "driveTime": "7h",
+          "mustSee": ["Gir Safari","Asiatic Lions"],
+          "optional": ["Devalia Safari Park","Kamleshwar Dam"],
+          "galleryQueries": ["Gir National Park","Asiatic lion","Gujarat wildlife"]
+        },
+        {
+          "day": "Day 3 — Gir to Somnath",
+          "theme": "Temple Coast",
+          "morning": "Morning safari in Gir (optional). Breakfast and checkout.",
+          "afternoon": "Drive to Somnath (60 km). Visit Somnath Temple - one of 12 Jyotirlingas.",
+          "evening": "Attend evening aarti at Somnath Temple. Beach walk. Seafood dinner.",
+          "distanceKm": 60,
+          "driveTime": "1h 30m",
+          "mustSee": ["Somnath Temple","Somnath Beach"],
+          "optional": ["Triveni Sangam","Sound & Light Show"],
+          "galleryQueries": ["Somnath Temple","Somnath beach","Gujarat coast"]
+        },
+        {
+          "day": "Day 4 — Dwarka: Krishna's Kingdom",
+          "theme": "Sacred City",
+          "morning": "Drive to Dwarka (230 km). Visit Dwarkadhish Temple.",
+          "afternoon": "Explore Gomti Ghat. Boat to Bet Dwarka island (optional).",
+          "evening": "Sunset at Dwarka beach. Evening temple rituals.",
+          "distanceKm": 230,
+          "driveTime": "4h 30m",
+          "mustSee": ["Dwarkadhish Temple","Gomti Ghat","Dwarka Beach"],
+          "optional": ["Bet Dwarka","Nageshwar Jyotirlinga"],
+          "galleryQueries": ["Dwarka temple","Dwarkadhish","Gomti Ghat"]
+        },
+        {
+          "day": "Day 5 — Dwarka Exploration & Return",
+          "theme": "Coastal Temples",
+          "morning": "Visit Rukmini Devi Temple and Nageshwar Temple.",
+          "afternoon": "Last views of Arabian Sea. Shopping for local handicrafts.",
+          "evening": "Return to Ahmedabad (440 km) or depart from Rajkot (220 km).",
+          "distanceKm": 220,
+          "driveTime": "5h",
+          "mustSee": ["Rukmini Temple","Nageshwar Temple"],
+          "optional": ["Gopi Talav","Beyt Dwarka"],
+          "galleryQueries": ["Dwarka temples","Gujarat Arabian Sea"]
+        }
+      ]
+    },
+    {
+      "id": "west-bengal-5-days",
+      "state": "west-bengal",
+      "title": "West Bengal 5 Days: Kolkata → Darjeeling Tea Gardens",
+      "durationDays": 5,
+      "summary": "Colonial heritage meets Himalayan tea estates.",
+      "bestTime": "October to May",
+      "route": ["Kolkata","Darjeeling","Kalimpong"],
+      "days": [
+        {
+          "day": "Day 1 — Kolkata: City of Joy",
+          "theme": "Colonial & Culture",
+          "morning": "Arrive Kolkata. Visit Victoria Memorial and Maidan.",
+          "afternoon": "Explore Park Street. Lunch at iconic Indian Coffee House. Howrah Bridge.",
+          "evening": "Walk through College Street. Dinner at Bengali restaurant.",
+          "distanceKm": 20,
+          "driveTime": "1h",
+          "mustSee": ["Victoria Memorial","Howrah Bridge","Park Street"],
+          "optional": ["Kalighat Temple","Prinsep Ghat"],
+          "galleryQueries": ["Kolkata Victoria Memorial","Howrah Bridge","Kolkata streets"]
+        },
+        {
+          "day": "Day 2 — Kolkata to Darjeeling",
+          "theme": "Journey to Hills",
+          "morning": "Early train (Darjeeling Mail) or flight to Bagdogra. Then drive.",
+          "afternoon": "Scenic drive to Darjeeling (100 km from Bagdogra, 3-4 hours).",
+          "evening": "Arrive Darjeeling. Check in. Walk on Mall Road. Mountain air.",
+          "distanceKm": 100,
+          "driveTime": "4h",
+          "mustSee": ["Scenic Drive","Mall Road Darjeeling"],
+          "optional": ["Batasia Loop","Ghoom Monastery"],
+          "galleryQueries": ["Darjeeling drive","Darjeeling hills","Mall Road"]
+        },
+        {
+          "day": "Day 3 — Darjeeling: Tea Capital",
+          "theme": "Sunrise & Tea",
+          "morning": "4 AM start for Tiger Hill sunrise. Kanchenjunga views. Breakfast.",
+          "afternoon": "Visit tea estate. Learn tea processing. Himalayan Mountaineering Institute.",
+          "evening": "Explore Chowrasta. Tibetan market shopping. Momos dinner.",
+          "distanceKm": 30,
+          "driveTime": "2h",
+          "mustSee": ["Tiger Hill Sunrise","Tea Estate","Chowrasta"],
+          "optional": ["Padmaja Naidu Zoo","Peace Pagoda"],
+          "galleryQueries": ["Tiger Hill Darjeeling","Darjeeling tea garden","Kanchenjunga"]
+        },
+        {
+          "day": "Day 4 — Darjeeling Toy Train & Kalimpong",
+          "theme": "UNESCO Heritage Train",
+          "morning": "Ride Darjeeling Himalayan Railway (toy train) to Ghoom and back.",
+          "afternoon": "Drive to Kalimpong (50 km). Visit flower nurseries.",
+          "evening": "Explore Kalimpong town. Durpin Monastery. Peaceful hill town vibes.",
+          "distanceKm": 50,
+          "driveTime": "2h 30m",
+          "mustSee": ["Toy Train","Kalimpong Nurseries","Durpin Monastery"],
+          "optional": ["Deolo Hill","Kalimpong Cactus Nursery"],
+          "galleryQueries": ["Darjeeling toy train","Kalimpong","Kalimpong monastery"]
+        },
+        {
+          "day": "Day 5 — Return to Kolkata or Departure",
+          "theme": "Farewell to Hills",
+          "morning": "Morning views from Kalimpong. Visit local market.",
+          "afternoon": "Drive to Bagdogra airport (80 km). Flight to Kolkata or onward.",
+          "evening": "Departure with mountain memories.",
+          "distanceKm": 80,
+          "driveTime": "3h",
+          "mustSee": ["Kalimpong Views","Local Market"],
+          "optional": ["Teesta River Valley","Mirik Lake"],
+          "galleryQueries": ["Kalimpong views","Teesta Valley","West Bengal hills"]
+        }
+      ]
+    },
+    {
+      "id": "meghalaya-4-days",
+      "state": "meghalaya",
+      "title": "Meghalaya 4 Days: Shillong → Cherrapunji → Living Root Bridges",
+      "durationDays": 4,
+      "summary": "Wettest place on Earth, living bridges, and crystal waters.",
+      "bestTime": "October to May",
+      "route": ["Shillong","Cherrapunji","Mawlynnong","Dawki"],
+      "days": [
+        {
+          "day": "Day 1 — Guwahati to Shillong",
+          "theme": "Scotland of the East",
+          "morning": "Drive from Guwahati to Shillong (100 km). Stop at Umiam Lake.",
+          "afternoon": "Arrive Shillong. Visit Ward's Lake and Cathedral.",
+          "evening": "Walk on Police Bazaar. Try Jadoh (local rice dish). Live music cafes.",
+          "distanceKm": 100,
+          "driveTime": "3h",
+          "mustSee": ["Umiam Lake","Ward's Lake","Police Bazaar"],
+          "optional": ["Don Bosco Museum","Elephant Falls"],
+          "galleryQueries": ["Shillong","Umiam Lake","Shillong city"]
+        },
+        {
+          "day": "Day 2 — Cherrapunji: Living Root Bridges",
+          "theme": "Wettest Place & Natural Wonders",
+          "morning": "Drive to Cherrapunji (55 km). Visit Seven Sisters Falls and Nohkalikai Falls.",
+          "afternoon": "Trek to Double Decker Living Root Bridge (3-4 hours round trip).",
+          "evening": "Return and relax. Spectacular monsoon cloud views.",
+          "distanceKm": 55,
+          "driveTime": "2h + 4h trek",
+          "mustSee": ["Nohkalikai Falls","Double Decker Root Bridge","Seven Sisters Falls"],
+          "optional": ["Mawsmai Cave","Eco Park"],
+          "galleryQueries": ["Cherrapunji waterfalls","Living root bridge","Nohkalikai Falls"]
+        },
+        {
+          "day": "Day 3 — Mawlynnong: Cleanest Village",
+          "theme": "Clean Village & Crystal River",
+          "morning": "Drive to Mawlynnong (90 km). Explore Asia's cleanest village.",
+          "afternoon": "Visit Sky View platform. Walk to Living Root Bridge nearby.",
+          "evening": "Continue to Dawki. Crystal clear Umngot River. Stay near Indo-Bangladesh border.",
+          "distanceKm": 120,
+          "driveTime": "4h",
+          "mustSee": ["Mawlynnong Village","Sky View","Dawki River"],
+          "optional": ["Balancing Rock","Border View"],
+          "galleryQueries": ["Mawlynnong","Dawki river","Umngot River crystal"]
+        },
+        {
+          "day": "Day 4 — Dawki & Return to Guwahati",
+          "theme": "Crystal Waters Farewell",
+          "morning": "Boat ride on Umngot River (looks like floating in air). Photography time.",
+          "afternoon": "Drive back to Guwahati (180 km) for departure.",
+          "evening": "Departure from Guwahati with memories of Meghalaya magic.",
+          "distanceKm": 180,
+          "driveTime": "5h",
+          "mustSee": ["Umngot River Boat Ride","Crystal Clear Waters"],
+          "optional": ["Indo-Bangladesh Border","Shnongpdeng"],
+          "galleryQueries": ["Dawki boating","Umngot crystal water","Meghalaya"]
+        }
+      ]
+    },
+    {
+      "id": "sikkim-5-days",
+      "state": "sikkim",
+      "title": "Sikkim 5 Days: Gangtok → Nathula Pass → Lachung → Yumthang Valley",
+      "durationDays": 5,
+      "summary": "Himalayan monasteries, alpine valleys, and Indo-China border.",
+      "bestTime": "March to June, September to December",
+      "route": ["Gangtok","Tsomgo Lake","Nathula Pass","Lachung","Yumthang Valley"],
+      "days": [
+        {
+          "day": "Day 1 — NJP/Bagdogra to Gangtok",
+          "theme": "Hill Capital Arrival",
+          "morning": "Drive from NJP/Bagdogra to Gangtok (125 km, 4-5 hours). Scenic route.",
+          "afternoon": "Arrive Gangtok. Check in. Walk on MG Marg (car-free street).",
+          "evening": "Explore MG Marg cafes. Try momos and thukpa. Mountain views.",
+          "distanceKm": 125,
+          "driveTime": "5h",
+          "mustSee": ["MG Marg","Gangtok Views"],
+          "optional": ["Enchey Monastery","Flower Exhibition Centre"],
+          "galleryQueries": ["Gangtok","MG Marg","Sikkim capital"]
+        },
+        {
+          "day": "Day 2 — Gangtok: Tsomgo Lake & Nathula Pass",
+          "theme": "High Altitude Lakes & Border",
+          "morning": "Early start for Tsomgo Lake (40 km, 3,780m altitude). Sacred glacial lake.",
+          "afternoon": "Continue to Nathula Pass (16 km more, 4,310m). Indo-China border. Permit required.",
+          "evening": "Return to Gangtok. Rest after high altitude day.",
+          "distanceKm": 112,
+          "driveTime": "6h",
+          "mustSee": ["Tsomgo Lake","Nathula Pass","Baba Mandir"],
+          "optional": ["Yak ride at lake","Old Silk Route"],
+          "galleryQueries": ["Tsomgo Lake","Nathula Pass","Sikkim lake"]
+        },
+        {
+          "day": "Day 3 — Gangtok to Lachung",
+          "theme": "North Sikkim Journey",
+          "morning": "Drive to Lachung (118 km). Beautiful mountain roads.",
+          "afternoon": "Stops at Tashi Viewpoint and Kabi Lungchok. Teesta River views.",
+          "evening": "Arrive Lachung village. Traditional Sikkimese dinner. Prepare for next day.",
+          "distanceKm": 118,
+          "driveTime": "6h",
+          "mustSee": ["Teesta River","Lachung Village","Mountain Views"],
+          "optional": ["Seven Sisters Waterfall","Singhik Viewpoint"],
+          "galleryQueries": ["Lachung","North Sikkim","Teesta River"]
+        },
+        {
+          "day": "Day 4 — Yumthang Valley: Valley of Flowers",
+          "theme": "Alpine Meadows",
+          "morning": "Early drive to Yumthang Valley (25 km, 3,564m). Valley of flowers.",
+          "afternoon": "Optional extension to Zero Point (4,420m). Snow and alpine scenery.",
+          "evening": "Return to Lachung. Relax at village. Hot springs at Yumthang (optional).",
+          "distanceKm": 50,
+          "driveTime": "3h",
+          "mustSee": ["Yumthang Valley","Hot Springs","Alpine Meadows"],
+          "optional": ["Zero Point","Shingba Rhododendron Sanctuary"],
+          "galleryQueries": ["Yumthang Valley","Valley of flowers Sikkim","Zero Point"]
+        },
+        {
+          "day": "Day 5 — Lachung to Gangtok & Departure",
+          "theme": "Return Journey",
+          "morning": "Drive back to Gangtok (118 km). Leisure stops for photos.",
+          "afternoon": "Last minute shopping at Lal Bazaar. Tibetan handicrafts, woolens.",
+          "evening": "Departure from Gangtok or drive to NJP for onward journey.",
+          "distanceKm": 118,
+          "driveTime": "6h",
+          "mustSee": ["Lal Bazaar Shopping","Sikkim Handicrafts"],
+          "optional": ["Rumtek Monastery","Tashi Viewpoint"],
+          "galleryQueries": ["Gangtok market","Sikkim handicrafts"]
+        }
+      ]
+    },
+    {
+      "id": "andaman-5-days",
+      "state": "andaman-nicobar",
+      "title": "Andaman 5 Days: Port Blair → Havelock → Neil Island",
+      "durationDays": 5,
+      "summary": "Tropical paradise with pristine beaches, coral reefs, and history.",
+      "bestTime": "October to May",
+      "route": ["Port Blair","Havelock Island","Neil Island"],
+      "days": [
+        {
+          "day": "Day 1 — Port Blair: Island Capital",
+          "theme": "History & Sunset",
+          "morning": "Arrive Port Blair. Visit Cellular Jail (Kala Pani) - India's Alcatraz.",
+          "afternoon": "Anthropological Museum. Learn about island tribes. Lunch.",
+          "evening": "Light & Sound Show at Cellular Jail. Moving historical narration.",
+          "distanceKm": 10,
+          "driveTime": "30m",
+          "mustSee": ["Cellular Jail","Light & Sound Show"],
+          "optional": ["Corbyn's Cove Beach","Marina Park"],
+          "galleryQueries": ["Cellular Jail","Port Blair","Andaman history"]
+        },
+        {
+          "day": "Day 2 — Havelock Island: Radhanagar Beach",
+          "theme": "Best Beach in Asia",
+          "morning": "Ferry to Havelock Island (2.5 hours). Check in to beach resort.",
+          "afternoon": "Visit Radhanagar Beach (Beach No. 7) - Asia's best beach. Swim and relax.",
+          "evening": "Sunset at Radhanagar. Seafood dinner at beach shack.",
+          "distanceKm": 70,
+          "driveTime": "2h 30m ferry",
+          "mustSee": ["Radhanagar Beach","Turquoise Waters"],
+          "optional": ["Beach walk","Coconut palm groves"],
+          "galleryQueries": ["Radhanagar Beach","Havelock Island","Andaman beach"]
+        },
+        {
+          "day": "Day 3 — Havelock: Scuba Diving & Snorkeling",
+          "theme": "Underwater Paradise",
+          "morning": "Scuba diving or snorkeling at Elephant Beach. Colorful coral reefs.",
+          "afternoon": "Relax at resort. Optional: Kayaking through mangroves.",
+          "evening": "Visit Kalapathar Beach for black rocks and sunset. Quiet beach.",
+          "distanceKm": 15,
+          "driveTime": "1h",
+          "mustSee": ["Elephant Beach Diving","Coral Reefs","Kalapathar Beach"],
+          "optional": ["Mangrove Kayaking","Beach hopping"],
+          "galleryQueries": ["Havelock scuba diving","Elephant Beach","Andaman coral"]
+        },
+        {
+          "day": "Day 4 — Neil Island: Tranquil Paradise",
+          "theme": "Serene Beaches",
+          "morning": "Ferry to Neil Island (1 hour). Smaller and quieter than Havelock.",
+          "afternoon": "Visit Bharatpur Beach and Laxmanpur Beach. Natural coral bridge.",
+          "evening": "Sunset at Laxmanpur Beach (famous for sunset views). Stay overnight.",
+          "distanceKm": 40,
+          "driveTime": "1h ferry",
+          "mustSee": ["Bharatpur Beach","Laxmanpur Beach","Natural Bridge"],
+          "optional": ["Sitapur Beach","Cycling around island"],
+          "galleryQueries": ["Neil Island","Laxmanpur Beach","Andaman sunset"]
+        },
+        {
+          "day": "Day 5 — Return to Port Blair & Departure",
+          "theme": "Last Island Moments",
+          "morning": "Morning at Neil Island. Last beach walk. Breakfast with sea view.",
+          "afternoon": "Ferry back to Port Blair. Last minute shopping at Aberdeen Bazaar.",
+          "evening": "Departure from Port Blair airport. Island memories.",
+          "distanceKm": 40,
+          "driveTime": "2h ferry",
+          "mustSee": ["Aberdeen Bazaar Shopping","Last Sea Views"],
+          "optional": ["Ross Island","Chidiya Tapu"],
+          "galleryQueries": ["Andaman islands","Port Blair market"]
+        }
+      ]
     }
   ]
 }
