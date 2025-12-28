@@ -65,15 +65,33 @@
         }
         console.log('Itinerary.js: Found itinerary:', it.title);
         document.title = `${it.title} — DesiTrails`;
-        renderSidebar(it, basePath, sidebar);
-        it.days.forEach((d, idx) => root.appendChild(renderDay(d, idx+1, id, basePath)) );
-        setupLazyImages();
+        
+        // Ensure sidebar element exists before rendering
+        const sidebarEl = document.getElementById('itinerary-sidebar');
+        if (!sidebarEl) {
+          console.error('Itinerary.js: Sidebar element not found when trying to render');
+          root.innerHTML = '<div class="text-gray-600 p-4 border border-red-200 rounded bg-red-50">Error: Sidebar element not found</div>';
+          return;
+        }
+        
+        try {
+          renderSidebar(it, basePath, sidebarEl);
+          it.days.forEach((d, idx) => root.appendChild(renderDay(d, idx+1, id, basePath)) );
+          setupLazyImages();
+        } catch (renderError) {
+          console.error('Itinerary.js: Error rendering content:', renderError);
+          root.innerHTML = `<div class="text-gray-600 p-4 border border-red-200 rounded bg-red-50">
+            <p class="font-semibold text-red-800">Error rendering itinerary</p>
+            <p class="text-sm text-red-600">${renderError.message}</p>
+          </div>`;
+        }
       })
       .catch(err => {
         console.error('Itinerary.js: Failed to load:', err);
+        const errorMsg = err.message || 'Unknown error';
         root.innerHTML = `<div class="text-gray-600 p-4 border border-red-200 rounded bg-red-50">
           <p class="font-semibold text-red-800">Error loading itinerary</p>
-          <p class="text-sm text-red-600">${err.message}</p>
+          <p class="text-sm text-red-600">${errorMsg}</p>
           <p class="text-xs text-gray-500 mt-2">URL tried: ${itinerariesUrl}</p>
         </div>`;
       });
@@ -99,13 +117,13 @@
   }
 
   function renderSidebar(it, basePath, sidebarEl){
-    basePath = basePath || '';
-    if (!sidebarEl) {
-      console.error('Itinerary.js: sidebar element not provided to renderSidebar');
-      return;
-    }
-    const routeSummary = it.route.join(' → ');
-    sidebarEl.innerHTML = `
+    try {
+      basePath = basePath || '';
+      if (!sidebarEl) {
+        throw new Error('Sidebar element not provided to renderSidebar');
+      }
+      const routeSummary = it.route.join(' → ');
+      sidebarEl.innerHTML = `
       <h3 class="text-xl font-semibold mb-2">${it.title}</h3>
       <div class="text-gray-700 mb-3">${routeSummary}</div>
       <div class="grid grid-cols-2 gap-3 mb-4">
@@ -119,6 +137,10 @@
         </div>
       </div>
       <a class="text-earth-700 hover:underline" href="${basePath}/states/${it.state}/">Back to ${capitalize(it.state)}</a>`;
+    } catch (error) {
+      console.error('Itinerary.js: Error in renderSidebar:', error);
+      throw error; // Re-throw to be caught by caller
+    }
   }
 
   function renderDay(d, n, itineraryId, basePath){
