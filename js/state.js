@@ -108,6 +108,17 @@
         </div>`;
         if (routesEl) routesEl.innerHTML = errorMsg;
       });
+    } catch (error) {
+      console.error('State.js: Fatal error in init():', error);
+      const routesEl = document.getElementById('routes');
+      if (routesEl) {
+        routesEl.innerHTML = `<div class="col-span-full p-4 border border-red-500 rounded bg-red-100">
+          <p class="font-semibold text-red-800">JavaScript Error</p>
+          <p class="text-sm text-red-600">${error.message}</p>
+          <p class="text-xs text-gray-600 mt-2">Check console for details</p>
+        </div>`;
+      }
+    }
   }
 
   // Wait for DOM to be ready and base tag to be set
