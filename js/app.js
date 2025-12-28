@@ -20,14 +20,26 @@
     let basePath = '';
     const base = document.querySelector('base');
     if (base && base.href) {
-      basePath = base.href.endsWith('/') ? base.href.slice(0, -1) : base.href;
-    } else if (window.location.hostname.includes('github.io')) {
-      // Fallback: extract from pathname
+      // base.href returns full URL, extract just the pathname
+      try {
+        const url = new URL(base.href, window.location.origin);
+        basePath = url.pathname.endsWith('/') ? url.pathname.slice(0, -1) : url.pathname;
+      } catch (e) {
+        // Fallback: extract from base.href string
+        const match = base.href.match(/\/\/[^\/]+(\/.*)/);
+        if (match) {
+          basePath = match[1].endsWith('/') ? match[1].slice(0, -1) : match[1];
+        }
+      }
+    }
+    
+    // Fallback: extract from current pathname
+    if (!basePath && window.location.hostname.includes('github.io')) {
       const pathParts = window.location.pathname.split('/').filter(p => p);
-      if (pathParts.length > 0 && pathParts[0] !== 'desitrails') {
-        basePath = '/' + pathParts[0];
-      } else if (pathParts.length > 0) {
+      if (pathParts.length > 0 && pathParts[0] === 'desitrails') {
         basePath = '/desitrails';
+      } else if (pathParts.length > 0) {
+        basePath = '/' + pathParts[0];
       }
     }
     
