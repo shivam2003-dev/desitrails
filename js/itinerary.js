@@ -1,6 +1,6 @@
 /* DesiTrails — itinerary renderer */
-/* Version: 5.0 - ENHANCED KERALA - Food, Hotels & Tips */
-/* Updated: 2025-12-28 - Added detailed food recommendations, hotels, tips & tricks for Kerala */
+/* Version: 5.1 - ENHANCED KERALA - Detailed Food, Hotels & Tips */
+/* Updated: 2025-12-28 - Enhanced food/hotels/tips display with better styling and prominence */
 (function(){
   console.log('Itinerary.js: Script loaded! (v4.0 - Beautiful design with timeline)');
   
@@ -351,82 +351,104 @@
         </div>
         
         ${d.food || d.hotels || d.tips ? `
-        <!-- Food, Hotels & Tips Section -->
-        <div class="grid md:grid-cols-3 gap-4">
-          ${d.food ? `
-          <!-- Food Card -->
-          <div class="bg-gradient-to-br from-orange-50 to-white rounded-xl p-5 border-2 border-orange-100 shadow-md hover:shadow-lg transition-all">
-            <div class="flex items-center gap-2 mb-3">
-              <span class="text-2xl">🍽️</span>
-              <h3 class="text-base font-bold text-gray-800">Food to Try</h3>
-            </div>
-            <div class="space-y-3">
-              <div>
-                <div class="text-xs font-semibold text-orange-700 mb-2 uppercase tracking-wide">Must Try</div>
-                <ul class="space-y-1.5">
-                  ${d.food.mustTry.map(item => `<li class="text-xs text-gray-700 flex items-start gap-2"><span class="text-orange-500 mt-1">•</span><span>${item}</span></li>`).join('')}
-                </ul>
-              </div>
-              ${d.food.restaurants && d.food.restaurants.length > 0 ? `
-              <div class="mt-3 pt-3 border-t border-orange-100">
-                <div class="text-xs font-semibold text-orange-700 mb-2 uppercase tracking-wide">Restaurants</div>
-                <ul class="space-y-1.5">
-                  ${d.food.restaurants.map(rest => `<li class="text-xs text-gray-600 flex items-start gap-2"><span class="text-orange-400 mt-1">📍</span><span>${rest}</span></li>`).join('')}
-                </ul>
-              </div>
-              ` : ''}
-            </div>
-          </div>
-          ` : ''}
+        <!-- Food, Hotels & Tips Section - DETAILED -->
+        <div class="mt-6 space-y-4">
+          <h3 class="text-xl font-bold text-gray-900 mb-4 flex items-center gap-2">
+            <span>📋</span>
+            <span>Travel Essentials for ${d.day.split('—')[1]?.trim() || 'This Day'}</span>
+          </h3>
           
-          ${d.hotels ? `
-          <!-- Hotels Card -->
-          <div class="bg-gradient-to-br from-blue-50 to-white rounded-xl p-5 border-2 border-blue-100 shadow-md hover:shadow-lg transition-all">
-            <div class="flex items-center gap-2 mb-3">
-              <span class="text-2xl">🏨</span>
-              <h3 class="text-base font-bold text-gray-800">Where to Stay</h3>
+          <div class="grid md:grid-cols-3 gap-4">
+            ${d.food ? `
+            <!-- Food Card - ENHANCED -->
+            <div class="bg-gradient-to-br from-orange-50 via-orange-25 to-white rounded-xl p-6 border-2 border-orange-200 shadow-lg hover:shadow-xl transition-all">
+              <div class="flex items-center gap-3 mb-4">
+                <span class="text-3xl">🍽️</span>
+                <h3 class="text-lg font-bold text-gray-900">Food & Dining</h3>
+              </div>
+              <div class="space-y-4">
+                <div>
+                  <div class="text-sm font-bold text-orange-800 mb-3 flex items-center gap-2">
+                    <span>✨</span>
+                    <span>Must Try Dishes</span>
+                  </div>
+                  <ul class="space-y-2">
+                    ${d.food.mustTry.map(item => `<li class="text-sm text-gray-800 flex items-start gap-2 bg-white/70 p-2 rounded-lg"><span class="text-orange-600 mt-0.5 flex-shrink-0">🍴</span><span class="font-medium">${item}</span></li>`).join('')}
+                  </ul>
+                </div>
+                ${d.food.restaurants && d.food.restaurants.length > 0 ? `
+                <div class="mt-4 pt-4 border-t-2 border-orange-200">
+                  <div class="text-sm font-bold text-orange-800 mb-3 flex items-center gap-2">
+                    <span>📍</span>
+                    <span>Recommended Restaurants</span>
+                  </div>
+                  <ul class="space-y-2">
+                    ${d.food.restaurants.map(rest => `<li class="text-sm text-gray-700 flex items-start gap-2 bg-white/70 p-2 rounded-lg"><span class="text-orange-500 mt-0.5 flex-shrink-0">🏪</span><span>${rest}</span></li>`).join('')}
+                  </ul>
+                </div>
+                ` : ''}
+              </div>
             </div>
-            <div class="space-y-3">
-              ${d.hotels.budget && d.hotels.budget.length > 0 ? `
-              <div>
-                <div class="text-xs font-semibold text-green-600 mb-1.5">💰 Budget</div>
-                <ul class="space-y-1">
-                  ${d.hotels.budget.map(hotel => `<li class="text-xs text-gray-700">${hotel}</li>`).join('')}
-                </ul>
+            ` : ''}
+            
+            ${d.hotels ? `
+            <!-- Hotels Card - ENHANCED -->
+            <div class="bg-gradient-to-br from-blue-50 via-blue-25 to-white rounded-xl p-6 border-2 border-blue-200 shadow-lg hover:shadow-xl transition-all">
+              <div class="flex items-center gap-3 mb-4">
+                <span class="text-3xl">🏨</span>
+                <h3 class="text-lg font-bold text-gray-900">Accommodation</h3>
               </div>
-              ` : ''}
-              ${d.hotels.midRange && d.hotels.midRange.length > 0 ? `
-              <div>
-                <div class="text-xs font-semibold text-blue-600 mb-1.5">⭐ Mid-Range</div>
-                <ul class="space-y-1">
-                  ${d.hotels.midRange.map(hotel => `<li class="text-xs text-gray-700">${hotel}</li>`).join('')}
-                </ul>
+              <div class="space-y-4">
+                ${d.hotels.budget && d.hotels.budget.length > 0 ? `
+                <div>
+                  <div class="text-sm font-bold text-green-700 mb-2 flex items-center gap-2">
+                    <span>💰</span>
+                    <span>Budget Options</span>
+                  </div>
+                  <ul class="space-y-1.5">
+                    ${d.hotels.budget.map(hotel => `<li class="text-sm text-gray-800 bg-white/70 p-2 rounded-lg font-medium">${hotel}</li>`).join('')}
+                  </ul>
+                </div>
+                ` : ''}
+                ${d.hotels.midRange && d.hotels.midRange.length > 0 ? `
+                <div>
+                  <div class="text-sm font-bold text-blue-700 mb-2 flex items-center gap-2">
+                    <span>⭐</span>
+                    <span>Mid-Range</span>
+                  </div>
+                  <ul class="space-y-1.5">
+                    ${d.hotels.midRange.map(hotel => `<li class="text-sm text-gray-800 bg-white/70 p-2 rounded-lg font-medium">${hotel}</li>`).join('')}
+                  </ul>
+                </div>
+                ` : ''}
+                ${d.hotels.luxury && d.hotels.luxury.length > 0 ? `
+                <div>
+                  <div class="text-sm font-bold text-purple-700 mb-2 flex items-center gap-2">
+                    <span>✨</span>
+                    <span>Luxury</span>
+                  </div>
+                  <ul class="space-y-1.5">
+                    ${d.hotels.luxury.map(hotel => `<li class="text-sm text-gray-800 bg-white/70 p-2 rounded-lg font-medium">${hotel}</li>`).join('')}
+                  </ul>
+                </div>
+                ` : ''}
               </div>
-              ` : ''}
-              ${d.hotels.luxury && d.hotels.luxury.length > 0 ? `
-              <div>
-                <div class="text-xs font-semibold text-purple-600 mb-1.5">✨ Luxury</div>
-                <ul class="space-y-1">
-                  ${d.hotels.luxury.map(hotel => `<li class="text-xs text-gray-700">${hotel}</li>`).join('')}
-                </ul>
-              </div>
-              ` : ''}
             </div>
+            ` : ''}
+            
+            ${d.tips ? `
+            <!-- Tips Card - ENHANCED -->
+            <div class="bg-gradient-to-br from-amber-50 via-amber-25 to-white rounded-xl p-6 border-2 border-amber-200 shadow-lg hover:shadow-xl transition-all">
+              <div class="flex items-center gap-3 mb-4">
+                <span class="text-3xl">💡</span>
+                <h3 class="text-lg font-bold text-gray-900">Tips & Tricks</h3>
+              </div>
+              <ul class="space-y-2.5">
+                ${d.tips.map(tip => `<li class="text-sm text-gray-800 flex items-start gap-2 bg-white/70 p-2.5 rounded-lg"><span class="text-amber-600 mt-0.5 flex-shrink-0 text-base">💡</span><span class="leading-relaxed">${tip}</span></li>`).join('')}
+              </ul>
+            </div>
+            ` : ''}
           </div>
-          ` : ''}
-          
-          ${d.tips ? `
-          <!-- Tips Card -->
-          <div class="bg-gradient-to-br from-amber-50 to-white rounded-xl p-5 border-2 border-amber-100 shadow-md hover:shadow-lg transition-all">
-            <div class="flex items-center gap-2 mb-3">
-              <span class="text-2xl">💡</span>
-              <h3 class="text-base font-bold text-gray-800">Tips & Tricks</h3>
-            </div>
-            <ul class="space-y-2">
-              ${d.tips.map(tip => `<li class="text-xs text-gray-700 flex items-start gap-2"><span class="text-amber-500 mt-0.5 flex-shrink-0">💡</span><span>${tip}</span></li>`).join('')}
-            </ul>
-          </div>
-          ` : ''}
         </div>
         ` : ''}
       </div>`;
