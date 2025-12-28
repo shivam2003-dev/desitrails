@@ -2,13 +2,17 @@
 (function(){
   // Wait for DOM to be ready
   function init() {
+    console.log('State.js: init() called');
     const body = document.body;
     const stateSlug = new URL(location.href).searchParams.get('state') || body.dataset.state || 'kerala';
+    console.log('State.js: State slug:', stateSlug);
+    
     const routesEl = document.getElementById('routes');
     const themesEl = document.getElementById('themes');
+    console.log('State.js: routesEl:', routesEl, 'themesEl:', themesEl);
 
     if (!routesEl || !themesEl) {
-      console.error('Routes or themes element not found');
+      console.error('State.js: Routes or themes element not found. routesEl:', routesEl, 'themesEl:', themesEl);
       return;
     }
 
@@ -70,13 +74,16 @@
 
   // Wait for DOM to be ready and base tag to be set
   function startApp() {
+    console.log('State.js: Starting app, readyState:', document.readyState);
     if (document.readyState === 'loading') {
       document.addEventListener('DOMContentLoaded', function() {
+        console.log('State.js: DOMContentLoaded fired');
         // Wait a bit for base tag to be processed
         setTimeout(init, 100);
       });
     } else {
       // DOM already loaded, wait for base tag
+      console.log('State.js: DOM already loaded, initializing...');
       setTimeout(init, 100);
     }
   }
