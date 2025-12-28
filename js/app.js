@@ -5,7 +5,10 @@
   if (yearEl) yearEl.textContent = new Date().getFullYear();
   if (!gridEl) return;
 
-  fetch('/data/states.json')
+  const base = document.querySelector('base')?.href || '';
+  const basePath = base.endsWith('/') ? base.slice(0, -1) : base;
+  
+  fetch(`${basePath}/data/states.json`)
     .then(r => r.json())
     .then(data => {
       const states = data.states;
@@ -19,9 +22,11 @@
     });
 
   function createStateCard(state){
-    const link = (state.hasDetailPage ? `/states/${state.slug}/` : `/states/index.html?state=${state.slug}`);
+    const base = document.querySelector('base')?.href || '';
+    const basePath = base.endsWith('/') ? base.slice(0, -1) : base;
+    const link = (state.hasDetailPage ? `${basePath}/states/${state.slug}/` : `${basePath}/states/index.html?state=${state.slug}`);
     const fallback = unsplashUrl(state.heroQuery || state.name);
-    const localHero = `/assets/images/states/${state.slug}/hero.jpg`;
+    const localHero = `${basePath}/assets/images/states/${state.slug}/hero.jpg`;
     const card = document.createElement('a');
     card.href = link;
     card.className = 'group block rounded-xl overflow-hidden border border-gray-100 hover:shadow transition-shadow fade-in';

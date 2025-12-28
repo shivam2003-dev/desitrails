@@ -6,7 +6,10 @@
   const yearEl = document.getElementById('year');
   if (yearEl) yearEl.textContent = new Date().getFullYear();
 
-  fetch('/data/itineraries.json').then(r=>r.json()).then(data => {
+  const base = document.querySelector('base')?.href || '';
+  const basePath = base.endsWith('/') ? base.slice(0, -1) : base;
+  
+  fetch(`${basePath}/data/itineraries.json`).then(r=>r.json()).then(data => {
     const it = (data.itineraries || []).find(x => x.id === id);
     if (!it){ root.innerHTML = '<div class="text-gray-600">Itinerary not found.</div>'; return; }
     document.title = `${it.title} — DesiTrails`;
@@ -17,6 +20,8 @@
 
   function renderSidebar(it){
     const routeSummary = it.route.join(' → ');
+    const base = document.querySelector('base')?.href || '';
+    const basePath = base.endsWith('/') ? base.slice(0, -1) : base;
     sidebar.innerHTML = `
       <h3 class="text-xl font-semibold mb-2">${it.title}</h3>
       <div class="text-gray-700 mb-3">${routeSummary}</div>
@@ -30,7 +35,7 @@
           <div class="text-lg font-semibold">${it.bestTime}</div>
         </div>
       </div>
-      <a class="text-earth-700 hover:underline" href="/states/${it.state}/">Back to ${capitalize(it.state)}</a>`;
+      <a class="text-earth-700 hover:underline" href="${basePath}/states/${it.state}/">Back to ${capitalize(it.state)}</a>`;
   }
 
   function renderDay(d, n, itineraryId){
@@ -58,7 +63,9 @@
   }
 
   function imageCard(q, dayNum, idx, itineraryId){
-    const local = `/assets/images/itineraries/${itineraryId}/day-${dayNum}-${idx+1}.jpg`;
+    const base = document.querySelector('base')?.href || '';
+    const basePath = base.endsWith('/') ? base.slice(0, -1) : base;
+    const local = `${basePath}/assets/images/itineraries/${itineraryId}/day-${dayNum}-${idx+1}.jpg`;
     const src = unsplashUrl(q);
     return `<figure class="rounded-xl overflow-hidden border border-gray-100">
       <img class="w-full h-40 sm:h-48 object-cover fade-in" alt="${q}" src="${local}" loading="lazy" onerror="this.onerror=null; this.dataset.src='${src}'; this.removeAttribute('src');" data-src="${src}" />
