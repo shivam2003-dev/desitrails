@@ -6,7 +6,7 @@
       document.addEventListener('DOMContentLoaded', init);
     } else {
       // DOM already loaded, run immediately
-      setTimeout(init, 100);
+      init();
     }
   }
   startApp();
@@ -78,13 +78,14 @@
   function createStateCard(state, basePath){
     basePath = basePath || '';
     const link = (state.hasDetailPage ? `${basePath}/states/${state.slug}/` : `${basePath}/states/index.html?state=${state.slug}`);
-    const heroImage = unsplashUrl(state.heroQuery || state.name);
+    const localHero = `${basePath}/assets/images/states/${state.slug}/hero.jpg`;
+    const fallbackImage = getImageUrl(state.heroQuery || state.name, 1600, 900);
     const card = document.createElement('a');
     card.href = link;
     card.className = 'group block rounded-xl overflow-hidden border border-gray-100 hover:shadow transition-shadow fade-in';
     card.innerHTML = `
       <div class="aspect-video bg-gray-100">
-        <img alt="${state.name}" loading="lazy" class="w-full h-full object-cover" src="${heroImage}" />
+        <img alt="${state.name}" loading="lazy" class="w-full h-full object-cover" src="${localHero}" onerror="this.onerror=null; this.src='${fallbackImage}';" />
       </div>
       <div class="p-4">
         <div class="flex items-center justify-between">
@@ -96,12 +97,11 @@
     return card;
   }
 
-  function unsplashUrl(q){
-    // Use a more reliable image service
-    // Format: https://images.unsplash.com/photo-{id}?w=1600&h=900&fit=crop
-    // For now, use a working placeholder service
-    const seed = q.toLowerCase().replace(/\s+/g, '-');
-    return `https://picsum.photos/seed/${seed}/1600/900`;
+  function getImageUrl(q, width = 1600, height = 900){
+    // Try local image first, then use reliable image service
+    // Using Picsum Photos with seed for consistent images
+    const seed = q.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
+    return `https://picsum.photos/seed/${seed}/${width}/${height}`;
   }
 
   function observeFadeIns(){

@@ -35,10 +35,11 @@
         const card = document.createElement('a');
         card.href = `${basePath}/states/${state.slug}/itinerary-${it.durationDays}-days.html`;
         card.className = 'block rounded-xl overflow-hidden border border-gray-100 hover:shadow transition-shadow';
-        const routeImage = unsplashUrl(`${state.name} ${it.durationDays} days route`);
+        const localRoute = `${basePath}/assets/images/states/${state.slug}/routes/${it.durationDays}.jpg`;
+        const fallbackRoute = getImageUrl(`${state.name} ${it.durationDays} days route`, 1600, 900);
         card.innerHTML = `
           <div class="aspect-video bg-gray-100">
-            <img alt="${it.title}" loading="lazy" class="w-full h-full object-cover" src="${routeImage}" />
+            <img alt="${it.title}" loading="lazy" class="w-full h-full object-cover" src="${localRoute}" onerror="this.onerror=null; this.src='${fallbackRoute}';" />
           </div>
           <div class="p-4">
             <h3 class="text-xl font-semibold">${it.durationDays} Days</h3>
@@ -62,9 +63,8 @@
     });
   }
 
-  function unsplashUrl(q){
-    // Use a more reliable image service
-    const seed = q.toLowerCase().replace(/\s+/g, '-');
-    return `https://picsum.photos/seed/${seed}/1600/900`;
+  function getImageUrl(q, width = 1600, height = 900){
+    const seed = q.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
+    return `https://picsum.photos/seed/${seed}/${width}/${height}`;
   }
 })();

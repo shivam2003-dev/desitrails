@@ -63,9 +63,12 @@
   }
 
   function imageCard(q, dayNum, idx, itineraryId){
-    const src = unsplashUrl(q);
+    const base = document.querySelector('base')?.href || '';
+    const basePath = base.endsWith('/') ? base.slice(0, -1) : base;
+    const local = `${basePath}/assets/images/itineraries/${itineraryId}/day-${dayNum}-${idx+1}.jpg`;
+    const fallback = getImageUrl(q, 1200, 800);
     return `<figure class="rounded-xl overflow-hidden border border-gray-100">
-      <img class="w-full h-40 sm:h-48 object-cover fade-in" alt="${q}" src="${src}" loading="lazy" />
+      <img class="w-full h-40 sm:h-48 object-cover fade-in" alt="${q}" src="${local}" loading="lazy" onerror="this.onerror=null; this.src='${fallback}';" />
       <figcaption class="px-3 py-2 text-xs text-gray-600">${q}</figcaption>
     </figure>`;
   }
@@ -78,10 +81,9 @@
     imgs.forEach(img => io.observe(img));
   }
 
-  function unsplashUrl(q){
-    // Use a more reliable image service
-    const seed = q.toLowerCase().replace(/\s+/g, '-');
-    return `https://picsum.photos/seed/${seed}/1200/800`;
+  function getImageUrl(q, width = 1200, height = 800){
+    const seed = q.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
+    return `https://picsum.photos/seed/${seed}/${width}/${height}`;
   }
 
   function capitalize(s){ return s.charAt(0).toUpperCase() + s.slice(1); }
