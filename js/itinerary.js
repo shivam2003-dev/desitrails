@@ -1,6 +1,6 @@
 /* DesiTrails — itinerary renderer */
-/* Version: 5.4 - ENHANCED KERALA - Detailed Food, Hotels, Tips & Interesting Facts (DEBUG) */
-/* Updated: 2025-12-28 - Added debug logging and forced cache refresh for interesting facts */
+/* Version: 5.5 - ENHANCED KERALA - Detailed Food, Hotels, Tips & Interesting Facts (VISIBLE) */
+/* Updated: 2025-12-28 - Made interesting facts section more prominent and visible */
 (function(){
   console.log('Itinerary.js: Script loaded! (v5.3 - Enhanced with Interesting Facts)');
   
@@ -458,25 +458,26 @@
         </div>
         ` : ''}
         
-        ${d.interestingFacts && d.interestingFacts.length > 0 ? `
+        ${d.interestingFacts && Array.isArray(d.interestingFacts) && d.interestingFacts.length > 0 ? `
         <!-- Interesting Facts - Collapsible -->
-        <div class="mt-6">
-          <details class="group">
+        <div class="mt-6 mb-4">
+          <details class="group" open="false">
             <summary class="cursor-pointer list-none outline-none">
-              <div class="bg-gradient-to-r from-purple-50 to-indigo-50 rounded-xl p-5 border-2 border-purple-200 shadow-md hover:shadow-lg transition-all flex items-center justify-between">
+              <div class="bg-gradient-to-r from-purple-100 to-indigo-100 rounded-xl p-5 border-2 border-purple-300 shadow-lg hover:shadow-xl transition-all flex items-center justify-between">
                 <div class="flex items-center gap-3">
                   <span class="text-3xl">🔍</span>
                   <h3 class="text-lg font-bold text-gray-900">Interesting Facts About This Place</h3>
+                  <span class="text-xs bg-purple-200 text-purple-800 px-2 py-1 rounded-full font-semibold">${d.interestingFacts.length} facts</span>
                 </div>
-                <span class="arrow text-purple-600 font-bold text-xl transform transition-transform duration-300">▼</span>
+                <span class="arrow text-purple-700 font-bold text-xl transform transition-transform duration-300">▼</span>
               </div>
             </summary>
-            <div class="mt-3 bg-gradient-to-br from-purple-50 via-white to-indigo-50 rounded-xl p-6 border-2 border-purple-100 shadow-md animate-fadeIn">
+            <div class="mt-3 bg-gradient-to-br from-purple-50 via-white to-indigo-50 rounded-xl p-6 border-2 border-purple-200 shadow-lg animate-fadeIn">
               <ul class="space-y-3">
                 ${d.interestingFacts.map((fact, idx) => `
-                  <li class="flex items-start gap-3 bg-white/80 p-4 rounded-lg border border-purple-100 hover:shadow-sm transition-all">
-                    <span class="flex-shrink-0 w-6 h-6 rounded-full bg-gradient-to-br from-purple-400 to-indigo-500 text-white flex items-center justify-center text-xs font-bold mt-0.5">${idx + 1}</span>
-                    <span class="text-sm text-gray-800 leading-relaxed flex-1">${fact}</span>
+                  <li class="flex items-start gap-3 bg-white/90 p-4 rounded-lg border-2 border-purple-100 hover:shadow-md hover:border-purple-200 transition-all">
+                    <span class="flex-shrink-0 w-7 h-7 rounded-full bg-gradient-to-br from-purple-500 to-indigo-600 text-white flex items-center justify-center text-sm font-bold shadow-md">${idx + 1}</span>
+                    <span class="text-sm text-gray-800 leading-relaxed flex-1 font-medium">${fact}</span>
                   </li>
                 `).join('')}
               </ul>
