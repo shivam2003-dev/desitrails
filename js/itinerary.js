@@ -1,6 +1,6 @@
 /* DesiTrails — itinerary renderer */
-/* Version: 4.0 - BEAUTIFUL DESIGN - Enhanced Kerala styling */
-/* Updated: 2025-12-28 - Beautiful timeline design, gradient cards, enhanced sidebar */
+/* Version: 4.1 - BEAUTIFUL DESIGN - Fixed syntax error */
+/* Updated: 2025-12-28 - Fixed optional chaining in template string, renderDay properly defined */
 (function(){
   console.log('Itinerary.js: Script loaded! (v4.0 - Beautiful design with timeline)');
   
@@ -172,15 +172,16 @@
             <h4 class="text-base font-bold text-gray-800">Your Route</h4>
           </div>
           <div class="space-y-2">
-            ${it.route.map((place, idx) => 
-              `<div class="flex items-center ${idx < it.route.length - 1 ? 'mb-2' : ''}">
+            ${it.route.map((place, idx) => {
+              const dayDistance = (it.days && it.days[idx] && it.days[idx].distanceKm) ? it.days[idx].distanceKm : '?';
+              return `<div class="flex items-center ${idx < it.route.length - 1 ? 'mb-2' : ''}">
                 <div class="flex-shrink-0 w-8 h-8 rounded-full bg-gradient-to-br from-earth-400 to-earth-600 text-white flex items-center justify-center text-sm font-bold shadow-md mr-3">${idx + 1}</div>
                 <div class="flex-1">
                   <div class="text-sm font-semibold text-gray-800">${place}</div>
-                  ${idx < it.route.length - 1 ? '<div class="text-xs text-gray-400 mt-1 ml-11">↓ ${it.days[idx]?.distanceKm || '?'} km</div>' : ''}
+                  ${idx < it.route.length - 1 ? `<div class="text-xs text-gray-400 mt-1 ml-11">↓ ${dayDistance} km</div>` : ''}
                 </div>
-              </div>`
-            ).join('')}
+              </div>`;
+            }).join('')}
           </div>
         </div>
         
