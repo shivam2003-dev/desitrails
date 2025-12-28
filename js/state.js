@@ -19,30 +19,45 @@
     // Get base path - check if we're on GitHub Pages
     let basePath = '';
     const base = document.querySelector('base');
+    console.log('State.js: Base tag:', base);
+    
     if (base && base.href) {
+      console.log('State.js: Base href:', base.href);
       try {
-        const url = new URL(base.href, window.location.origin);
+        // base.href returns full URL, extract just the pathname
+        const url = new URL(base.href);
         basePath = url.pathname.endsWith('/') ? url.pathname.slice(0, -1) : url.pathname;
+        console.log('State.js: Extracted basePath from URL:', basePath);
       } catch (e) {
+        console.log('State.js: URL parsing failed, trying regex');
+        // Fallback: extract from base.href string
         const match = base.href.match(/\/\/[^\/]+(\/.*)/);
         if (match) {
           basePath = match[1].endsWith('/') ? match[1].slice(0, -1) : match[1];
+          console.log('State.js: Extracted basePath from regex:', basePath);
         }
       }
     }
     
     // Fallback: extract from current pathname
-    if (!basePath && window.location.hostname.includes('github.io')) {
-      const pathParts = window.location.pathname.split('/').filter(p => p);
-      if (pathParts.length > 0 && pathParts[0] === 'desitrails') {
-        basePath = '/desitrails';
-      } else if (pathParts.length > 0) {
-        basePath = '/' + pathParts[0];
+    if (!basePath) {
+      console.log('State.js: No basePath from base tag, trying pathname');
+      if (window.location.hostname.includes('github.io')) {
+        const pathParts = window.location.pathname.split('/').filter(p => p);
+        console.log('State.js: Path parts:', pathParts);
+        if (pathParts.length > 0 && pathParts[0] === 'desitrails') {
+          basePath = '/desitrails';
+        } else if (pathParts.length > 0) {
+          basePath = '/' + pathParts[0];
+        }
+        console.log('State.js: Fallback basePath:', basePath);
       }
     }
 
     const statesUrl = basePath ? `${basePath}/data/states.json` : '/data/states.json';
-    console.log('Loading state:', stateSlug, 'from:', statesUrl);
+    console.log('State.js: Base path:', basePath);
+    console.log('State.js: Loading state:', stateSlug, 'from:', statesUrl);
+    console.log('State.js: Base tag href:', base ? base.href : 'not found');
     
     fetch(statesUrl)
       .then(r => {
@@ -79,12 +94,12 @@
       document.addEventListener('DOMContentLoaded', function() {
         console.log('State.js: DOMContentLoaded fired');
         // Wait a bit for base tag to be processed
-        setTimeout(init, 100);
+        setTimeout(init, 200);
       });
     } else {
       // DOM already loaded, wait for base tag
       console.log('State.js: DOM already loaded, initializing...');
-      setTimeout(init, 100);
+      setTimeout(init, 200);
     }
   }
   startApp();
