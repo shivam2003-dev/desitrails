@@ -1,6 +1,6 @@
 /* DesiTrails — itinerary renderer */
-/* Version: 4.1 - BEAUTIFUL DESIGN - Fixed syntax error */
-/* Updated: 2025-12-28 - Fixed optional chaining in template string, renderDay properly defined */
+/* Version: 5.0 - ENHANCED KERALA - Food, Hotels & Tips */
+/* Updated: 2025-12-28 - Added detailed food recommendations, hotels, tips & tricks for Kerala */
 (function(){
   console.log('Itinerary.js: Script loaded! (v4.0 - Beautiful design with timeline)');
   
@@ -186,7 +186,7 @@
         </div>
         
         <!-- Back Link -->
-        <a class="block w-full text-center bg-earth-500 hover:bg-earth-600 text-white font-semibold py-3 px-4 rounded-xl shadow-md hover:shadow-lg transition-all transform hover:scale-105" href="${basePath}/states/${it.state}/">
+        <a class="block w-full text-center bg-earth-500 hover:bg-earth-600 text-white font-semibold py-3 px-4 rounded-xl shadow-md hover:shadow-lg transition-all transform hover:scale-105" href="${basePath ? basePath + '/states/' + it.state + '/' : '/states/' + it.state + '/'}">
           ← Back to ${capitalize(it.state)}
         </a>
       </div>`;
@@ -260,7 +260,7 @@
         </div>
         
         <!-- Enhanced Info Cards -->
-        <div class="grid md:grid-cols-2 gap-4">
+        <div class="grid md:grid-cols-2 gap-4 mb-4">
           <!-- Travel Info Card -->
           <div class="bg-white rounded-xl p-5 border-2 border-earth-100 shadow-md hover:shadow-lg transition-all">
             <div class="flex items-center gap-2 mb-3">
@@ -307,6 +307,86 @@
             </div>
           </div>
         </div>
+        
+        ${d.food || d.hotels || d.tips ? `
+        <!-- Food, Hotels & Tips Section -->
+        <div class="grid md:grid-cols-3 gap-4">
+          ${d.food ? `
+          <!-- Food Card -->
+          <div class="bg-gradient-to-br from-orange-50 to-white rounded-xl p-5 border-2 border-orange-100 shadow-md hover:shadow-lg transition-all">
+            <div class="flex items-center gap-2 mb-3">
+              <span class="text-2xl">🍽️</span>
+              <h3 class="text-base font-bold text-gray-800">Food to Try</h3>
+            </div>
+            <div class="space-y-3">
+              <div>
+                <div class="text-xs font-semibold text-orange-700 mb-2 uppercase tracking-wide">Must Try</div>
+                <ul class="space-y-1.5">
+                  ${d.food.mustTry.map(item => `<li class="text-xs text-gray-700 flex items-start gap-2"><span class="text-orange-500 mt-1">•</span><span>${item}</span></li>`).join('')}
+                </ul>
+              </div>
+              ${d.food.restaurants && d.food.restaurants.length > 0 ? `
+              <div class="mt-3 pt-3 border-t border-orange-100">
+                <div class="text-xs font-semibold text-orange-700 mb-2 uppercase tracking-wide">Restaurants</div>
+                <ul class="space-y-1.5">
+                  ${d.food.restaurants.map(rest => `<li class="text-xs text-gray-600 flex items-start gap-2"><span class="text-orange-400 mt-1">📍</span><span>${rest}</span></li>`).join('')}
+                </ul>
+              </div>
+              ` : ''}
+            </div>
+          </div>
+          ` : ''}
+          
+          ${d.hotels ? `
+          <!-- Hotels Card -->
+          <div class="bg-gradient-to-br from-blue-50 to-white rounded-xl p-5 border-2 border-blue-100 shadow-md hover:shadow-lg transition-all">
+            <div class="flex items-center gap-2 mb-3">
+              <span class="text-2xl">🏨</span>
+              <h3 class="text-base font-bold text-gray-800">Where to Stay</h3>
+            </div>
+            <div class="space-y-3">
+              ${d.hotels.budget && d.hotels.budget.length > 0 ? `
+              <div>
+                <div class="text-xs font-semibold text-green-600 mb-1.5">💰 Budget</div>
+                <ul class="space-y-1">
+                  ${d.hotels.budget.map(hotel => `<li class="text-xs text-gray-700">${hotel}</li>`).join('')}
+                </ul>
+              </div>
+              ` : ''}
+              ${d.hotels.midRange && d.hotels.midRange.length > 0 ? `
+              <div>
+                <div class="text-xs font-semibold text-blue-600 mb-1.5">⭐ Mid-Range</div>
+                <ul class="space-y-1">
+                  ${d.hotels.midRange.map(hotel => `<li class="text-xs text-gray-700">${hotel}</li>`).join('')}
+                </ul>
+              </div>
+              ` : ''}
+              ${d.hotels.luxury && d.hotels.luxury.length > 0 ? `
+              <div>
+                <div class="text-xs font-semibold text-purple-600 mb-1.5">✨ Luxury</div>
+                <ul class="space-y-1">
+                  ${d.hotels.luxury.map(hotel => `<li class="text-xs text-gray-700">${hotel}</li>`).join('')}
+                </ul>
+              </div>
+              ` : ''}
+            </div>
+          </div>
+          ` : ''}
+          
+          ${d.tips ? `
+          <!-- Tips Card -->
+          <div class="bg-gradient-to-br from-amber-50 to-white rounded-xl p-5 border-2 border-amber-100 shadow-md hover:shadow-lg transition-all">
+            <div class="flex items-center gap-2 mb-3">
+              <span class="text-2xl">💡</span>
+              <h3 class="text-base font-bold text-gray-800">Tips & Tricks</h3>
+            </div>
+            <ul class="space-y-2">
+              ${d.tips.map(tip => `<li class="text-xs text-gray-700 flex items-start gap-2"><span class="text-amber-500 mt-0.5 flex-shrink-0">💡</span><span>${tip}</span></li>`).join('')}
+            </ul>
+          </div>
+          ` : ''}
+        </div>
+        ` : ''}
       </div>`;
     return el;
   }

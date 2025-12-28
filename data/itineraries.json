@@ -7,7 +7,12 @@
       "durationDays": 4,
       "summary": "Beach, backwaters, and heritage with slow travel emphasis.",
       "bestTime": "October to March",
-      "route": ["Trivandrum","Varkala","Alleppey","Kochi"],
+      "route": [
+        "Trivandrum",
+        "Varkala",
+        "Alleppey",
+        "Kochi"
+      ],
       "days": [
         {
           "day": "Day 1 — Trivandrum & Kovalam",
@@ -17,9 +22,53 @@
           "evening": "Sunset at Hawa Beach; try local seafood and stroll the promenade.",
           "distanceKm": 20,
           "driveTime": "45m",
-          "mustSee": ["Padmanabhaswamy Temple","Kovalam Lighthouse Beach"],
-          "optional": ["Shangumugham Beach"],
-          "galleryQueries": ["Trivandrum","Padmanabhaswamy Temple","Kovalam","Lighthouse Beach"]
+          "mustSee": [
+            "Padmanabhaswamy Temple",
+            "Kovalam Lighthouse Beach"
+          ],
+          "optional": [
+            "Shangumugham Beach"
+          ],
+          "galleryQueries": [
+            "Trivandrum",
+            "Padmanabhaswamy Temple",
+            "Kovalam",
+            "Lighthouse Beach"
+          ],
+          "food": {
+            "mustTry": [
+              "Kerala Sadya (traditional feast)",
+              "Karimeen Pollichathu (pearl spot fish)",
+              "Appam with Stew",
+              "Puttu and Kadala"
+            ],
+            "restaurants": [
+              "Azad Restaurant (traditional)",
+              "Kovalam Beach Restaurant (seafood)",
+              "Hotel Saravana Bhavan (vegetarian)"
+            ]
+          },
+          "hotels": {
+            "budget": [
+              "Hotel Pankaj (₹1,500-2,500)",
+              "Kovalam Beach Resort (₹2,000-3,500)"
+            ],
+            "midRange": [
+              "The Leela Kovalam (₹5,000-8,000)",
+              "Taj Green Cove (₹6,000-10,000)"
+            ],
+            "luxury": [
+              "Niraamaya Retreats (₹12,000+)",
+              "The Raviz Kovalam (₹15,000+)"
+            ]
+          },
+          "tips": [
+            "Dress modestly for temple visits (cover shoulders and knees)",
+            "Carry cash - many beach shacks don't accept cards",
+            "Best time for beach: Early morning or late evening to avoid crowds",
+            "Bargain at local shops - prices are negotiable",
+            "Try fresh coconut water from beach vendors"
+          ]
         },
         {
           "day": "Day 2 — Varkala Cliffs",
@@ -29,9 +78,53 @@
           "evening": "Sunset on the cliff trail; dinner at a slow cafe.",
           "distanceKm": 60,
           "driveTime": "1h 30m",
-          "mustSee": ["Varkala Cliff","Varkala Beach"],
-          "optional": ["Anjengo Fort","Kappil Beach"],
-          "galleryQueries": ["Varkala","Varkala Cliff","Kappil Beach"]
+          "mustSee": [
+            "Varkala Cliff",
+            "Varkala Beach"
+          ],
+          "optional": [
+            "Anjengo Fort",
+            "Kappil Beach"
+          ],
+          "galleryQueries": [
+            "Varkala",
+            "Varkala Cliff",
+            "Kappil Beach"
+          ],
+          "food": {
+            "mustTry": [
+              "Kerala Parotta with Curry",
+              "Fish Curry and Rice",
+              "Banana Chips",
+              "Fresh Fruit Juices"
+            ],
+            "restaurants": [
+              "Clafouti Beach Cafe (cliff view)",
+              "Darjeeling Cafe (continental)",
+              "Oottupura (local)"
+            ]
+          },
+          "hotels": {
+            "budget": [
+              "Varkala Cliff House (₹1,200-2,000)",
+              "Palm Tree Heritage (₹1,500-2,500)"
+            ],
+            "midRange": [
+              "Villa Jacaranda (₹3,500-5,000)",
+              "Taj Gateway (₹4,000-7,000)"
+            ],
+            "luxury": [
+              "The Gateway Hotel (₹8,000+)",
+              "Villa Jacaranda Premium (₹10,000+)"
+            ]
+          },
+          "tips": [
+            "Cliff walk is best at sunrise or sunset",
+            "Be careful on cliff edges - they can be slippery",
+            "Ayurveda massages are cheaper here than in cities",
+            "Many cafes have cliff views - book ahead for sunset",
+            "Carry mosquito repellent for evenings"
+          ]
         },
         {
           "day": "Day 3 — Alleppey Backwaters",
@@ -41,9 +134,54 @@
           "evening": "Golden hour on canals; dock and unwind.",
           "distanceKm": 110,
           "driveTime": "3h",
-          "mustSee": ["Alleppey Backwaters","Houseboat Ride"],
-          "optional": ["Kumarakom Bird Sanctuary"],
-          "galleryQueries": ["Alleppey","Houseboat","Backwaters","Kumarakom"]
+          "mustSee": [
+            "Alleppey Backwaters",
+            "Houseboat Ride"
+          ],
+          "optional": [
+            "Kumarakom Bird Sanctuary"
+          ],
+          "galleryQueries": [
+            "Alleppey",
+            "Houseboat",
+            "Backwaters",
+            "Kumarakom"
+          ],
+          "food": {
+            "mustTry": [
+              "Karimeen Pollichathu",
+              "Kerala Fish Curry",
+              "Toddy (local palm wine)",
+              "Banana Fritters"
+            ],
+            "restaurants": [
+              "Kream Korner (houseboat food)",
+              "Cassia Restaurant (local)",
+              "Thaff Delicacy (traditional)"
+            ]
+          },
+          "hotels": {
+            "budget": [
+              "Alleppey Prince Hotel (₹1,500-2,500)",
+              "Raheem Residency (₹2,000-3,000)"
+            ],
+            "midRange": [
+              "Abad Whispering Palms (₹4,000-6,000)",
+              "Punnamada Resort (₹5,000-8,000)"
+            ],
+            "luxury": [
+              "Lake Palace Resort (₹10,000+)",
+              "Punnamada Backwater Resort (₹12,000+)"
+            ]
+          },
+          "tips": [
+            "Book houseboats in advance, especially during peak season",
+            "Day houseboats are cheaper than overnight stays",
+            "Carry sunscreen and hat - sun is strong on water",
+            "Best time for backwaters: Early morning (6-9 AM) or evening (4-7 PM)",
+            "Bargain for houseboat prices - they're negotiable",
+            "Carry cash for village purchases"
+          ]
         },
         {
           "day": "Day 4 — Kochi Fort & Departure",
@@ -53,10 +191,70 @@
           "evening": "Kathakali performance (optional) and dinner before departure.",
           "distanceKm": 55,
           "driveTime": "1h 30m",
-          "mustSee": ["Fort Kochi","Chinese Fishing Nets","Mattancherry"],
-          "optional": ["Kathakali Show","Jew Town"],
-          "galleryQueries": ["Fort Kochi","Chinese fishing nets","Mattancherry"]
+          "mustSee": [
+            "Fort Kochi",
+            "Chinese Fishing Nets",
+            "Mattancherry"
+          ],
+          "optional": [
+            "Kathakali Show",
+            "Jew Town"
+          ],
+          "galleryQueries": [
+            "Fort Kochi",
+            "Chinese fishing nets",
+            "Mattancherry"
+          ],
+          "food": {
+            "mustTry": [
+              "Kerala Beef Fry",
+              "Appam with Ishtu",
+              "Fish Molee",
+              "Kerala Prawn Curry",
+              "Banana Chips"
+            ],
+            "restaurants": [
+              "Kashi Art Cafe (continental)",
+              "Fort House Restaurant (seafood)",
+              "Kayees Biryani (famous biryani)",
+              "Ginger House (heritage)"
+            ]
+          },
+          "hotels": {
+            "budget": [
+              "Fort Kochi Hotel (₹1,500-2,500)",
+              "Old Lighthouse Bristow (₹2,000-3,500)"
+            ],
+            "midRange": [
+              "Brunton Boatyard (₹5,000-8,000)",
+              "Malabar House (₹6,000-10,000)"
+            ],
+            "luxury": [
+              "Taj Malabar (₹12,000+)",
+              "Grand Hyatt Kochi (₹15,000+)"
+            ]
+          },
+          "tips": [
+            "Fort Kochi is walkable - explore on foot",
+            "Chinese fishing nets are best seen at sunset",
+            "Kathakali shows usually start at 6 PM - book in advance",
+            "Jew Town shops close early (around 6 PM)",
+            "Parking is limited - consider walking or auto-rickshaw",
+            "Many heritage buildings have cafes - great for breaks"
+          ]
         }
+      ],
+      "generalTips": [
+        "Best time to visit: October to March (avoid monsoon June-September)",
+        "Carry light cotton clothes and a light jacket for evenings",
+        "Kerala is cash-heavy - keep sufficient cash",
+        "Book accommodations in advance during peak season",
+        "Try Ayurveda treatments - Kerala is famous for it",
+        "Respect temple customs - remove footwear, dress modestly",
+        "Bargain at local markets and shops",
+        "Carry mosquito repellent and sunscreen",
+        "Learn basic Malayalam phrases - locals appreciate it",
+        "Try local transport - buses and auto-rickshaws are affordable"
       ]
     },
     {
@@ -66,7 +264,10 @@
       "durationDays": 3,
       "summary": "Quick hill station retreat with tea gardens, waterfalls, and mountain views.",
       "bestTime": "September to May",
-      "route": ["Kochi","Munnar"],
+      "route": [
+        "Kochi",
+        "Munnar"
+      ],
       "days": [
         {
           "day": "Day 1 — Kochi to Munnar",
@@ -76,9 +277,55 @@
           "evening": "Sunset at Pothamedu Viewpoint. Dinner with mountain views.",
           "distanceKm": 130,
           "driveTime": "4h",
-          "mustSee": ["Tea Museum","Pothamedu Viewpoint"],
-          "optional": ["Munnar Town Walk"],
-          "galleryQueries": ["Munnar tea gardens","Pothamedu viewpoint","Munnar hills"]
+          "mustSee": [
+            "Tea Museum",
+            "Pothamedu Viewpoint"
+          ],
+          "optional": [
+            "Munnar Town Walk"
+          ],
+          "galleryQueries": [
+            "Munnar tea gardens",
+            "Pothamedu viewpoint",
+            "Munnar hills"
+          ],
+          "food": {
+            "mustTry": [
+              "Kerala Beef Fry",
+              "Appam with Ishtu",
+              "Fish Molee",
+              "Kerala Prawn Curry",
+              "Banana Chips"
+            ],
+            "restaurants": [
+              "Kashi Art Cafe (continental)",
+              "Fort House Restaurant (seafood)",
+              "Kayees Biryani (famous biryani)",
+              "Ginger House (heritage)"
+            ]
+          },
+          "hotels": {
+            "budget": [
+              "Fort Kochi Hotel (₹1,500-2,500)",
+              "Old Lighthouse Bristow (₹2,000-3,500)"
+            ],
+            "midRange": [
+              "Brunton Boatyard (₹5,000-8,000)",
+              "Malabar House (₹6,000-10,000)"
+            ],
+            "luxury": [
+              "Taj Malabar (₹12,000+)",
+              "Grand Hyatt Kochi (₹15,000+)"
+            ]
+          },
+          "tips": [
+            "Fort Kochi is walkable - explore on foot",
+            "Chinese fishing nets are best seen at sunset",
+            "Kathakali shows usually start at 6 PM - book in advance",
+            "Jew Town shops close early (around 6 PM)",
+            "Parking is limited - consider walking or auto-rickshaw",
+            "Many heritage buildings have cafes - great for breaks"
+          ]
         },
         {
           "day": "Day 2 — Munnar Exploration",
@@ -88,9 +335,56 @@
           "evening": "Visit Top Station for panoramic views. Return to Munnar.",
           "distanceKm": 50,
           "driveTime": "2h",
-          "mustSee": ["Mattupetty Dam","Echo Point","Attukal Waterfalls","Top Station"],
-          "optional": ["Kundala Lake","Lockhart Gap"],
-          "galleryQueries": ["Mattupetty Dam","Attukal Waterfalls","Top Station Munnar"]
+          "mustSee": [
+            "Mattupetty Dam",
+            "Echo Point",
+            "Attukal Waterfalls",
+            "Top Station"
+          ],
+          "optional": [
+            "Kundala Lake",
+            "Lockhart Gap"
+          ],
+          "galleryQueries": [
+            "Mattupetty Dam",
+            "Attukal Waterfalls",
+            "Top Station Munnar"
+          ],
+          "food": {
+            "mustTry": [
+              "Kerala Parotta with Chicken Curry",
+              "Tea Estate Fresh Tea",
+              "Banana Fritters",
+              "Spice-infused dishes"
+            ],
+            "restaurants": [
+              "Saravana Bhavan (vegetarian)",
+              "Rapsy Restaurant (local)",
+              "Tea Valley Restaurant (mountain view)"
+            ]
+          },
+          "hotels": {
+            "budget": [
+              "Munnar Inn (₹1,500-2,500)",
+              "Green View Resort (₹2,000-3,500)"
+            ],
+            "midRange": [
+              "Tea County Resort (₹4,000-6,000)",
+              "Fragrant Nature Munnar (₹5,000-8,000)"
+            ],
+            "luxury": [
+              "Windermere Estate (₹10,000+)",
+              "The Tall Trees Munnar (₹12,000+)"
+            ]
+          },
+          "tips": [
+            "Weather can change quickly - carry light jacket",
+            "Tea gardens are best visited early morning",
+            "Roads are winding - drive carefully",
+            "Eravikulam National Park tickets sell out fast - book online",
+            "Carry cash - ATMs are limited in remote areas",
+            "Best time: September to May (avoid monsoon)"
+          ]
         },
         {
           "day": "Day 3 — Eravikulam & Departure",
@@ -100,10 +394,63 @@
           "evening": "Departure from Kochi airport.",
           "distanceKm": 130,
           "driveTime": "4h",
-          "mustSee": ["Eravikulam National Park","Nilgiri Tahr","Rajamalai Hills"],
-          "optional": ["Anamudi Peak View","Tea Shopping"],
-          "galleryQueries": ["Eravikulam National Park","Nilgiri Tahr","Munnar wildlife"]
+          "mustSee": [
+            "Eravikulam National Park",
+            "Nilgiri Tahr",
+            "Rajamalai Hills"
+          ],
+          "optional": [
+            "Anamudi Peak View",
+            "Tea Shopping"
+          ],
+          "galleryQueries": [
+            "Eravikulam National Park",
+            "Nilgiri Tahr",
+            "Munnar wildlife"
+          ],
+          "food": {
+            "mustTry": [
+              "Kerala Sadya",
+              "Fish Curry",
+              "Appam with Stew",
+              "Banana Chips"
+            ],
+            "restaurants": [
+              "Local restaurants",
+              "Beach shacks",
+              "Traditional eateries"
+            ]
+          },
+          "hotels": {
+            "budget": [
+              "Budget hotels (₹1,500-3,000)"
+            ],
+            "midRange": [
+              "Mid-range resorts (₹4,000-7,000)"
+            ],
+            "luxury": [
+              "Luxury resorts (₹10,000+)"
+            ]
+          },
+          "tips": [
+            "Carry cash for local purchases",
+            "Respect local customs and dress modestly",
+            "Stay hydrated - Kerala is humid",
+            "Bargain at local markets"
+          ]
         }
+      ],
+      "generalTips": [
+        "Best time to visit: October to March (avoid monsoon June-September)",
+        "Carry light cotton clothes and a light jacket for evenings",
+        "Kerala is cash-heavy - keep sufficient cash",
+        "Book accommodations in advance during peak season",
+        "Try Ayurveda treatments - Kerala is famous for it",
+        "Respect temple customs - remove footwear, dress modestly",
+        "Bargain at local markets and shops",
+        "Carry mosquito repellent and sunscreen",
+        "Learn basic Malayalam phrases - locals appreciate it",
+        "Try local transport - buses and auto-rickshaws are affordable"
       ]
     },
     {
@@ -113,7 +460,12 @@
       "durationDays": 5,
       "summary": "Jungle safaris, waterfalls, ancient caves, and spice plantations in Wayanad.",
       "bestTime": "October to May",
-      "route": ["Calicut","Wayanad","Banasura Sagar","Edakkal Caves"],
+      "route": [
+        "Calicut",
+        "Wayanad",
+        "Banasura Sagar",
+        "Edakkal Caves"
+      ],
       "days": [
         {
           "day": "Day 1 — Calicut to Wayanad",
@@ -123,9 +475,47 @@
           "evening": "Relax at resort. Dinner with local Malabar cuisine.",
           "distanceKm": 110,
           "driveTime": "3h 30m",
-          "mustSee": ["Pookode Lake"],
-          "optional": ["Wayanad Wildlife Sanctuary"],
-          "galleryQueries": ["Pookode Lake","Wayanad","Calicut to Wayanad"]
+          "mustSee": [
+            "Pookode Lake"
+          ],
+          "optional": [
+            "Wayanad Wildlife Sanctuary"
+          ],
+          "galleryQueries": [
+            "Pookode Lake",
+            "Wayanad",
+            "Calicut to Wayanad"
+          ],
+          "food": {
+            "mustTry": [
+              "Kerala Sadya",
+              "Fish Curry",
+              "Appam with Stew",
+              "Banana Chips"
+            ],
+            "restaurants": [
+              "Local restaurants",
+              "Beach shacks",
+              "Traditional eateries"
+            ]
+          },
+          "hotels": {
+            "budget": [
+              "Budget hotels (₹1,500-3,000)"
+            ],
+            "midRange": [
+              "Mid-range resorts (₹4,000-7,000)"
+            ],
+            "luxury": [
+              "Luxury resorts (₹10,000+)"
+            ]
+          },
+          "tips": [
+            "Carry cash for local purchases",
+            "Respect local customs and dress modestly",
+            "Stay hydrated - Kerala is humid",
+            "Bargain at local markets"
+          ]
         },
         {
           "day": "Day 2 — Wayanad Wildlife Safari",
@@ -135,9 +525,50 @@
           "evening": "Sunset at Banasura Sagar Dam. Largest earth dam in India.",
           "distanceKm": 60,
           "driveTime": "2h",
-          "mustSee": ["Wayanad Wildlife Sanctuary","Banasura Sagar Dam","Spice Plantations"],
-          "optional": ["Karapuzha Dam","Bird Watching"],
-          "galleryQueries": ["Wayanad Wildlife Sanctuary","Banasura Sagar","Wayanad elephants"]
+          "mustSee": [
+            "Wayanad Wildlife Sanctuary",
+            "Banasura Sagar Dam",
+            "Spice Plantations"
+          ],
+          "optional": [
+            "Karapuzha Dam",
+            "Bird Watching"
+          ],
+          "galleryQueries": [
+            "Wayanad Wildlife Sanctuary",
+            "Banasura Sagar",
+            "Wayanad elephants"
+          ],
+          "food": {
+            "mustTry": [
+              "Kerala Sadya",
+              "Fish Curry",
+              "Appam with Stew",
+              "Banana Chips"
+            ],
+            "restaurants": [
+              "Local restaurants",
+              "Beach shacks",
+              "Traditional eateries"
+            ]
+          },
+          "hotels": {
+            "budget": [
+              "Budget hotels (₹1,500-3,000)"
+            ],
+            "midRange": [
+              "Mid-range resorts (₹4,000-7,000)"
+            ],
+            "luxury": [
+              "Luxury resorts (₹10,000+)"
+            ]
+          },
+          "tips": [
+            "Carry cash for local purchases",
+            "Respect local customs and dress modestly",
+            "Stay hydrated - Kerala is humid",
+            "Bargain at local markets"
+          ]
         },
         {
           "day": "Day 3 — Edakkal Caves & Waterfalls",
@@ -147,9 +578,50 @@
           "evening": "Visit Kanthanpara Waterfalls. Return to resort.",
           "distanceKm": 80,
           "driveTime": "3h",
-          "mustSee": ["Edakkal Caves","Soochipara Falls","Kanthanpara Waterfalls"],
-          "optional": ["Meenmutty Falls","Chembra Peak Trek"],
-          "galleryQueries": ["Edakkal Caves","Soochipara Falls","Wayanad waterfalls"]
+          "mustSee": [
+            "Edakkal Caves",
+            "Soochipara Falls",
+            "Kanthanpara Waterfalls"
+          ],
+          "optional": [
+            "Meenmutty Falls",
+            "Chembra Peak Trek"
+          ],
+          "galleryQueries": [
+            "Edakkal Caves",
+            "Soochipara Falls",
+            "Wayanad waterfalls"
+          ],
+          "food": {
+            "mustTry": [
+              "Kerala Sadya",
+              "Fish Curry",
+              "Appam with Stew",
+              "Banana Chips"
+            ],
+            "restaurants": [
+              "Local restaurants",
+              "Beach shacks",
+              "Traditional eateries"
+            ]
+          },
+          "hotels": {
+            "budget": [
+              "Budget hotels (₹1,500-3,000)"
+            ],
+            "midRange": [
+              "Mid-range resorts (₹4,000-7,000)"
+            ],
+            "luxury": [
+              "Luxury resorts (₹10,000+)"
+            ]
+          },
+          "tips": [
+            "Carry cash for local purchases",
+            "Respect local customs and dress modestly",
+            "Stay hydrated - Kerala is humid",
+            "Bargain at local markets"
+          ]
         },
         {
           "day": "Day 4 — Chembra Peak & Lakkidi",
@@ -159,9 +631,50 @@
           "evening": "Visit Pazhassi Raja Tomb. Local history and culture.",
           "distanceKm": 50,
           "driveTime": "2h + 5h trek",
-          "mustSee": ["Chembra Peak","Heart Lake","Lakkidi Viewpoint"],
-          "optional": ["Pazhassi Raja Tomb","Chain Tree"],
-          "galleryQueries": ["Chembra Peak","Lakkidi Viewpoint","Wayanad trek"]
+          "mustSee": [
+            "Chembra Peak",
+            "Heart Lake",
+            "Lakkidi Viewpoint"
+          ],
+          "optional": [
+            "Pazhassi Raja Tomb",
+            "Chain Tree"
+          ],
+          "galleryQueries": [
+            "Chembra Peak",
+            "Lakkidi Viewpoint",
+            "Wayanad trek"
+          ],
+          "food": {
+            "mustTry": [
+              "Kerala Sadya",
+              "Fish Curry",
+              "Appam with Stew",
+              "Banana Chips"
+            ],
+            "restaurants": [
+              "Local restaurants",
+              "Beach shacks",
+              "Traditional eateries"
+            ]
+          },
+          "hotels": {
+            "budget": [
+              "Budget hotels (₹1,500-3,000)"
+            ],
+            "midRange": [
+              "Mid-range resorts (₹4,000-7,000)"
+            ],
+            "luxury": [
+              "Luxury resorts (₹10,000+)"
+            ]
+          },
+          "tips": [
+            "Carry cash for local purchases",
+            "Respect local customs and dress modestly",
+            "Stay hydrated - Kerala is humid",
+            "Bargain at local markets"
+          ]
         },
         {
           "day": "Day 5 — Return & Departure",
@@ -171,10 +684,62 @@
           "evening": "Departure from Calicut airport.",
           "distanceKm": 110,
           "driveTime": "3h 30m",
-          "mustSee": ["Wayanad Market","Spice Shopping"],
-          "optional": ["Calicut Beach","Kozhikode Cuisine"],
-          "galleryQueries": ["Wayanad market","Calicut","Kerala spices"]
+          "mustSee": [
+            "Wayanad Market",
+            "Spice Shopping"
+          ],
+          "optional": [
+            "Calicut Beach",
+            "Kozhikode Cuisine"
+          ],
+          "galleryQueries": [
+            "Wayanad market",
+            "Calicut",
+            "Kerala spices"
+          ],
+          "food": {
+            "mustTry": [
+              "Kerala Sadya",
+              "Fish Curry",
+              "Appam with Stew",
+              "Banana Chips"
+            ],
+            "restaurants": [
+              "Local restaurants",
+              "Beach shacks",
+              "Traditional eateries"
+            ]
+          },
+          "hotels": {
+            "budget": [
+              "Budget hotels (₹1,500-3,000)"
+            ],
+            "midRange": [
+              "Mid-range resorts (₹4,000-7,000)"
+            ],
+            "luxury": [
+              "Luxury resorts (₹10,000+)"
+            ]
+          },
+          "tips": [
+            "Carry cash for local purchases",
+            "Respect local customs and dress modestly",
+            "Stay hydrated - Kerala is humid",
+            "Bargain at local markets"
+          ]
         }
+      ],
+      "generalTips": [
+        "Best time to visit: October to March (avoid monsoon June-September)",
+        "Carry light cotton clothes and a light jacket for evenings",
+        "Kerala is cash-heavy - keep sufficient cash",
+        "Book accommodations in advance during peak season",
+        "Try Ayurveda treatments - Kerala is famous for it",
+        "Respect temple customs - remove footwear, dress modestly",
+        "Bargain at local markets and shops",
+        "Carry mosquito repellent and sunscreen",
+        "Learn basic Malayalam phrases - locals appreciate it",
+        "Try local transport - buses and auto-rickshaws are affordable"
       ]
     },
     {
@@ -184,7 +749,12 @@
       "durationDays": 6,
       "summary": "Heritage city, hill stations, and wildlife sanctuary in one circuit.",
       "bestTime": "October to May",
-      "route": ["Kochi","Munnar","Thekkady","Kochi"],
+      "route": [
+        "Kochi",
+        "Munnar",
+        "Thekkady",
+        "Kochi"
+      ],
       "days": [
         {
           "day": "Day 1 — Kochi Heritage",
@@ -194,9 +764,58 @@
           "evening": "Kathakali performance. Dinner at Fort Kochi.",
           "distanceKm": 15,
           "driveTime": "30m",
-          "mustSee": ["Fort Kochi","Chinese Fishing Nets","Mattancherry Palace","Jew Town"],
-          "optional": ["Kathakali Show","St. Francis Church"],
-          "galleryQueries": ["Fort Kochi","Chinese fishing nets","Mattancherry Palace"]
+          "mustSee": [
+            "Fort Kochi",
+            "Chinese Fishing Nets",
+            "Mattancherry Palace",
+            "Jew Town"
+          ],
+          "optional": [
+            "Kathakali Show",
+            "St. Francis Church"
+          ],
+          "galleryQueries": [
+            "Fort Kochi",
+            "Chinese fishing nets",
+            "Mattancherry Palace"
+          ],
+          "food": {
+            "mustTry": [
+              "Kerala Beef Fry",
+              "Appam with Ishtu",
+              "Fish Molee",
+              "Kerala Prawn Curry",
+              "Banana Chips"
+            ],
+            "restaurants": [
+              "Kashi Art Cafe (continental)",
+              "Fort House Restaurant (seafood)",
+              "Kayees Biryani (famous biryani)",
+              "Ginger House (heritage)"
+            ]
+          },
+          "hotels": {
+            "budget": [
+              "Fort Kochi Hotel (₹1,500-2,500)",
+              "Old Lighthouse Bristow (₹2,000-3,500)"
+            ],
+            "midRange": [
+              "Brunton Boatyard (₹5,000-8,000)",
+              "Malabar House (₹6,000-10,000)"
+            ],
+            "luxury": [
+              "Taj Malabar (₹12,000+)",
+              "Grand Hyatt Kochi (₹15,000+)"
+            ]
+          },
+          "tips": [
+            "Fort Kochi is walkable - explore on foot",
+            "Chinese fishing nets are best seen at sunset",
+            "Kathakali shows usually start at 6 PM - book in advance",
+            "Jew Town shops close early (around 6 PM)",
+            "Parking is limited - consider walking or auto-rickshaw",
+            "Many heritage buildings have cafes - great for breaks"
+          ]
         },
         {
           "day": "Day 2 — Kochi to Munnar",
@@ -206,9 +825,55 @@
           "evening": "Sunset at Pothamedu Viewpoint. Mountain views.",
           "distanceKm": 130,
           "driveTime": "4h",
-          "mustSee": ["Tea Museum","Pothamedu Viewpoint"],
-          "optional": ["Munnar Town"],
-          "galleryQueries": ["Munnar drive","Tea gardens","Munnar hills"]
+          "mustSee": [
+            "Tea Museum",
+            "Pothamedu Viewpoint"
+          ],
+          "optional": [
+            "Munnar Town"
+          ],
+          "galleryQueries": [
+            "Munnar drive",
+            "Tea gardens",
+            "Munnar hills"
+          ],
+          "food": {
+            "mustTry": [
+              "Kerala Beef Fry",
+              "Appam with Ishtu",
+              "Fish Molee",
+              "Kerala Prawn Curry",
+              "Banana Chips"
+            ],
+            "restaurants": [
+              "Kashi Art Cafe (continental)",
+              "Fort House Restaurant (seafood)",
+              "Kayees Biryani (famous biryani)",
+              "Ginger House (heritage)"
+            ]
+          },
+          "hotels": {
+            "budget": [
+              "Fort Kochi Hotel (₹1,500-2,500)",
+              "Old Lighthouse Bristow (₹2,000-3,500)"
+            ],
+            "midRange": [
+              "Brunton Boatyard (₹5,000-8,000)",
+              "Malabar House (₹6,000-10,000)"
+            ],
+            "luxury": [
+              "Taj Malabar (₹12,000+)",
+              "Grand Hyatt Kochi (₹15,000+)"
+            ]
+          },
+          "tips": [
+            "Fort Kochi is walkable - explore on foot",
+            "Chinese fishing nets are best seen at sunset",
+            "Kathakali shows usually start at 6 PM - book in advance",
+            "Jew Town shops close early (around 6 PM)",
+            "Parking is limited - consider walking or auto-rickshaw",
+            "Many heritage buildings have cafes - great for breaks"
+          ]
         },
         {
           "day": "Day 3 — Munnar Exploration",
@@ -218,9 +883,56 @@
           "evening": "Top Station for panoramic views. Return to Munnar.",
           "distanceKm": 50,
           "driveTime": "2h",
-          "mustSee": ["Mattupetty Dam","Echo Point","Attukal Waterfalls","Top Station"],
-          "optional": ["Kundala Lake","Lockhart Gap"],
-          "galleryQueries": ["Mattupetty Dam","Attukal Waterfalls","Top Station"]
+          "mustSee": [
+            "Mattupetty Dam",
+            "Echo Point",
+            "Attukal Waterfalls",
+            "Top Station"
+          ],
+          "optional": [
+            "Kundala Lake",
+            "Lockhart Gap"
+          ],
+          "galleryQueries": [
+            "Mattupetty Dam",
+            "Attukal Waterfalls",
+            "Top Station"
+          ],
+          "food": {
+            "mustTry": [
+              "Kerala Parotta with Chicken Curry",
+              "Tea Estate Fresh Tea",
+              "Banana Fritters",
+              "Spice-infused dishes"
+            ],
+            "restaurants": [
+              "Saravana Bhavan (vegetarian)",
+              "Rapsy Restaurant (local)",
+              "Tea Valley Restaurant (mountain view)"
+            ]
+          },
+          "hotels": {
+            "budget": [
+              "Munnar Inn (₹1,500-2,500)",
+              "Green View Resort (₹2,000-3,500)"
+            ],
+            "midRange": [
+              "Tea County Resort (₹4,000-6,000)",
+              "Fragrant Nature Munnar (₹5,000-8,000)"
+            ],
+            "luxury": [
+              "Windermere Estate (₹10,000+)",
+              "The Tall Trees Munnar (₹12,000+)"
+            ]
+          },
+          "tips": [
+            "Weather can change quickly - carry light jacket",
+            "Tea gardens are best visited early morning",
+            "Roads are winding - drive carefully",
+            "Eravikulam National Park tickets sell out fast - book online",
+            "Carry cash - ATMs are limited in remote areas",
+            "Best time: September to May (avoid monsoon)"
+          ]
         },
         {
           "day": "Day 4 — Munnar to Thekkady",
@@ -230,9 +942,55 @@
           "evening": "Spice plantation tour. Learn about cardamom, pepper, and vanilla.",
           "distanceKm": 150,
           "driveTime": "4h 30m",
-          "mustSee": ["Periyar Wildlife Sanctuary","Periyar Lake","Spice Plantations"],
-          "optional": ["Elephant Ride","Jungle Trek"],
-          "galleryQueries": ["Periyar Wildlife Sanctuary","Periyar Lake","Thekkady"]
+          "mustSee": [
+            "Periyar Wildlife Sanctuary",
+            "Periyar Lake",
+            "Spice Plantations"
+          ],
+          "optional": [
+            "Elephant Ride",
+            "Jungle Trek"
+          ],
+          "galleryQueries": [
+            "Periyar Wildlife Sanctuary",
+            "Periyar Lake",
+            "Thekkady"
+          ],
+          "food": {
+            "mustTry": [
+              "Kerala Parotta with Chicken Curry",
+              "Tea Estate Fresh Tea",
+              "Banana Fritters",
+              "Spice-infused dishes"
+            ],
+            "restaurants": [
+              "Saravana Bhavan (vegetarian)",
+              "Rapsy Restaurant (local)",
+              "Tea Valley Restaurant (mountain view)"
+            ]
+          },
+          "hotels": {
+            "budget": [
+              "Munnar Inn (₹1,500-2,500)",
+              "Green View Resort (₹2,000-3,500)"
+            ],
+            "midRange": [
+              "Tea County Resort (₹4,000-6,000)",
+              "Fragrant Nature Munnar (₹5,000-8,000)"
+            ],
+            "luxury": [
+              "Windermere Estate (₹10,000+)",
+              "The Tall Trees Munnar (₹12,000+)"
+            ]
+          },
+          "tips": [
+            "Weather can change quickly - carry light jacket",
+            "Tea gardens are best visited early morning",
+            "Roads are winding - drive carefully",
+            "Eravikulam National Park tickets sell out fast - book online",
+            "Carry cash - ATMs are limited in remote areas",
+            "Best time: September to May (avoid monsoon)"
+          ]
         },
         {
           "day": "Day 5 — Thekkady Activities",
@@ -242,9 +1000,50 @@
           "evening": "Cultural show at resort. Traditional Kerala performances.",
           "distanceKm": 20,
           "driveTime": "1h",
-          "mustSee": ["Jungle Walk","Kadathanadan Kalari","Cultural Show"],
-          "optional": ["Elephant Bathing","Bamboo Rafting"],
-          "galleryQueries": ["Thekkady jungle","Kalari","Kerala culture"]
+          "mustSee": [
+            "Jungle Walk",
+            "Kadathanadan Kalari",
+            "Cultural Show"
+          ],
+          "optional": [
+            "Elephant Bathing",
+            "Bamboo Rafting"
+          ],
+          "galleryQueries": [
+            "Thekkady jungle",
+            "Kalari",
+            "Kerala culture"
+          ],
+          "food": {
+            "mustTry": [
+              "Kerala Sadya",
+              "Fish Curry",
+              "Appam with Stew",
+              "Banana Chips"
+            ],
+            "restaurants": [
+              "Local restaurants",
+              "Beach shacks",
+              "Traditional eateries"
+            ]
+          },
+          "hotels": {
+            "budget": [
+              "Budget hotels (₹1,500-3,000)"
+            ],
+            "midRange": [
+              "Mid-range resorts (₹4,000-7,000)"
+            ],
+            "luxury": [
+              "Luxury resorts (₹10,000+)"
+            ]
+          },
+          "tips": [
+            "Carry cash for local purchases",
+            "Respect local customs and dress modestly",
+            "Stay hydrated - Kerala is humid",
+            "Bargain at local markets"
+          ]
         },
         {
           "day": "Day 6 — Return to Kochi",
@@ -254,10 +1053,67 @@
           "evening": "Departure from Kochi airport.",
           "distanceKm": 200,
           "driveTime": "5h 30m",
-          "mustSee": ["Kochi Shopping"],
-          "optional": ["Marine Drive Walk","Lulu Mall"],
-          "galleryQueries": ["Kochi","Kerala shopping"]
+          "mustSee": [
+            "Kochi Shopping"
+          ],
+          "optional": [
+            "Marine Drive Walk",
+            "Lulu Mall"
+          ],
+          "galleryQueries": [
+            "Kochi",
+            "Kerala shopping"
+          ],
+          "food": {
+            "mustTry": [
+              "Kerala Beef Fry",
+              "Appam with Ishtu",
+              "Fish Molee",
+              "Kerala Prawn Curry",
+              "Banana Chips"
+            ],
+            "restaurants": [
+              "Kashi Art Cafe (continental)",
+              "Fort House Restaurant (seafood)",
+              "Kayees Biryani (famous biryani)",
+              "Ginger House (heritage)"
+            ]
+          },
+          "hotels": {
+            "budget": [
+              "Fort Kochi Hotel (₹1,500-2,500)",
+              "Old Lighthouse Bristow (₹2,000-3,500)"
+            ],
+            "midRange": [
+              "Brunton Boatyard (₹5,000-8,000)",
+              "Malabar House (₹6,000-10,000)"
+            ],
+            "luxury": [
+              "Taj Malabar (₹12,000+)",
+              "Grand Hyatt Kochi (₹15,000+)"
+            ]
+          },
+          "tips": [
+            "Fort Kochi is walkable - explore on foot",
+            "Chinese fishing nets are best seen at sunset",
+            "Kathakali shows usually start at 6 PM - book in advance",
+            "Jew Town shops close early (around 6 PM)",
+            "Parking is limited - consider walking or auto-rickshaw",
+            "Many heritage buildings have cafes - great for breaks"
+          ]
         }
+      ],
+      "generalTips": [
+        "Best time to visit: October to March (avoid monsoon June-September)",
+        "Carry light cotton clothes and a light jacket for evenings",
+        "Kerala is cash-heavy - keep sufficient cash",
+        "Book accommodations in advance during peak season",
+        "Try Ayurveda treatments - Kerala is famous for it",
+        "Respect temple customs - remove footwear, dress modestly",
+        "Bargain at local markets and shops",
+        "Carry mosquito repellent and sunscreen",
+        "Learn basic Malayalam phrases - locals appreciate it",
+        "Try local transport - buses and auto-rickshaws are affordable"
       ]
     },
     {
@@ -267,7 +1123,14 @@
       "durationDays": 7,
       "summary": "Extended backwaters journey covering Alleppey, Kumarakom, Kuttanad, and Ashtamudi.",
       "bestTime": "October to March",
-      "route": ["Kochi","Alleppey","Kumarakom","Kuttanad","Ashtamudi","Kollam"],
+      "route": [
+        "Kochi",
+        "Alleppey",
+        "Kumarakom",
+        "Kuttanad",
+        "Ashtamudi",
+        "Kollam"
+      ],
       "days": [
         {
           "day": "Day 1 — Kochi Arrival",
@@ -277,9 +1140,57 @@
           "evening": "Kathakali performance. Dinner at Fort Kochi.",
           "distanceKm": 15,
           "driveTime": "30m",
-          "mustSee": ["Fort Kochi","Chinese Fishing Nets","Mattancherry Palace"],
-          "optional": ["Kathakali Show","Marine Drive"],
-          "galleryQueries": ["Fort Kochi","Chinese fishing nets","Kochi heritage"]
+          "mustSee": [
+            "Fort Kochi",
+            "Chinese Fishing Nets",
+            "Mattancherry Palace"
+          ],
+          "optional": [
+            "Kathakali Show",
+            "Marine Drive"
+          ],
+          "galleryQueries": [
+            "Fort Kochi",
+            "Chinese fishing nets",
+            "Kochi heritage"
+          ],
+          "food": {
+            "mustTry": [
+              "Kerala Beef Fry",
+              "Appam with Ishtu",
+              "Fish Molee",
+              "Kerala Prawn Curry",
+              "Banana Chips"
+            ],
+            "restaurants": [
+              "Kashi Art Cafe (continental)",
+              "Fort House Restaurant (seafood)",
+              "Kayees Biryani (famous biryani)",
+              "Ginger House (heritage)"
+            ]
+          },
+          "hotels": {
+            "budget": [
+              "Fort Kochi Hotel (₹1,500-2,500)",
+              "Old Lighthouse Bristow (₹2,000-3,500)"
+            ],
+            "midRange": [
+              "Brunton Boatyard (₹5,000-8,000)",
+              "Malabar House (₹6,000-10,000)"
+            ],
+            "luxury": [
+              "Taj Malabar (₹12,000+)",
+              "Grand Hyatt Kochi (₹15,000+)"
+            ]
+          },
+          "tips": [
+            "Fort Kochi is walkable - explore on foot",
+            "Chinese fishing nets are best seen at sunset",
+            "Kathakali shows usually start at 6 PM - book in advance",
+            "Jew Town shops close early (around 6 PM)",
+            "Parking is limited - consider walking or auto-rickshaw",
+            "Many heritage buildings have cafes - great for breaks"
+          ]
         },
         {
           "day": "Day 2 — Kochi to Alleppey",
@@ -289,9 +1200,55 @@
           "evening": "Sunset on backwaters. Traditional Kerala dinner on houseboat.",
           "distanceKm": 85,
           "driveTime": "2h 30m",
-          "mustSee": ["Alleppey Backwaters","Houseboat","Canal Cruise"],
-          "optional": ["Vembanad Lake","Village Walk"],
-          "galleryQueries": ["Alleppey houseboat","Backwaters","Vembanad Lake"]
+          "mustSee": [
+            "Alleppey Backwaters",
+            "Houseboat",
+            "Canal Cruise"
+          ],
+          "optional": [
+            "Vembanad Lake",
+            "Village Walk"
+          ],
+          "galleryQueries": [
+            "Alleppey houseboat",
+            "Backwaters",
+            "Vembanad Lake"
+          ],
+          "food": {
+            "mustTry": [
+              "Karimeen Pollichathu",
+              "Kerala Fish Curry",
+              "Toddy (local palm wine)",
+              "Banana Fritters"
+            ],
+            "restaurants": [
+              "Kream Korner (houseboat food)",
+              "Cassia Restaurant (local)",
+              "Thaff Delicacy (traditional)"
+            ]
+          },
+          "hotels": {
+            "budget": [
+              "Alleppey Prince Hotel (₹1,500-2,500)",
+              "Raheem Residency (₹2,000-3,000)"
+            ],
+            "midRange": [
+              "Abad Whispering Palms (₹4,000-6,000)",
+              "Punnamada Resort (₹5,000-8,000)"
+            ],
+            "luxury": [
+              "Lake Palace Resort (₹10,000+)",
+              "Punnamada Backwater Resort (₹12,000+)"
+            ]
+          },
+          "tips": [
+            "Book houseboats in advance, especially during peak season",
+            "Day houseboats are cheaper than overnight stays",
+            "Carry sunscreen and hat - sun is strong on water",
+            "Best time for backwaters: Early morning (6-9 AM) or evening (4-7 PM)",
+            "Bargain for houseboat prices - they're negotiable",
+            "Carry cash for village purchases"
+          ]
         },
         {
           "day": "Day 3 — Alleppey to Kumarakom",
@@ -301,9 +1258,55 @@
           "evening": "Sunset at Vembanad Lake. Stay at lakeside resort.",
           "distanceKm": 15,
           "driveTime": "30m",
-          "mustSee": ["Kumarakom Bird Sanctuary","Vembanad Lake","Canoe Ride"],
-          "optional": ["Pathiramanal Island","Fishing"],
-          "galleryQueries": ["Kumarakom","Bird Sanctuary","Vembanad Lake"]
+          "mustSee": [
+            "Kumarakom Bird Sanctuary",
+            "Vembanad Lake",
+            "Canoe Ride"
+          ],
+          "optional": [
+            "Pathiramanal Island",
+            "Fishing"
+          ],
+          "galleryQueries": [
+            "Kumarakom",
+            "Bird Sanctuary",
+            "Vembanad Lake"
+          ],
+          "food": {
+            "mustTry": [
+              "Karimeen Pollichathu",
+              "Kerala Fish Curry",
+              "Toddy (local palm wine)",
+              "Banana Fritters"
+            ],
+            "restaurants": [
+              "Kream Korner (houseboat food)",
+              "Cassia Restaurant (local)",
+              "Thaff Delicacy (traditional)"
+            ]
+          },
+          "hotels": {
+            "budget": [
+              "Alleppey Prince Hotel (₹1,500-2,500)",
+              "Raheem Residency (₹2,000-3,000)"
+            ],
+            "midRange": [
+              "Abad Whispering Palms (₹4,000-6,000)",
+              "Punnamada Resort (₹5,000-8,000)"
+            ],
+            "luxury": [
+              "Lake Palace Resort (₹10,000+)",
+              "Punnamada Backwater Resort (₹12,000+)"
+            ]
+          },
+          "tips": [
+            "Book houseboats in advance, especially during peak season",
+            "Day houseboats are cheaper than overnight stays",
+            "Carry sunscreen and hat - sun is strong on water",
+            "Best time for backwaters: Early morning (6-9 AM) or evening (4-7 PM)",
+            "Bargain for houseboat prices - they're negotiable",
+            "Carry cash for village purchases"
+          ]
         },
         {
           "day": "Day 4 — Kuttanad Rice Bowl",
@@ -313,9 +1316,50 @@
           "evening": "Sunset cruise through paddy fields. Return to Kumarakom.",
           "distanceKm": 40,
           "driveTime": "1h 30m",
-          "mustSee": ["Kuttanad Rice Fields","Village Tour","Paddy Fields"],
-          "optional": ["Local Home Visit","Traditional Crafts"],
-          "galleryQueries": ["Kuttanad","Rice fields","Kerala villages"]
+          "mustSee": [
+            "Kuttanad Rice Fields",
+            "Village Tour",
+            "Paddy Fields"
+          ],
+          "optional": [
+            "Local Home Visit",
+            "Traditional Crafts"
+          ],
+          "galleryQueries": [
+            "Kuttanad",
+            "Rice fields",
+            "Kerala villages"
+          ],
+          "food": {
+            "mustTry": [
+              "Kerala Sadya",
+              "Fish Curry",
+              "Appam with Stew",
+              "Banana Chips"
+            ],
+            "restaurants": [
+              "Local restaurants",
+              "Beach shacks",
+              "Traditional eateries"
+            ]
+          },
+          "hotels": {
+            "budget": [
+              "Budget hotels (₹1,500-3,000)"
+            ],
+            "midRange": [
+              "Mid-range resorts (₹4,000-7,000)"
+            ],
+            "luxury": [
+              "Luxury resorts (₹10,000+)"
+            ]
+          },
+          "tips": [
+            "Carry cash for local purchases",
+            "Respect local customs and dress modestly",
+            "Stay hydrated - Kerala is humid",
+            "Bargain at local markets"
+          ]
         },
         {
           "day": "Day 5 — Kumarakom to Ashtamudi",
@@ -325,9 +1369,50 @@
           "evening": "Sunset at Ashtamudi. Stay at lakeside resort.",
           "distanceKm": 120,
           "driveTime": "3h 30m",
-          "mustSee": ["Ashtamudi Lake","Munroe Island","Canoe Ride"],
-          "optional": ["Coir Making","Local Villages"],
-          "galleryQueries": ["Ashtamudi Lake","Munroe Island","Kerala backwaters"]
+          "mustSee": [
+            "Ashtamudi Lake",
+            "Munroe Island",
+            "Canoe Ride"
+          ],
+          "optional": [
+            "Coir Making",
+            "Local Villages"
+          ],
+          "galleryQueries": [
+            "Ashtamudi Lake",
+            "Munroe Island",
+            "Kerala backwaters"
+          ],
+          "food": {
+            "mustTry": [
+              "Kerala Sadya",
+              "Fish Curry",
+              "Appam with Stew",
+              "Banana Chips"
+            ],
+            "restaurants": [
+              "Local restaurants",
+              "Beach shacks",
+              "Traditional eateries"
+            ]
+          },
+          "hotels": {
+            "budget": [
+              "Budget hotels (₹1,500-3,000)"
+            ],
+            "midRange": [
+              "Mid-range resorts (₹4,000-7,000)"
+            ],
+            "luxury": [
+              "Luxury resorts (₹10,000+)"
+            ]
+          },
+          "tips": [
+            "Carry cash for local purchases",
+            "Respect local customs and dress modestly",
+            "Stay hydrated - Kerala is humid",
+            "Bargain at local markets"
+          ]
         },
         {
           "day": "Day 6 — Kollam & Beaches",
@@ -337,9 +1422,49 @@
           "evening": "Sunset at Kollam Beach. Seafood dinner.",
           "distanceKm": 30,
           "driveTime": "1h",
-          "mustSee": ["Thangassery Lighthouse","Kollam Beach"],
-          "optional": ["Kollam-Alleppey Cruise","Thirumullavaram Beach"],
-          "galleryQueries": ["Kollam","Thangassery","Kerala beach"]
+          "mustSee": [
+            "Thangassery Lighthouse",
+            "Kollam Beach"
+          ],
+          "optional": [
+            "Kollam-Alleppey Cruise",
+            "Thirumullavaram Beach"
+          ],
+          "galleryQueries": [
+            "Kollam",
+            "Thangassery",
+            "Kerala beach"
+          ],
+          "food": {
+            "mustTry": [
+              "Kerala Sadya",
+              "Fish Curry",
+              "Appam with Stew",
+              "Banana Chips"
+            ],
+            "restaurants": [
+              "Local restaurants",
+              "Beach shacks",
+              "Traditional eateries"
+            ]
+          },
+          "hotels": {
+            "budget": [
+              "Budget hotels (₹1,500-3,000)"
+            ],
+            "midRange": [
+              "Mid-range resorts (₹4,000-7,000)"
+            ],
+            "luxury": [
+              "Luxury resorts (₹10,000+)"
+            ]
+          },
+          "tips": [
+            "Carry cash for local purchases",
+            "Respect local customs and dress modestly",
+            "Stay hydrated - Kerala is humid",
+            "Bargain at local markets"
+          ]
         },
         {
           "day": "Day 7 — Return to Kochi",
@@ -349,10 +1474,68 @@
           "evening": "Departure from Kochi airport.",
           "distanceKm": 150,
           "driveTime": "4h",
-          "mustSee": ["Kochi Marine Drive"],
-          "optional": ["Shopping","Lulu Mall"],
-          "galleryQueries": ["Kochi","Marine Drive","Kerala"]
+          "mustSee": [
+            "Kochi Marine Drive"
+          ],
+          "optional": [
+            "Shopping",
+            "Lulu Mall"
+          ],
+          "galleryQueries": [
+            "Kochi",
+            "Marine Drive",
+            "Kerala"
+          ],
+          "food": {
+            "mustTry": [
+              "Kerala Beef Fry",
+              "Appam with Ishtu",
+              "Fish Molee",
+              "Kerala Prawn Curry",
+              "Banana Chips"
+            ],
+            "restaurants": [
+              "Kashi Art Cafe (continental)",
+              "Fort House Restaurant (seafood)",
+              "Kayees Biryani (famous biryani)",
+              "Ginger House (heritage)"
+            ]
+          },
+          "hotels": {
+            "budget": [
+              "Fort Kochi Hotel (₹1,500-2,500)",
+              "Old Lighthouse Bristow (₹2,000-3,500)"
+            ],
+            "midRange": [
+              "Brunton Boatyard (₹5,000-8,000)",
+              "Malabar House (₹6,000-10,000)"
+            ],
+            "luxury": [
+              "Taj Malabar (₹12,000+)",
+              "Grand Hyatt Kochi (₹15,000+)"
+            ]
+          },
+          "tips": [
+            "Fort Kochi is walkable - explore on foot",
+            "Chinese fishing nets are best seen at sunset",
+            "Kathakali shows usually start at 6 PM - book in advance",
+            "Jew Town shops close early (around 6 PM)",
+            "Parking is limited - consider walking or auto-rickshaw",
+            "Many heritage buildings have cafes - great for breaks"
+          ]
         }
+      ],
+      "generalTips": [
+        "Best time to visit: October to March (avoid monsoon June-September)",
+        "Carry light cotton clothes and a light jacket for evenings",
+        "Kerala is cash-heavy - keep sufficient cash",
+        "Book accommodations in advance during peak season",
+        "Try Ayurveda treatments - Kerala is famous for it",
+        "Respect temple customs - remove footwear, dress modestly",
+        "Bargain at local markets and shops",
+        "Carry mosquito repellent and sunscreen",
+        "Learn basic Malayalam phrases - locals appreciate it",
+        "Try local transport - buses and auto-rickshaws are affordable"
       ]
     },
     {
@@ -362,7 +1545,14 @@
       "durationDays": 8,
       "summary": "Complete hill station tour covering Munnar, Vagamon, Thekkady, and Wayanad.",
       "bestTime": "September to May",
-      "route": ["Kochi","Munnar","Vagamon","Thekkady","Wayanad","Calicut"],
+      "route": [
+        "Kochi",
+        "Munnar",
+        "Vagamon",
+        "Thekkady",
+        "Wayanad",
+        "Calicut"
+      ],
       "days": [
         {
           "day": "Day 1 — Kochi to Munnar",
@@ -372,9 +1562,55 @@
           "evening": "Sunset at Pothamedu Viewpoint.",
           "distanceKm": 130,
           "driveTime": "4h",
-          "mustSee": ["Tea Museum","Pothamedu Viewpoint"],
-          "optional": ["Munnar Town"],
-          "galleryQueries": ["Munnar","Tea gardens","Kerala hills"]
+          "mustSee": [
+            "Tea Museum",
+            "Pothamedu Viewpoint"
+          ],
+          "optional": [
+            "Munnar Town"
+          ],
+          "galleryQueries": [
+            "Munnar",
+            "Tea gardens",
+            "Kerala hills"
+          ],
+          "food": {
+            "mustTry": [
+              "Kerala Beef Fry",
+              "Appam with Ishtu",
+              "Fish Molee",
+              "Kerala Prawn Curry",
+              "Banana Chips"
+            ],
+            "restaurants": [
+              "Kashi Art Cafe (continental)",
+              "Fort House Restaurant (seafood)",
+              "Kayees Biryani (famous biryani)",
+              "Ginger House (heritage)"
+            ]
+          },
+          "hotels": {
+            "budget": [
+              "Fort Kochi Hotel (₹1,500-2,500)",
+              "Old Lighthouse Bristow (₹2,000-3,500)"
+            ],
+            "midRange": [
+              "Brunton Boatyard (₹5,000-8,000)",
+              "Malabar House (₹6,000-10,000)"
+            ],
+            "luxury": [
+              "Taj Malabar (₹12,000+)",
+              "Grand Hyatt Kochi (₹15,000+)"
+            ]
+          },
+          "tips": [
+            "Fort Kochi is walkable - explore on foot",
+            "Chinese fishing nets are best seen at sunset",
+            "Kathakali shows usually start at 6 PM - book in advance",
+            "Jew Town shops close early (around 6 PM)",
+            "Parking is limited - consider walking or auto-rickshaw",
+            "Many heritage buildings have cafes - great for breaks"
+          ]
         },
         {
           "day": "Day 2 — Munnar Exploration",
@@ -384,9 +1620,54 @@
           "evening": "Top Station for panoramic views.",
           "distanceKm": 50,
           "driveTime": "2h",
-          "mustSee": ["Mattupetty Dam","Attukal Waterfalls","Top Station"],
-          "optional": ["Eravikulam National Park"],
-          "galleryQueries": ["Mattupetty","Attukal Falls","Top Station"]
+          "mustSee": [
+            "Mattupetty Dam",
+            "Attukal Waterfalls",
+            "Top Station"
+          ],
+          "optional": [
+            "Eravikulam National Park"
+          ],
+          "galleryQueries": [
+            "Mattupetty",
+            "Attukal Falls",
+            "Top Station"
+          ],
+          "food": {
+            "mustTry": [
+              "Kerala Parotta with Chicken Curry",
+              "Tea Estate Fresh Tea",
+              "Banana Fritters",
+              "Spice-infused dishes"
+            ],
+            "restaurants": [
+              "Saravana Bhavan (vegetarian)",
+              "Rapsy Restaurant (local)",
+              "Tea Valley Restaurant (mountain view)"
+            ]
+          },
+          "hotels": {
+            "budget": [
+              "Munnar Inn (₹1,500-2,500)",
+              "Green View Resort (₹2,000-3,500)"
+            ],
+            "midRange": [
+              "Tea County Resort (₹4,000-6,000)",
+              "Fragrant Nature Munnar (₹5,000-8,000)"
+            ],
+            "luxury": [
+              "Windermere Estate (₹10,000+)",
+              "The Tall Trees Munnar (₹12,000+)"
+            ]
+          },
+          "tips": [
+            "Weather can change quickly - carry light jacket",
+            "Tea gardens are best visited early morning",
+            "Roads are winding - drive carefully",
+            "Eravikulam National Park tickets sell out fast - book online",
+            "Carry cash - ATMs are limited in remote areas",
+            "Best time: September to May (avoid monsoon)"
+          ]
         },
         {
           "day": "Day 3 — Munnar to Vagamon",
@@ -396,9 +1677,54 @@
           "evening": "Sunset at Kurisumala. Peaceful hill views.",
           "distanceKm": 100,
           "driveTime": "3h",
-          "mustSee": ["Vagamon Meadows","Kurisumala"],
-          "optional": ["Paragliding","Pine Valley"],
-          "galleryQueries": ["Vagamon","Meadows","Kerala adventure"]
+          "mustSee": [
+            "Vagamon Meadows",
+            "Kurisumala"
+          ],
+          "optional": [
+            "Paragliding",
+            "Pine Valley"
+          ],
+          "galleryQueries": [
+            "Vagamon",
+            "Meadows",
+            "Kerala adventure"
+          ],
+          "food": {
+            "mustTry": [
+              "Kerala Parotta with Chicken Curry",
+              "Tea Estate Fresh Tea",
+              "Banana Fritters",
+              "Spice-infused dishes"
+            ],
+            "restaurants": [
+              "Saravana Bhavan (vegetarian)",
+              "Rapsy Restaurant (local)",
+              "Tea Valley Restaurant (mountain view)"
+            ]
+          },
+          "hotels": {
+            "budget": [
+              "Munnar Inn (₹1,500-2,500)",
+              "Green View Resort (₹2,000-3,500)"
+            ],
+            "midRange": [
+              "Tea County Resort (₹4,000-6,000)",
+              "Fragrant Nature Munnar (₹5,000-8,000)"
+            ],
+            "luxury": [
+              "Windermere Estate (₹10,000+)",
+              "The Tall Trees Munnar (₹12,000+)"
+            ]
+          },
+          "tips": [
+            "Weather can change quickly - carry light jacket",
+            "Tea gardens are best visited early morning",
+            "Roads are winding - drive carefully",
+            "Eravikulam National Park tickets sell out fast - book online",
+            "Carry cash - ATMs are limited in remote areas",
+            "Best time: September to May (avoid monsoon)"
+          ]
         },
         {
           "day": "Day 4 — Vagamon to Thekkady",
@@ -408,9 +1734,48 @@
           "evening": "Spice plantation tour.",
           "distanceKm": 120,
           "driveTime": "3h 30m",
-          "mustSee": ["Periyar Wildlife Sanctuary","Periyar Lake"],
-          "optional": ["Jungle Walk"],
-          "galleryQueries": ["Periyar","Thekkady","Wildlife"]
+          "mustSee": [
+            "Periyar Wildlife Sanctuary",
+            "Periyar Lake"
+          ],
+          "optional": [
+            "Jungle Walk"
+          ],
+          "galleryQueries": [
+            "Periyar",
+            "Thekkady",
+            "Wildlife"
+          ],
+          "food": {
+            "mustTry": [
+              "Kerala Sadya",
+              "Fish Curry",
+              "Appam with Stew",
+              "Banana Chips"
+            ],
+            "restaurants": [
+              "Local restaurants",
+              "Beach shacks",
+              "Traditional eateries"
+            ]
+          },
+          "hotels": {
+            "budget": [
+              "Budget hotels (₹1,500-3,000)"
+            ],
+            "midRange": [
+              "Mid-range resorts (₹4,000-7,000)"
+            ],
+            "luxury": [
+              "Luxury resorts (₹10,000+)"
+            ]
+          },
+          "tips": [
+            "Carry cash for local purchases",
+            "Respect local customs and dress modestly",
+            "Stay hydrated - Kerala is humid",
+            "Bargain at local markets"
+          ]
         },
         {
           "day": "Day 5 — Thekkady Activities",
@@ -420,9 +1785,49 @@
           "evening": "Cultural show at resort.",
           "distanceKm": 20,
           "driveTime": "1h",
-          "mustSee": ["Jungle Walk","Kalari","Cultural Show"],
-          "optional": ["Elephant Ride"],
-          "galleryQueries": ["Thekkady","Kalari","Kerala culture"]
+          "mustSee": [
+            "Jungle Walk",
+            "Kalari",
+            "Cultural Show"
+          ],
+          "optional": [
+            "Elephant Ride"
+          ],
+          "galleryQueries": [
+            "Thekkady",
+            "Kalari",
+            "Kerala culture"
+          ],
+          "food": {
+            "mustTry": [
+              "Kerala Sadya",
+              "Fish Curry",
+              "Appam with Stew",
+              "Banana Chips"
+            ],
+            "restaurants": [
+              "Local restaurants",
+              "Beach shacks",
+              "Traditional eateries"
+            ]
+          },
+          "hotels": {
+            "budget": [
+              "Budget hotels (₹1,500-3,000)"
+            ],
+            "midRange": [
+              "Mid-range resorts (₹4,000-7,000)"
+            ],
+            "luxury": [
+              "Luxury resorts (₹10,000+)"
+            ]
+          },
+          "tips": [
+            "Carry cash for local purchases",
+            "Respect local customs and dress modestly",
+            "Stay hydrated - Kerala is humid",
+            "Bargain at local markets"
+          ]
         },
         {
           "day": "Day 6 — Thekkady to Wayanad",
@@ -432,9 +1837,46 @@
           "evening": "Relax at resort. Local cuisine.",
           "distanceKm": 150,
           "driveTime": "4h 30m",
-          "mustSee": ["Pookode Lake"],
-          "optional": ["Wayanad Wildlife Sanctuary"],
-          "galleryQueries": ["Wayanad","Pookode Lake"]
+          "mustSee": [
+            "Pookode Lake"
+          ],
+          "optional": [
+            "Wayanad Wildlife Sanctuary"
+          ],
+          "galleryQueries": [
+            "Wayanad",
+            "Pookode Lake"
+          ],
+          "food": {
+            "mustTry": [
+              "Kerala Sadya",
+              "Fish Curry",
+              "Appam with Stew",
+              "Banana Chips"
+            ],
+            "restaurants": [
+              "Local restaurants",
+              "Beach shacks",
+              "Traditional eateries"
+            ]
+          },
+          "hotels": {
+            "budget": [
+              "Budget hotels (₹1,500-3,000)"
+            ],
+            "midRange": [
+              "Mid-range resorts (₹4,000-7,000)"
+            ],
+            "luxury": [
+              "Luxury resorts (₹10,000+)"
+            ]
+          },
+          "tips": [
+            "Carry cash for local purchases",
+            "Respect local customs and dress modestly",
+            "Stay hydrated - Kerala is humid",
+            "Bargain at local markets"
+          ]
         },
         {
           "day": "Day 7 — Wayanad Exploration",
@@ -444,9 +1886,49 @@
           "evening": "Visit Banasura Sagar Dam. Sunset views.",
           "distanceKm": 80,
           "driveTime": "3h",
-          "mustSee": ["Edakkal Caves","Soochipara Falls","Banasura Sagar"],
-          "optional": ["Chembra Peak"],
-          "galleryQueries": ["Edakkal Caves","Soochipara","Banasura"]
+          "mustSee": [
+            "Edakkal Caves",
+            "Soochipara Falls",
+            "Banasura Sagar"
+          ],
+          "optional": [
+            "Chembra Peak"
+          ],
+          "galleryQueries": [
+            "Edakkal Caves",
+            "Soochipara",
+            "Banasura"
+          ],
+          "food": {
+            "mustTry": [
+              "Kerala Sadya",
+              "Fish Curry",
+              "Appam with Stew",
+              "Banana Chips"
+            ],
+            "restaurants": [
+              "Local restaurants",
+              "Beach shacks",
+              "Traditional eateries"
+            ]
+          },
+          "hotels": {
+            "budget": [
+              "Budget hotels (₹1,500-3,000)"
+            ],
+            "midRange": [
+              "Mid-range resorts (₹4,000-7,000)"
+            ],
+            "luxury": [
+              "Luxury resorts (₹10,000+)"
+            ]
+          },
+          "tips": [
+            "Carry cash for local purchases",
+            "Respect local customs and dress modestly",
+            "Stay hydrated - Kerala is humid",
+            "Bargain at local markets"
+          ]
         },
         {
           "day": "Day 8 — Wayanad to Calicut",
@@ -456,10 +1938,59 @@
           "evening": "Departure from Calicut airport.",
           "distanceKm": 110,
           "driveTime": "3h 30m",
-          "mustSee": ["Calicut Beach"],
-          "optional": ["Kozhikode Market"],
-          "galleryQueries": ["Calicut","Kozhikode"]
+          "mustSee": [
+            "Calicut Beach"
+          ],
+          "optional": [
+            "Kozhikode Market"
+          ],
+          "galleryQueries": [
+            "Calicut",
+            "Kozhikode"
+          ],
+          "food": {
+            "mustTry": [
+              "Kerala Sadya",
+              "Fish Curry",
+              "Appam with Stew",
+              "Banana Chips"
+            ],
+            "restaurants": [
+              "Local restaurants",
+              "Beach shacks",
+              "Traditional eateries"
+            ]
+          },
+          "hotels": {
+            "budget": [
+              "Budget hotels (₹1,500-3,000)"
+            ],
+            "midRange": [
+              "Mid-range resorts (₹4,000-7,000)"
+            ],
+            "luxury": [
+              "Luxury resorts (₹10,000+)"
+            ]
+          },
+          "tips": [
+            "Carry cash for local purchases",
+            "Respect local customs and dress modestly",
+            "Stay hydrated - Kerala is humid",
+            "Bargain at local markets"
+          ]
         }
+      ],
+      "generalTips": [
+        "Best time to visit: October to March (avoid monsoon June-September)",
+        "Carry light cotton clothes and a light jacket for evenings",
+        "Kerala is cash-heavy - keep sufficient cash",
+        "Book accommodations in advance during peak season",
+        "Try Ayurveda treatments - Kerala is famous for it",
+        "Respect temple customs - remove footwear, dress modestly",
+        "Bargain at local markets and shops",
+        "Carry mosquito repellent and sunscreen",
+        "Learn basic Malayalam phrases - locals appreciate it",
+        "Try local transport - buses and auto-rickshaws are affordable"
       ]
     },
     {
@@ -469,7 +2000,17 @@
       "durationDays": 10,
       "summary": "Comprehensive Kerala tour covering beaches, backwaters, hills, wildlife, and culture - the ultimate Kerala experience.",
       "bestTime": "October to March",
-      "route": ["Trivandrum","Varkala","Alleppey","Kumarakom","Kochi","Munnar","Thekkady","Wayanad","Calicut"],
+      "route": [
+        "Trivandrum",
+        "Varkala",
+        "Alleppey",
+        "Kumarakom",
+        "Kochi",
+        "Munnar",
+        "Thekkady",
+        "Wayanad",
+        "Calicut"
+      ],
       "days": [
         {
           "day": "Day 1 — Trivandrum Arrival",
@@ -479,9 +2020,54 @@
           "evening": "Sunset at Hawa Beach. Try local seafood. Stroll the promenade.",
           "distanceKm": 20,
           "driveTime": "45m",
-          "mustSee": ["Padmanabhaswamy Temple","Kovalam Lighthouse Beach","Hawa Beach"],
-          "optional": ["Shangumugham Beach","Vizhinjam Harbor"],
-          "galleryQueries": ["Trivandrum","Padmanabhaswamy Temple","Kovalam Beach"]
+          "mustSee": [
+            "Padmanabhaswamy Temple",
+            "Kovalam Lighthouse Beach",
+            "Hawa Beach"
+          ],
+          "optional": [
+            "Shangumugham Beach",
+            "Vizhinjam Harbor"
+          ],
+          "galleryQueries": [
+            "Trivandrum",
+            "Padmanabhaswamy Temple",
+            "Kovalam Beach"
+          ],
+          "food": {
+            "mustTry": [
+              "Kerala Sadya (traditional feast)",
+              "Karimeen Pollichathu (pearl spot fish)",
+              "Appam with Stew",
+              "Puttu and Kadala"
+            ],
+            "restaurants": [
+              "Azad Restaurant (traditional)",
+              "Kovalam Beach Restaurant (seafood)",
+              "Hotel Saravana Bhavan (vegetarian)"
+            ]
+          },
+          "hotels": {
+            "budget": [
+              "Hotel Pankaj (₹1,500-2,500)",
+              "Kovalam Beach Resort (₹2,000-3,500)"
+            ],
+            "midRange": [
+              "The Leela Kovalam (₹5,000-8,000)",
+              "Taj Green Cove (₹6,000-10,000)"
+            ],
+            "luxury": [
+              "Niraamaya Retreats (₹12,000+)",
+              "The Raviz Kovalam (₹15,000+)"
+            ]
+          },
+          "tips": [
+            "Dress modestly for temple visits (cover shoulders and knees)",
+            "Carry cash - many beach shacks don't accept cards",
+            "Best time for beach: Early morning or late evening to avoid crowds",
+            "Bargain at local shops - prices are negotiable",
+            "Try fresh coconut water from beach vendors"
+          ]
         },
         {
           "day": "Day 2 — Varkala Cliffs",
@@ -491,9 +2077,55 @@
           "evening": "Sunset on the cliff trail. Dinner at a slow cafe overlooking the sea.",
           "distanceKm": 60,
           "driveTime": "1h 30m",
-          "mustSee": ["Varkala Cliff","Varkala Beach","Cliff Walk"],
-          "optional": ["Anjengo Fort","Kappil Beach","Ayurveda Massage"],
-          "galleryQueries": ["Varkala","Varkala Cliff","Kappil Beach"]
+          "mustSee": [
+            "Varkala Cliff",
+            "Varkala Beach",
+            "Cliff Walk"
+          ],
+          "optional": [
+            "Anjengo Fort",
+            "Kappil Beach",
+            "Ayurveda Massage"
+          ],
+          "galleryQueries": [
+            "Varkala",
+            "Varkala Cliff",
+            "Kappil Beach"
+          ],
+          "food": {
+            "mustTry": [
+              "Kerala Parotta with Curry",
+              "Fish Curry and Rice",
+              "Banana Chips",
+              "Fresh Fruit Juices"
+            ],
+            "restaurants": [
+              "Clafouti Beach Cafe (cliff view)",
+              "Darjeeling Cafe (continental)",
+              "Oottupura (local)"
+            ]
+          },
+          "hotels": {
+            "budget": [
+              "Varkala Cliff House (₹1,200-2,000)",
+              "Palm Tree Heritage (₹1,500-2,500)"
+            ],
+            "midRange": [
+              "Villa Jacaranda (₹3,500-5,000)",
+              "Taj Gateway (₹4,000-7,000)"
+            ],
+            "luxury": [
+              "The Gateway Hotel (₹8,000+)",
+              "Villa Jacaranda Premium (₹10,000+)"
+            ]
+          },
+          "tips": [
+            "Cliff walk is best at sunrise or sunset",
+            "Be careful on cliff edges - they can be slippery",
+            "Ayurveda massages are cheaper here than in cities",
+            "Many cafes have cliff views - book ahead for sunset",
+            "Carry mosquito repellent for evenings"
+          ]
         },
         {
           "day": "Day 3 — Alleppey Backwaters",
@@ -503,9 +2135,56 @@
           "evening": "Golden hour on canals. Dock and unwind. Stay overnight on houseboat.",
           "distanceKm": 110,
           "driveTime": "3h",
-          "mustSee": ["Alleppey Backwaters","Houseboat Ride","Canal Cruise"],
-          "optional": ["Kumarakom Bird Sanctuary","Village Walk"],
-          "galleryQueries": ["Alleppey","Houseboat","Backwaters","Kumarakom"]
+          "mustSee": [
+            "Alleppey Backwaters",
+            "Houseboat Ride",
+            "Canal Cruise"
+          ],
+          "optional": [
+            "Kumarakom Bird Sanctuary",
+            "Village Walk"
+          ],
+          "galleryQueries": [
+            "Alleppey",
+            "Houseboat",
+            "Backwaters",
+            "Kumarakom"
+          ],
+          "food": {
+            "mustTry": [
+              "Karimeen Pollichathu",
+              "Kerala Fish Curry",
+              "Toddy (local palm wine)",
+              "Banana Fritters"
+            ],
+            "restaurants": [
+              "Kream Korner (houseboat food)",
+              "Cassia Restaurant (local)",
+              "Thaff Delicacy (traditional)"
+            ]
+          },
+          "hotels": {
+            "budget": [
+              "Alleppey Prince Hotel (₹1,500-2,500)",
+              "Raheem Residency (₹2,000-3,000)"
+            ],
+            "midRange": [
+              "Abad Whispering Palms (₹4,000-6,000)",
+              "Punnamada Resort (₹5,000-8,000)"
+            ],
+            "luxury": [
+              "Lake Palace Resort (₹10,000+)",
+              "Punnamada Backwater Resort (₹12,000+)"
+            ]
+          },
+          "tips": [
+            "Book houseboats in advance, especially during peak season",
+            "Day houseboats are cheaper than overnight stays",
+            "Carry sunscreen and hat - sun is strong on water",
+            "Best time for backwaters: Early morning (6-9 AM) or evening (4-7 PM)",
+            "Bargain for houseboat prices - they're negotiable",
+            "Carry cash for village purchases"
+          ]
         },
         {
           "day": "Day 4 — Kumarakom & Kuttanad",
@@ -515,9 +2194,51 @@
           "evening": "Explore Kuttanad rice fields. Sunset at Vembanad Lake.",
           "distanceKm": 30,
           "driveTime": "1h",
-          "mustSee": ["Kumarakom Bird Sanctuary","Vembanad Lake","Kuttanad Rice Fields"],
-          "optional": ["Pathiramanal Island","Village Tour"],
-          "galleryQueries": ["Kumarakom","Bird Sanctuary","Kuttanad","Vembanad Lake"]
+          "mustSee": [
+            "Kumarakom Bird Sanctuary",
+            "Vembanad Lake",
+            "Kuttanad Rice Fields"
+          ],
+          "optional": [
+            "Pathiramanal Island",
+            "Village Tour"
+          ],
+          "galleryQueries": [
+            "Kumarakom",
+            "Bird Sanctuary",
+            "Kuttanad",
+            "Vembanad Lake"
+          ],
+          "food": {
+            "mustTry": [
+              "Kerala Sadya",
+              "Fish Curry",
+              "Appam with Stew",
+              "Banana Chips"
+            ],
+            "restaurants": [
+              "Local restaurants",
+              "Beach shacks",
+              "Traditional eateries"
+            ]
+          },
+          "hotels": {
+            "budget": [
+              "Budget hotels (₹1,500-3,000)"
+            ],
+            "midRange": [
+              "Mid-range resorts (₹4,000-7,000)"
+            ],
+            "luxury": [
+              "Luxury resorts (₹10,000+)"
+            ]
+          },
+          "tips": [
+            "Carry cash for local purchases",
+            "Respect local customs and dress modestly",
+            "Stay hydrated - Kerala is humid",
+            "Bargain at local markets"
+          ]
         },
         {
           "day": "Day 5 — Kochi Heritage",
@@ -527,9 +2248,60 @@
           "evening": "Kathakali performance. Dinner at Fort Kochi. Explore local markets.",
           "distanceKm": 85,
           "driveTime": "2h 30m",
-          "mustSee": ["Fort Kochi","Chinese Fishing Nets","Mattancherry Palace","Jew Town"],
-          "optional": ["Kathakali Show","St. Francis Church","Marine Drive"],
-          "galleryQueries": ["Fort Kochi","Chinese fishing nets","Mattancherry","Jew Town"]
+          "mustSee": [
+            "Fort Kochi",
+            "Chinese Fishing Nets",
+            "Mattancherry Palace",
+            "Jew Town"
+          ],
+          "optional": [
+            "Kathakali Show",
+            "St. Francis Church",
+            "Marine Drive"
+          ],
+          "galleryQueries": [
+            "Fort Kochi",
+            "Chinese fishing nets",
+            "Mattancherry",
+            "Jew Town"
+          ],
+          "food": {
+            "mustTry": [
+              "Kerala Beef Fry",
+              "Appam with Ishtu",
+              "Fish Molee",
+              "Kerala Prawn Curry",
+              "Banana Chips"
+            ],
+            "restaurants": [
+              "Kashi Art Cafe (continental)",
+              "Fort House Restaurant (seafood)",
+              "Kayees Biryani (famous biryani)",
+              "Ginger House (heritage)"
+            ]
+          },
+          "hotels": {
+            "budget": [
+              "Fort Kochi Hotel (₹1,500-2,500)",
+              "Old Lighthouse Bristow (₹2,000-3,500)"
+            ],
+            "midRange": [
+              "Brunton Boatyard (₹5,000-8,000)",
+              "Malabar House (₹6,000-10,000)"
+            ],
+            "luxury": [
+              "Taj Malabar (₹12,000+)",
+              "Grand Hyatt Kochi (₹15,000+)"
+            ]
+          },
+          "tips": [
+            "Fort Kochi is walkable - explore on foot",
+            "Chinese fishing nets are best seen at sunset",
+            "Kathakali shows usually start at 6 PM - book in advance",
+            "Jew Town shops close early (around 6 PM)",
+            "Parking is limited - consider walking or auto-rickshaw",
+            "Many heritage buildings have cafes - great for breaks"
+          ]
         },
         {
           "day": "Day 6 — Kochi to Munnar",
@@ -539,9 +2311,57 @@
           "evening": "Sunset at Pothamedu Viewpoint. Mountain views and tea gardens.",
           "distanceKm": 130,
           "driveTime": "4h",
-          "mustSee": ["Tea Museum","Pothamedu Viewpoint","Tea Gardens"],
-          "optional": ["Munnar Town Walk"],
-          "galleryQueries": ["Munnar","Tea gardens","Pothamedu","Kerala hills"]
+          "mustSee": [
+            "Tea Museum",
+            "Pothamedu Viewpoint",
+            "Tea Gardens"
+          ],
+          "optional": [
+            "Munnar Town Walk"
+          ],
+          "galleryQueries": [
+            "Munnar",
+            "Tea gardens",
+            "Pothamedu",
+            "Kerala hills"
+          ],
+          "food": {
+            "mustTry": [
+              "Kerala Beef Fry",
+              "Appam with Ishtu",
+              "Fish Molee",
+              "Kerala Prawn Curry",
+              "Banana Chips"
+            ],
+            "restaurants": [
+              "Kashi Art Cafe (continental)",
+              "Fort House Restaurant (seafood)",
+              "Kayees Biryani (famous biryani)",
+              "Ginger House (heritage)"
+            ]
+          },
+          "hotels": {
+            "budget": [
+              "Fort Kochi Hotel (₹1,500-2,500)",
+              "Old Lighthouse Bristow (₹2,000-3,500)"
+            ],
+            "midRange": [
+              "Brunton Boatyard (₹5,000-8,000)",
+              "Malabar House (₹6,000-10,000)"
+            ],
+            "luxury": [
+              "Taj Malabar (₹12,000+)",
+              "Grand Hyatt Kochi (₹15,000+)"
+            ]
+          },
+          "tips": [
+            "Fort Kochi is walkable - explore on foot",
+            "Chinese fishing nets are best seen at sunset",
+            "Kathakali shows usually start at 6 PM - book in advance",
+            "Jew Town shops close early (around 6 PM)",
+            "Parking is limited - consider walking or auto-rickshaw",
+            "Many heritage buildings have cafes - great for breaks"
+          ]
         },
         {
           "day": "Day 7 — Munnar Exploration",
@@ -551,9 +2371,58 @@
           "evening": "Visit Top Station for panoramic views. Eravikulam National Park (if time permits).",
           "distanceKm": 50,
           "driveTime": "2h",
-          "mustSee": ["Mattupetty Dam","Echo Point","Attukal Waterfalls","Top Station"],
-          "optional": ["Eravikulam National Park","Kundala Lake","Lockhart Gap"],
-          "galleryQueries": ["Mattupetty Dam","Attukal Waterfalls","Top Station","Eravikulam"]
+          "mustSee": [
+            "Mattupetty Dam",
+            "Echo Point",
+            "Attukal Waterfalls",
+            "Top Station"
+          ],
+          "optional": [
+            "Eravikulam National Park",
+            "Kundala Lake",
+            "Lockhart Gap"
+          ],
+          "galleryQueries": [
+            "Mattupetty Dam",
+            "Attukal Waterfalls",
+            "Top Station",
+            "Eravikulam"
+          ],
+          "food": {
+            "mustTry": [
+              "Kerala Parotta with Chicken Curry",
+              "Tea Estate Fresh Tea",
+              "Banana Fritters",
+              "Spice-infused dishes"
+            ],
+            "restaurants": [
+              "Saravana Bhavan (vegetarian)",
+              "Rapsy Restaurant (local)",
+              "Tea Valley Restaurant (mountain view)"
+            ]
+          },
+          "hotels": {
+            "budget": [
+              "Munnar Inn (₹1,500-2,500)",
+              "Green View Resort (₹2,000-3,500)"
+            ],
+            "midRange": [
+              "Tea County Resort (₹4,000-6,000)",
+              "Fragrant Nature Munnar (₹5,000-8,000)"
+            ],
+            "luxury": [
+              "Windermere Estate (₹10,000+)",
+              "The Tall Trees Munnar (₹12,000+)"
+            ]
+          },
+          "tips": [
+            "Weather can change quickly - carry light jacket",
+            "Tea gardens are best visited early morning",
+            "Roads are winding - drive carefully",
+            "Eravikulam National Park tickets sell out fast - book online",
+            "Carry cash - ATMs are limited in remote areas",
+            "Best time: September to May (avoid monsoon)"
+          ]
         },
         {
           "day": "Day 8 — Munnar to Thekkady",
@@ -563,9 +2432,57 @@
           "evening": "Spice plantation tour. Learn about cardamom, pepper, and vanilla.",
           "distanceKm": 150,
           "driveTime": "4h 30m",
-          "mustSee": ["Periyar Wildlife Sanctuary","Periyar Lake","Spice Plantations"],
-          "optional": ["Elephant Ride","Jungle Trek","Bird Watching"],
-          "galleryQueries": ["Periyar Wildlife Sanctuary","Periyar Lake","Thekkady","Spice Plantations"]
+          "mustSee": [
+            "Periyar Wildlife Sanctuary",
+            "Periyar Lake",
+            "Spice Plantations"
+          ],
+          "optional": [
+            "Elephant Ride",
+            "Jungle Trek",
+            "Bird Watching"
+          ],
+          "galleryQueries": [
+            "Periyar Wildlife Sanctuary",
+            "Periyar Lake",
+            "Thekkady",
+            "Spice Plantations"
+          ],
+          "food": {
+            "mustTry": [
+              "Kerala Parotta with Chicken Curry",
+              "Tea Estate Fresh Tea",
+              "Banana Fritters",
+              "Spice-infused dishes"
+            ],
+            "restaurants": [
+              "Saravana Bhavan (vegetarian)",
+              "Rapsy Restaurant (local)",
+              "Tea Valley Restaurant (mountain view)"
+            ]
+          },
+          "hotels": {
+            "budget": [
+              "Munnar Inn (₹1,500-2,500)",
+              "Green View Resort (₹2,000-3,500)"
+            ],
+            "midRange": [
+              "Tea County Resort (₹4,000-6,000)",
+              "Fragrant Nature Munnar (₹5,000-8,000)"
+            ],
+            "luxury": [
+              "Windermere Estate (₹10,000+)",
+              "The Tall Trees Munnar (₹12,000+)"
+            ]
+          },
+          "tips": [
+            "Weather can change quickly - carry light jacket",
+            "Tea gardens are best visited early morning",
+            "Roads are winding - drive carefully",
+            "Eravikulam National Park tickets sell out fast - book online",
+            "Carry cash - ATMs are limited in remote areas",
+            "Best time: September to May (avoid monsoon)"
+          ]
         },
         {
           "day": "Day 9 — Thekkady to Wayanad",
@@ -575,9 +2492,49 @@
           "evening": "Visit Edakkal Caves (if time permits). Relax at resort.",
           "distanceKm": 150,
           "driveTime": "4h 30m",
-          "mustSee": ["Jungle Walk","Pookode Lake"],
-          "optional": ["Edakkal Caves","Wayanad Wildlife Sanctuary"],
-          "galleryQueries": ["Thekkady jungle","Wayanad","Pookode Lake"]
+          "mustSee": [
+            "Jungle Walk",
+            "Pookode Lake"
+          ],
+          "optional": [
+            "Edakkal Caves",
+            "Wayanad Wildlife Sanctuary"
+          ],
+          "galleryQueries": [
+            "Thekkady jungle",
+            "Wayanad",
+            "Pookode Lake"
+          ],
+          "food": {
+            "mustTry": [
+              "Kerala Sadya",
+              "Fish Curry",
+              "Appam with Stew",
+              "Banana Chips"
+            ],
+            "restaurants": [
+              "Local restaurants",
+              "Beach shacks",
+              "Traditional eateries"
+            ]
+          },
+          "hotels": {
+            "budget": [
+              "Budget hotels (₹1,500-3,000)"
+            ],
+            "midRange": [
+              "Mid-range resorts (₹4,000-7,000)"
+            ],
+            "luxury": [
+              "Luxury resorts (₹10,000+)"
+            ]
+          },
+          "tips": [
+            "Carry cash for local purchases",
+            "Respect local customs and dress modestly",
+            "Stay hydrated - Kerala is humid",
+            "Bargain at local markets"
+          ]
         },
         {
           "day": "Day 10 — Wayanad & Departure",
@@ -587,10 +2544,64 @@
           "evening": "Arrive Calicut. Departure from Calicut airport with memories of complete Kerala.",
           "distanceKm": 110,
           "driveTime": "3h 30m",
-          "mustSee": ["Edakkal Caves","Soochipara Falls","Banasura Sagar Dam"],
-          "optional": ["Chembra Peak","Calicut Beach"],
-          "galleryQueries": ["Edakkal Caves","Soochipara Falls","Banasura Sagar","Kerala complete"]
+          "mustSee": [
+            "Edakkal Caves",
+            "Soochipara Falls",
+            "Banasura Sagar Dam"
+          ],
+          "optional": [
+            "Chembra Peak",
+            "Calicut Beach"
+          ],
+          "galleryQueries": [
+            "Edakkal Caves",
+            "Soochipara Falls",
+            "Banasura Sagar",
+            "Kerala complete"
+          ],
+          "food": {
+            "mustTry": [
+              "Kerala Sadya",
+              "Fish Curry",
+              "Appam with Stew",
+              "Banana Chips"
+            ],
+            "restaurants": [
+              "Local restaurants",
+              "Beach shacks",
+              "Traditional eateries"
+            ]
+          },
+          "hotels": {
+            "budget": [
+              "Budget hotels (₹1,500-3,000)"
+            ],
+            "midRange": [
+              "Mid-range resorts (₹4,000-7,000)"
+            ],
+            "luxury": [
+              "Luxury resorts (₹10,000+)"
+            ]
+          },
+          "tips": [
+            "Carry cash for local purchases",
+            "Respect local customs and dress modestly",
+            "Stay hydrated - Kerala is humid",
+            "Bargain at local markets"
+          ]
         }
+      ],
+      "generalTips": [
+        "Best time to visit: October to March (avoid monsoon June-September)",
+        "Carry light cotton clothes and a light jacket for evenings",
+        "Kerala is cash-heavy - keep sufficient cash",
+        "Book accommodations in advance during peak season",
+        "Try Ayurveda treatments - Kerala is famous for it",
+        "Respect temple customs - remove footwear, dress modestly",
+        "Bargain at local markets and shops",
+        "Carry mosquito repellent and sunscreen",
+        "Learn basic Malayalam phrases - locals appreciate it",
+        "Try local transport - buses and auto-rickshaws are affordable"
       ]
     },
     {
@@ -600,7 +2611,13 @@
       "durationDays": 7,
       "summary": "Heritage circuit covering forts, palaces, and desert landscapes with slow exploration.",
       "bestTime": "October to March",
-      "route": ["Jaipur","Pushkar","Udaipur","Jodhpur","Jaisalmer"],
+      "route": [
+        "Jaipur",
+        "Pushkar",
+        "Udaipur",
+        "Jodhpur",
+        "Jaisalmer"
+      ],
       "days": [
         {
           "day": "Day 1 — Jaipur: Pink City Wonders",
@@ -610,9 +2627,21 @@
           "evening": "Stroll through Bapu Bazaar. Dinner at rooftop with city views.",
           "distanceKm": 15,
           "driveTime": "30m",
-          "mustSee": ["Hawa Mahal","City Palace","Jantar Mantar"],
-          "optional": ["Albert Hall Museum","Nahargarh Fort"],
-          "galleryQueries": ["Jaipur","Hawa Mahal","City Palace","Jantar Mantar"]
+          "mustSee": [
+            "Hawa Mahal",
+            "City Palace",
+            "Jantar Mantar"
+          ],
+          "optional": [
+            "Albert Hall Museum",
+            "Nahargarh Fort"
+          ],
+          "galleryQueries": [
+            "Jaipur",
+            "Hawa Mahal",
+            "City Palace",
+            "Jantar Mantar"
+          ]
         },
         {
           "day": "Day 2 — Amber Fort & Pushkar Drive",
@@ -622,9 +2651,21 @@
           "evening": "Sunset at Pushkar Lake. Explore ghats and temples.",
           "distanceKm": 150,
           "driveTime": "3h",
-          "mustSee": ["Amber Fort","Pushkar Lake","Brahma Temple"],
-          "optional": ["Jaigarh Fort","Panna Meena Ka Kund"],
-          "galleryQueries": ["Amber Fort","Pushkar","Pushkar Lake","Brahma Temple"]
+          "mustSee": [
+            "Amber Fort",
+            "Pushkar Lake",
+            "Brahma Temple"
+          ],
+          "optional": [
+            "Jaigarh Fort",
+            "Panna Meena Ka Kund"
+          ],
+          "galleryQueries": [
+            "Amber Fort",
+            "Pushkar",
+            "Pushkar Lake",
+            "Brahma Temple"
+          ]
         },
         {
           "day": "Day 3 — Pushkar & Udaipur Drive",
@@ -634,9 +2675,20 @@
           "evening": "Arrive Udaipur. Evening walk at Lake Pichola.",
           "distanceKm": 280,
           "driveTime": "5h 30m",
-          "mustSee": ["Pushkar Ghats","Lake Pichola"],
-          "optional": ["Savitri Temple","Camel Fair Grounds"],
-          "galleryQueries": ["Pushkar ghats","Udaipur","Lake Pichola","Aravalli hills"]
+          "mustSee": [
+            "Pushkar Ghats",
+            "Lake Pichola"
+          ],
+          "optional": [
+            "Savitri Temple",
+            "Camel Fair Grounds"
+          ],
+          "galleryQueries": [
+            "Pushkar ghats",
+            "Udaipur",
+            "Lake Pichola",
+            "Aravalli hills"
+          ]
         },
         {
           "day": "Day 4 — Udaipur: City of Lakes",
@@ -646,9 +2698,20 @@
           "evening": "Sunset from Gangaur Ghat. Explore old city lanes.",
           "distanceKm": 10,
           "driveTime": "20m",
-          "mustSee": ["City Palace Udaipur","Jag Mandir","Gangaur Ghat"],
-          "optional": ["Saheliyon Ki Bari","Bagore Ki Haveli"],
-          "galleryQueries": ["Udaipur City Palace","Jag Mandir","Lake Pichola sunset"]
+          "mustSee": [
+            "City Palace Udaipur",
+            "Jag Mandir",
+            "Gangaur Ghat"
+          ],
+          "optional": [
+            "Saheliyon Ki Bari",
+            "Bagore Ki Haveli"
+          ],
+          "galleryQueries": [
+            "Udaipur City Palace",
+            "Jag Mandir",
+            "Lake Pichola sunset"
+          ]
         },
         {
           "day": "Day 5 — Jodhpur: Blue City",
@@ -658,9 +2721,20 @@
           "evening": "Walk through blue city lanes. Clock Tower market visit.",
           "distanceKm": 250,
           "driveTime": "5h",
-          "mustSee": ["Mehrangarh Fort","Blue City Streets","Clock Tower"],
-          "optional": ["Jaswant Thada","Umaid Bhawan Palace"],
-          "galleryQueries": ["Mehrangarh Fort","Jodhpur Blue City","Clock Tower Jodhpur"]
+          "mustSee": [
+            "Mehrangarh Fort",
+            "Blue City Streets",
+            "Clock Tower"
+          ],
+          "optional": [
+            "Jaswant Thada",
+            "Umaid Bhawan Palace"
+          ],
+          "galleryQueries": [
+            "Mehrangarh Fort",
+            "Jodhpur Blue City",
+            "Clock Tower Jodhpur"
+          ]
         },
         {
           "day": "Day 6 — Jaisalmer: Golden City",
@@ -670,9 +2744,20 @@
           "evening": "Sunset at Gadisar Lake. Dinner at rooftop with fort views.",
           "distanceKm": 285,
           "driveTime": "5h 30m",
-          "mustSee": ["Jaisalmer Fort","Patwon Ki Haveli","Gadisar Lake"],
-          "optional": ["Salim Singh Ki Haveli","Bada Bagh"],
-          "galleryQueries": ["Jaisalmer Fort","Patwon Ki Haveli","Gadisar Lake"]
+          "mustSee": [
+            "Jaisalmer Fort",
+            "Patwon Ki Haveli",
+            "Gadisar Lake"
+          ],
+          "optional": [
+            "Salim Singh Ki Haveli",
+            "Bada Bagh"
+          ],
+          "galleryQueries": [
+            "Jaisalmer Fort",
+            "Patwon Ki Haveli",
+            "Gadisar Lake"
+          ]
         },
         {
           "day": "Day 7 — Sam Sand Dunes & Departure",
@@ -682,9 +2767,19 @@
           "evening": "Sunset over dunes. Folk music and dinner. Return for departure.",
           "distanceKm": 40,
           "driveTime": "1h",
-          "mustSee": ["Sam Sand Dunes","Desert Sunset"],
-          "optional": ["Kuldhara Abandoned Village","Desert Camp Stay"],
-          "galleryQueries": ["Sam Sand Dunes","Thar Desert","Rajasthan camel"]
+          "mustSee": [
+            "Sam Sand Dunes",
+            "Desert Sunset"
+          ],
+          "optional": [
+            "Kuldhara Abandoned Village",
+            "Desert Camp Stay"
+          ],
+          "galleryQueries": [
+            "Sam Sand Dunes",
+            "Thar Desert",
+            "Rajasthan camel"
+          ]
         }
       ]
     },
@@ -695,7 +2790,12 @@
       "durationDays": 4,
       "summary": "Balanced mix of North Goa beaches, South Goa serenity, and Old Goa heritage.",
       "bestTime": "November to February",
-      "route": ["North Goa","Panaji","Old Goa","South Goa"],
+      "route": [
+        "North Goa",
+        "Panaji",
+        "Old Goa",
+        "South Goa"
+      ],
       "days": [
         {
           "day": "Day 1 — North Goa Beaches",
@@ -705,9 +2805,21 @@
           "evening": "Dinner at beachside cafe. Optional: Night market if Saturday.",
           "distanceKm": 25,
           "driveTime": "45m",
-          "mustSee": ["Anjuna Beach","Vagator Beach","Chapora Fort"],
-          "optional": ["Saturday Night Market","Ozran Beach"],
-          "galleryQueries": ["Anjuna Beach","Vagator","Chapora Fort","Goa sunset"]
+          "mustSee": [
+            "Anjuna Beach",
+            "Vagator Beach",
+            "Chapora Fort"
+          ],
+          "optional": [
+            "Saturday Night Market",
+            "Ozran Beach"
+          ],
+          "galleryQueries": [
+            "Anjuna Beach",
+            "Vagator",
+            "Chapora Fort",
+            "Goa sunset"
+          ]
         },
         {
           "day": "Day 2 — Old Goa & Panaji",
@@ -717,9 +2829,20 @@
           "evening": "Walk along Mandovi River. Dinner cruise (optional).",
           "distanceKm": 30,
           "driveTime": "1h",
-          "mustSee": ["Basilica of Bom Jesus","Se Cathedral","Fontainhas"],
-          "optional": ["Church of St. Francis","Reis Magos Fort"],
-          "galleryQueries": ["Old Goa churches","Basilica Bom Jesus","Fontainhas Panaji"]
+          "mustSee": [
+            "Basilica of Bom Jesus",
+            "Se Cathedral",
+            "Fontainhas"
+          ],
+          "optional": [
+            "Church of St. Francis",
+            "Reis Magos Fort"
+          ],
+          "galleryQueries": [
+            "Old Goa churches",
+            "Basilica Bom Jesus",
+            "Fontainhas Panaji"
+          ]
         },
         {
           "day": "Day 3 — South Goa Serenity",
@@ -729,9 +2852,20 @@
           "evening": "Sunset at Cabo de Rama Fort. Dinner at Agonda.",
           "distanceKm": 70,
           "driveTime": "2h",
-          "mustSee": ["Palolem Beach","Cabo de Rama Fort","Agonda Beach"],
-          "optional": ["Butterfly Beach","Cola Beach"],
-          "galleryQueries": ["Palolem Beach","Agonda Beach","Cabo de Rama"]
+          "mustSee": [
+            "Palolem Beach",
+            "Cabo de Rama Fort",
+            "Agonda Beach"
+          ],
+          "optional": [
+            "Butterfly Beach",
+            "Cola Beach"
+          ],
+          "galleryQueries": [
+            "Palolem Beach",
+            "Agonda Beach",
+            "Cabo de Rama"
+          ]
         },
         {
           "day": "Day 4 — Beach Hopping & Departure",
@@ -741,9 +2875,19 @@
           "evening": "Sunset view and departure preparations.",
           "distanceKm": 20,
           "driveTime": "30m",
-          "mustSee": ["Colva Beach","Benaulim Beach"],
-          "optional": ["Margao Market","Dudhsagar Falls"],
-          "galleryQueries": ["Colva Beach","South Goa beaches","Goan cuisine"]
+          "mustSee": [
+            "Colva Beach",
+            "Benaulim Beach"
+          ],
+          "optional": [
+            "Margao Market",
+            "Dudhsagar Falls"
+          ],
+          "galleryQueries": [
+            "Colva Beach",
+            "South Goa beaches",
+            "Goan cuisine"
+          ]
         }
       ]
     },
@@ -754,7 +2898,14 @@
       "durationDays": 6,
       "summary": "Mountains, valleys, and monasteries with adventure and peace.",
       "bestTime": "March to June, September to November",
-      "route": ["Manali","Solang Valley","Kasol","Tosh","Dharamshala","McLeod Ganj"],
+      "route": [
+        "Manali",
+        "Solang Valley",
+        "Kasol",
+        "Tosh",
+        "Dharamshala",
+        "McLeod Ganj"
+      ],
       "days": [
         {
           "day": "Day 1 — Manali Arrival & Local Exploration",
@@ -764,9 +2915,21 @@
           "evening": "Stroll along Mall Road. Dinner and acclimatize.",
           "distanceKm": 10,
           "driveTime": "20m",
-          "mustSee": ["Hadimba Temple","Old Manali","Mall Road"],
-          "optional": ["Manu Temple","Vashisht Hot Springs"],
-          "galleryQueries": ["Manali","Hadimba Temple","Old Manali","Beas River"]
+          "mustSee": [
+            "Hadimba Temple",
+            "Old Manali",
+            "Mall Road"
+          ],
+          "optional": [
+            "Manu Temple",
+            "Vashisht Hot Springs"
+          ],
+          "galleryQueries": [
+            "Manali",
+            "Hadimba Temple",
+            "Old Manali",
+            "Beas River"
+          ]
         },
         {
           "day": "Day 2 — Solang Valley & Adventure",
@@ -776,9 +2939,19 @@
           "evening": "Return to Manali. Relax at hotel or cafe.",
           "distanceKm": 30,
           "driveTime": "1h",
-          "mustSee": ["Solang Valley","Mountain Views"],
-          "optional": ["Paragliding","Rohtang Pass"],
-          "galleryQueries": ["Solang Valley","Manali adventure","Himachal mountains"]
+          "mustSee": [
+            "Solang Valley",
+            "Mountain Views"
+          ],
+          "optional": [
+            "Paragliding",
+            "Rohtang Pass"
+          ],
+          "galleryQueries": [
+            "Solang Valley",
+            "Manali adventure",
+            "Himachal mountains"
+          ]
         },
         {
           "day": "Day 3 — Kasol: Hippie Village",
@@ -788,9 +2961,20 @@
           "evening": "Walk along Parvati River. Dinner at Israeli cafe.",
           "distanceKm": 75,
           "driveTime": "2h 30m",
-          "mustSee": ["Kasol Village","Parvati River","Kasol Cafes"],
-          "optional": ["Manikaran Gurudwara","Chalal Trek"],
-          "galleryQueries": ["Kasol","Parvati Valley","Kasol cafes"]
+          "mustSee": [
+            "Kasol Village",
+            "Parvati River",
+            "Kasol Cafes"
+          ],
+          "optional": [
+            "Manikaran Gurudwara",
+            "Chalal Trek"
+          ],
+          "galleryQueries": [
+            "Kasol",
+            "Parvati Valley",
+            "Kasol cafes"
+          ]
         },
         {
           "day": "Day 4 — Tosh Village Trek",
@@ -800,9 +2984,19 @@
           "evening": "Trek back or stay overnight in Tosh. Starry night.",
           "distanceKm": 25,
           "driveTime": "1h + 3h trek",
-          "mustSee": ["Tosh Village","Himalayan Views"],
-          "optional": ["Kheerganga Trek","Stay in Tosh"],
-          "galleryQueries": ["Tosh village","Parvati Valley trek","Himachal village"]
+          "mustSee": [
+            "Tosh Village",
+            "Himalayan Views"
+          ],
+          "optional": [
+            "Kheerganga Trek",
+            "Stay in Tosh"
+          ],
+          "galleryQueries": [
+            "Tosh village",
+            "Parvati Valley trek",
+            "Himachal village"
+          ]
         },
         {
           "day": "Day 5 — Dharamshala & McLeod Ganj",
@@ -812,9 +3006,19 @@
           "evening": "Explore McLeod Ganj market. Tibetan dinner.",
           "distanceKm": 200,
           "driveTime": "6h",
-          "mustSee": ["Tsuglagkhang Complex","McLeod Ganj"],
-          "optional": ["Bhagsu Falls","Tibetan Museum"],
-          "galleryQueries": ["McLeod Ganj","Tsuglagkhang","Dharamshala"]
+          "mustSee": [
+            "Tsuglagkhang Complex",
+            "McLeod Ganj"
+          ],
+          "optional": [
+            "Bhagsu Falls",
+            "Tibetan Museum"
+          ],
+          "galleryQueries": [
+            "McLeod Ganj",
+            "Tsuglagkhang",
+            "Dharamshala"
+          ]
         },
         {
           "day": "Day 6 — Triund Trek or Leisure & Departure",
@@ -824,9 +3028,19 @@
           "evening": "Departure from Dharamshala or overnight for next day flight.",
           "distanceKm": 18,
           "driveTime": "5h trek or 30m drive",
-          "mustSee": ["Triund Trek","Dhauladhar Range"],
-          "optional": ["Norbulingka Institute","Dal Lake Dharamshala"],
-          "galleryQueries": ["Triund trek","Dhauladhar mountains","McLeod Ganj views"]
+          "mustSee": [
+            "Triund Trek",
+            "Dhauladhar Range"
+          ],
+          "optional": [
+            "Norbulingka Institute",
+            "Dal Lake Dharamshala"
+          ],
+          "galleryQueries": [
+            "Triund trek",
+            "Dhauladhar mountains",
+            "McLeod Ganj views"
+          ]
         }
       ]
     },
@@ -837,7 +3051,11 @@
       "durationDays": 5,
       "summary": "Coffee plantations, royal palaces, and ancient ruins with diverse Karnataka.",
       "bestTime": "October to March",
-      "route": ["Coorg","Mysuru","Hampi"],
+      "route": [
+        "Coorg",
+        "Mysuru",
+        "Hampi"
+      ],
       "days": [
         {
           "day": "Day 1 — Coorg: Coffee Land",
@@ -847,9 +3065,20 @@
           "evening": "Walk through Abbey Falls. Dinner with Kodava cuisine.",
           "distanceKm": 20,
           "driveTime": "45m",
-          "mustSee": ["Raja's Seat","Coffee Plantation","Abbey Falls"],
-          "optional": ["Omkareshwara Temple","Madikeri Fort"],
-          "galleryQueries": ["Coorg","Coffee plantation","Abbey Falls Coorg"]
+          "mustSee": [
+            "Raja's Seat",
+            "Coffee Plantation",
+            "Abbey Falls"
+          ],
+          "optional": [
+            "Omkareshwara Temple",
+            "Madikeri Fort"
+          ],
+          "galleryQueries": [
+            "Coorg",
+            "Coffee plantation",
+            "Abbey Falls Coorg"
+          ]
         },
         {
           "day": "Day 2 — Coorg to Mysuru",
@@ -859,9 +3088,18 @@
           "evening": "Visit Brindavan Gardens for musical fountain show.",
           "distanceKm": 120,
           "driveTime": "3h",
-          "mustSee": ["Brindavan Gardens"],
-          "optional": ["Dubare Elephant Camp","Talakaveri"],
-          "galleryQueries": ["Coorg landscape","Mysuru","Brindavan Gardens"]
+          "mustSee": [
+            "Brindavan Gardens"
+          ],
+          "optional": [
+            "Dubare Elephant Camp",
+            "Talakaveri"
+          ],
+          "galleryQueries": [
+            "Coorg landscape",
+            "Mysuru",
+            "Brindavan Gardens"
+          ]
         },
         {
           "day": "Day 3 — Mysuru: Royal Heritage",
@@ -871,9 +3109,20 @@
           "evening": "Explore Devaraja Market. Buy Mysore silk and sandalwood.",
           "distanceKm": 25,
           "driveTime": "1h",
-          "mustSee": ["Mysore Palace","Chamundi Hills","Devaraja Market"],
-          "optional": ["St. Philomena's Cathedral","Mysore Zoo"],
-          "galleryQueries": ["Mysore Palace","Chamundi Hills","Devaraja Market"]
+          "mustSee": [
+            "Mysore Palace",
+            "Chamundi Hills",
+            "Devaraja Market"
+          ],
+          "optional": [
+            "St. Philomena's Cathedral",
+            "Mysore Zoo"
+          ],
+          "galleryQueries": [
+            "Mysore Palace",
+            "Chamundi Hills",
+            "Devaraja Market"
+          ]
         },
         {
           "day": "Day 4 — Hampi: Ancient Ruins",
@@ -883,9 +3132,20 @@
           "evening": "Sunset from Hemakuta Hill with boulder landscape views.",
           "distanceKm": 340,
           "driveTime": "7h",
-          "mustSee": ["Virupaksha Temple","Hampi Bazaar","Hemakuta Hill"],
-          "optional": ["Riverside cafes","Hampi Sunset Point"],
-          "galleryQueries": ["Hampi","Virupaksha Temple","Hampi boulders"]
+          "mustSee": [
+            "Virupaksha Temple",
+            "Hampi Bazaar",
+            "Hemakuta Hill"
+          ],
+          "optional": [
+            "Riverside cafes",
+            "Hampi Sunset Point"
+          ],
+          "galleryQueries": [
+            "Hampi",
+            "Virupaksha Temple",
+            "Hampi boulders"
+          ]
         },
         {
           "day": "Day 5 — Hampi Exploration & Departure",
@@ -895,9 +3155,20 @@
           "evening": "Last views of Hampi ruins. Depart or stay overnight.",
           "distanceKm": 15,
           "driveTime": "30m",
-          "mustSee": ["Vittala Temple","Stone Chariot","Lotus Mahal"],
-          "optional": ["Queen's Bath","Elephant Stables"],
-          "galleryQueries": ["Vittala Temple","Hampi stone chariot","Royal Enclosure Hampi"]
+          "mustSee": [
+            "Vittala Temple",
+            "Stone Chariot",
+            "Lotus Mahal"
+          ],
+          "optional": [
+            "Queen's Bath",
+            "Elephant Stables"
+          ],
+          "galleryQueries": [
+            "Vittala Temple",
+            "Hampi stone chariot",
+            "Royal Enclosure Hampi"
+          ]
         }
       ]
     },
@@ -908,7 +3179,11 @@
       "durationDays": 5,
       "summary": "Spiritual Ganges, hill station charm, and lake serenity.",
       "bestTime": "March to June, September to November",
-      "route": ["Rishikesh","Mussoorie","Nainital"],
+      "route": [
+        "Rishikesh",
+        "Mussoorie",
+        "Nainital"
+      ],
       "days": [
         {
           "day": "Day 1 — Rishikesh: Yoga Capital",
@@ -918,9 +3193,20 @@
           "evening": "Attend Ganga Aarti at Triveni Ghat or Parmarth Niketan.",
           "distanceKm": 10,
           "driveTime": "30m",
-          "mustSee": ["Laxman Jhula","Ram Jhula","Ganga Aarti"],
-          "optional": ["Beatles Ashram","Neelkanth Mahadev Temple"],
-          "galleryQueries": ["Rishikesh","Laxman Jhula","Ganga Aarti Rishikesh"]
+          "mustSee": [
+            "Laxman Jhula",
+            "Ram Jhula",
+            "Ganga Aarti"
+          ],
+          "optional": [
+            "Beatles Ashram",
+            "Neelkanth Mahadev Temple"
+          ],
+          "galleryQueries": [
+            "Rishikesh",
+            "Laxman Jhula",
+            "Ganga Aarti Rishikesh"
+          ]
         },
         {
           "day": "Day 2 — Rishikesh Adventure",
@@ -930,9 +3216,19 @@
           "evening": "Leisurely walk along Ganges. Dinner at river cafe.",
           "distanceKm": 20,
           "driveTime": "1h + rafting",
-          "mustSee": ["River Rafting","Ganges River"],
-          "optional": ["Neer Garh Waterfall","Cafe hopping"],
-          "galleryQueries": ["Rishikesh rafting","Ganges river","Rishikesh adventure"]
+          "mustSee": [
+            "River Rafting",
+            "Ganges River"
+          ],
+          "optional": [
+            "Neer Garh Waterfall",
+            "Cafe hopping"
+          ],
+          "galleryQueries": [
+            "Rishikesh rafting",
+            "Ganges river",
+            "Rishikesh adventure"
+          ]
         },
         {
           "day": "Day 3 — Mussoorie: Queen of Hills",
@@ -942,9 +3238,20 @@
           "evening": "Sunset views. Explore local shops and cafes.",
           "distanceKm": 75,
           "driveTime": "2h 30m",
-          "mustSee": ["Mall Road","Gun Hill","Mussoorie Views"],
-          "optional": ["Kempty Falls","Camel's Back Road"],
-          "galleryQueries": ["Mussoorie","Mall Road Mussoorie","Gun Hill"]
+          "mustSee": [
+            "Mall Road",
+            "Gun Hill",
+            "Mussoorie Views"
+          ],
+          "optional": [
+            "Kempty Falls",
+            "Camel's Back Road"
+          ],
+          "galleryQueries": [
+            "Mussoorie",
+            "Mall Road Mussoorie",
+            "Gun Hill"
+          ]
         },
         {
           "day": "Day 4 — Nainital: Lake District",
@@ -954,9 +3261,19 @@
           "evening": "Walk on Mall Road. Dinner at lakeside restaurant.",
           "distanceKm": 300,
           "driveTime": "7h",
-          "mustSee": ["Naini Lake","Mall Road Nainital"],
-          "optional": ["Snow View Point","Tiffin Top"],
-          "galleryQueries": ["Nainital","Naini Lake","Nainital hills"]
+          "mustSee": [
+            "Naini Lake",
+            "Mall Road Nainital"
+          ],
+          "optional": [
+            "Snow View Point",
+            "Tiffin Top"
+          ],
+          "galleryQueries": [
+            "Nainital",
+            "Naini Lake",
+            "Nainital hills"
+          ]
         },
         {
           "day": "Day 5 — Nainital Exploration & Departure",
@@ -966,9 +3283,20 @@
           "evening": "Shopping for local handicrafts. Departure.",
           "distanceKm": 15,
           "driveTime": "1h",
-          "mustSee": ["Naina Devi Temple","Snow View Point","Eco Cave Gardens"],
-          "optional": ["Bhimtal Lake","Sattal"],
-          "galleryQueries": ["Nainital temple","Snow View Point","Nainital panorama"]
+          "mustSee": [
+            "Naina Devi Temple",
+            "Snow View Point",
+            "Eco Cave Gardens"
+          ],
+          "optional": [
+            "Bhimtal Lake",
+            "Sattal"
+          ],
+          "galleryQueries": [
+            "Nainital temple",
+            "Snow View Point",
+            "Nainital panorama"
+          ]
         }
       ]
     },
@@ -979,7 +3307,13 @@
       "durationDays": 7,
       "summary": "High altitude adventure with lakes, valleys, and monasteries.",
       "bestTime": "June to September",
-      "route": ["Leh","Nubra Valley","Pangong Lake","Tso Moriri","Leh"],
+      "route": [
+        "Leh",
+        "Nubra Valley",
+        "Pangong Lake",
+        "Tso Moriri",
+        "Leh"
+      ],
       "days": [
         {
           "day": "Day 1 — Leh Arrival & Acclimatization",
@@ -989,9 +3323,19 @@
           "evening": "Visit Shanti Stupa for sunset. Early dinner and rest.",
           "distanceKm": 5,
           "driveTime": "15m",
-          "mustSee": ["Leh Market","Shanti Stupa"],
-          "optional": ["Leh Palace","Local cafes"],
-          "galleryQueries": ["Leh","Shanti Stupa","Leh market"]
+          "mustSee": [
+            "Leh Market",
+            "Shanti Stupa"
+          ],
+          "optional": [
+            "Leh Palace",
+            "Local cafes"
+          ],
+          "galleryQueries": [
+            "Leh",
+            "Shanti Stupa",
+            "Leh market"
+          ]
         },
         {
           "day": "Day 2 — Leh Local Sightseeing",
@@ -1001,9 +3345,20 @@
           "evening": "Visit Rancho School (3 Idiots fame) at Shey. Return to Leh.",
           "distanceKm": 80,
           "driveTime": "3h",
-          "mustSee": ["Hemis Monastery","Thiksey Monastery","Shey Palace"],
-          "optional": ["Stakna Monastery","Indus River views"],
-          "galleryQueries": ["Hemis Monastery","Thiksey Monastery","Ladakh monasteries"]
+          "mustSee": [
+            "Hemis Monastery",
+            "Thiksey Monastery",
+            "Shey Palace"
+          ],
+          "optional": [
+            "Stakna Monastery",
+            "Indus River views"
+          ],
+          "galleryQueries": [
+            "Hemis Monastery",
+            "Thiksey Monastery",
+            "Ladakh monasteries"
+          ]
         },
         {
           "day": "Day 3 — Nubra Valley via Khardung La",
@@ -1013,9 +3368,20 @@
           "evening": "Camel ride at Hunder sand dunes. Stay in Nubra.",
           "distanceKm": 120,
           "driveTime": "5h",
-          "mustSee": ["Khardung La Pass","Diskit Monastery","Hunder Sand Dunes"],
-          "optional": ["Bactrian Camel Ride","Turtuk Village"],
-          "galleryQueries": ["Khardung La","Nubra Valley","Hunder sand dunes"]
+          "mustSee": [
+            "Khardung La Pass",
+            "Diskit Monastery",
+            "Hunder Sand Dunes"
+          ],
+          "optional": [
+            "Bactrian Camel Ride",
+            "Turtuk Village"
+          ],
+          "galleryQueries": [
+            "Khardung La",
+            "Nubra Valley",
+            "Hunder sand dunes"
+          ]
         },
         {
           "day": "Day 4 — Nubra to Pangong Lake",
@@ -1025,9 +3391,19 @@
           "evening": "Sunset at lakeside. Stay in camps near lake.",
           "distanceKm": 150,
           "driveTime": "5h",
-          "mustSee": ["Pangong Lake","Lake Shore Views"],
-          "optional": ["3 Idiots Shooting Location","Merak Village"],
-          "galleryQueries": ["Pangong Lake","Pangong Tso","Ladakh blue lake"]
+          "mustSee": [
+            "Pangong Lake",
+            "Lake Shore Views"
+          ],
+          "optional": [
+            "3 Idiots Shooting Location",
+            "Merak Village"
+          ],
+          "galleryQueries": [
+            "Pangong Lake",
+            "Pangong Tso",
+            "Ladakh blue lake"
+          ]
         },
         {
           "day": "Day 5 — Pangong to Tso Moriri",
@@ -1037,9 +3413,19 @@
           "evening": "Arrive at Tso Moriri. Peaceful lakeside evening. Stay in Korzok.",
           "distanceKm": 240,
           "driveTime": "7h",
-          "mustSee": ["Tso Moriri Lake","Korzok Village"],
-          "optional": ["Chumathang Hot Springs","Mahe Bridge"],
-          "galleryQueries": ["Tso Moriri","Korzok","Ladakh remote lakes"]
+          "mustSee": [
+            "Tso Moriri Lake",
+            "Korzok Village"
+          ],
+          "optional": [
+            "Chumathang Hot Springs",
+            "Mahe Bridge"
+          ],
+          "galleryQueries": [
+            "Tso Moriri",
+            "Korzok",
+            "Ladakh remote lakes"
+          ]
         },
         {
           "day": "Day 6 — Tso Moriri to Leh via Tso Kar",
@@ -1049,9 +3435,19 @@
           "evening": "Arrive Leh. Rest and last evening in Leh market.",
           "distanceKm": 220,
           "driveTime": "6h",
-          "mustSee": ["Tso Kar","Taglang La Pass"],
-          "optional": ["Nomadic settlements","Wildlife spotting"],
-          "galleryQueries": ["Tso Kar","Taglang La","Ladakh landscape"]
+          "mustSee": [
+            "Tso Kar",
+            "Taglang La Pass"
+          ],
+          "optional": [
+            "Nomadic settlements",
+            "Wildlife spotting"
+          ],
+          "galleryQueries": [
+            "Tso Kar",
+            "Taglang La",
+            "Ladakh landscape"
+          ]
         },
         {
           "day": "Day 7 — Leh Leisure & Departure",
@@ -1061,9 +3457,19 @@
           "evening": "Departure from Leh. Carry altitude memories.",
           "distanceKm": 10,
           "driveTime": "30m",
-          "mustSee": ["Hall of Fame","Leh Market Shopping"],
-          "optional": ["Magnetic Hill","Gurudwara Pathar Sahib"],
-          "galleryQueries": ["Leh Hall of Fame","Leh bazaar","Ladakh souvenirs"]
+          "mustSee": [
+            "Hall of Fame",
+            "Leh Market Shopping"
+          ],
+          "optional": [
+            "Magnetic Hill",
+            "Gurudwara Pathar Sahib"
+          ],
+          "galleryQueries": [
+            "Leh Hall of Fame",
+            "Leh bazaar",
+            "Ladakh souvenirs"
+          ]
         }
       ]
     },
@@ -1074,7 +3480,13 @@
       "durationDays": 6,
       "summary": "Temples, French colonial charm, and hill station retreat.",
       "bestTime": "October to March",
-      "route": ["Chennai","Mahabalipuram","Pondicherry","Madurai","Ooty"],
+      "route": [
+        "Chennai",
+        "Mahabalipuram",
+        "Pondicherry",
+        "Madurai",
+        "Ooty"
+      ],
       "days": [
         {
           "day": "Day 1 — Chennai & Mahabalipuram",
@@ -1084,9 +3496,20 @@
           "evening": "Explore Five Rathas and Arjuna's Penance. Seafood dinner.",
           "distanceKm": 60,
           "driveTime": "1h 30m",
-          "mustSee": ["Marina Beach","Shore Temple","Five Rathas"],
-          "optional": ["Kapaleeshwarar Temple","DakshinaChitra"],
-          "galleryQueries": ["Chennai Marina Beach","Mahabalipuram","Shore Temple"]
+          "mustSee": [
+            "Marina Beach",
+            "Shore Temple",
+            "Five Rathas"
+          ],
+          "optional": [
+            "Kapaleeshwarar Temple",
+            "DakshinaChitra"
+          ],
+          "galleryQueries": [
+            "Chennai Marina Beach",
+            "Mahabalipuram",
+            "Shore Temple"
+          ]
         },
         {
           "day": "Day 2 — Pondicherry: French Riviera",
@@ -1096,9 +3519,20 @@
           "evening": "Walk along Rock Beach. Dinner at rooftop restaurant.",
           "distanceKm": 100,
           "driveTime": "2h 30m",
-          "mustSee": ["French Quarter","Auroville","Rock Beach"],
-          "optional": ["Aurobindo Ashram","Paradise Beach"],
-          "galleryQueries": ["Pondicherry French Quarter","Auroville","Pondicherry beach"]
+          "mustSee": [
+            "French Quarter",
+            "Auroville",
+            "Rock Beach"
+          ],
+          "optional": [
+            "Aurobindo Ashram",
+            "Paradise Beach"
+          ],
+          "galleryQueries": [
+            "Pondicherry French Quarter",
+            "Auroville",
+            "Pondicherry beach"
+          ]
         },
         {
           "day": "Day 3 — Pondicherry to Madurai",
@@ -1108,9 +3542,17 @@
           "evening": "Visit Meenakshi Temple for evening aarti. Spectacular architecture.",
           "distanceKm": 310,
           "driveTime": "6h",
-          "mustSee": ["Meenakshi Temple Evening Aarti"],
-          "optional": ["Puducherry Museum","Shopping"],
-          "galleryQueries": ["Pondicherry streets","Madurai Meenakshi Temple"]
+          "mustSee": [
+            "Meenakshi Temple Evening Aarti"
+          ],
+          "optional": [
+            "Puducherry Museum",
+            "Shopping"
+          ],
+          "galleryQueries": [
+            "Pondicherry streets",
+            "Madurai Meenakshi Temple"
+          ]
         },
         {
           "day": "Day 4 — Madurai: Temple Capital",
@@ -1120,9 +3562,19 @@
           "evening": "Gandhi Memorial Museum. Explore local markets.",
           "distanceKm": 15,
           "driveTime": "30m",
-          "mustSee": ["Meenakshi Temple Complex","Thirumalai Nayak Palace"],
-          "optional": ["Gandhi Museum","Local Bazaar"],
-          "galleryQueries": ["Meenakshi Temple gopuram","Madurai palace","Tamil Nadu temple"]
+          "mustSee": [
+            "Meenakshi Temple Complex",
+            "Thirumalai Nayak Palace"
+          ],
+          "optional": [
+            "Gandhi Museum",
+            "Local Bazaar"
+          ],
+          "galleryQueries": [
+            "Meenakshi Temple gopuram",
+            "Madurai palace",
+            "Tamil Nadu temple"
+          ]
         },
         {
           "day": "Day 5 — Ooty: Queen of Hill Stations",
@@ -1132,9 +3584,19 @@
           "evening": "Boat ride on Ooty Lake. Cool mountain evening.",
           "distanceKm": 280,
           "driveTime": "6h",
-          "mustSee": ["Ooty Botanical Gardens","Ooty Lake"],
-          "optional": ["Rose Garden","Thread Garden"],
-          "galleryQueries": ["Ooty","Nilgiri mountains","Ooty Botanical Gardens"]
+          "mustSee": [
+            "Ooty Botanical Gardens",
+            "Ooty Lake"
+          ],
+          "optional": [
+            "Rose Garden",
+            "Thread Garden"
+          ],
+          "galleryQueries": [
+            "Ooty",
+            "Nilgiri mountains",
+            "Ooty Botanical Gardens"
+          ]
         },
         {
           "day": "Day 6 — Ooty Exploration & Departure",
@@ -1144,9 +3606,19 @@
           "evening": "Departure from Ooty or Coimbatore airport.",
           "distanceKm": 40,
           "driveTime": "2h",
-          "mustSee": ["Doddabetta Peak","Tea Estates"],
-          "optional": ["Toy Train","Sim's Park Coonoor"],
-          "galleryQueries": ["Ooty toy train","Doddabetta","Tea plantations Ooty"]
+          "mustSee": [
+            "Doddabetta Peak",
+            "Tea Estates"
+          ],
+          "optional": [
+            "Toy Train",
+            "Sim's Park Coonoor"
+          ],
+          "galleryQueries": [
+            "Ooty toy train",
+            "Doddabetta",
+            "Tea plantations Ooty"
+          ]
         }
       ]
     },
@@ -1157,7 +3629,11 @@
       "durationDays": 5,
       "summary": "City energy, Sahyadri hills, and scenic viewpoints.",
       "bestTime": "October to February",
-      "route": ["Mumbai","Lonavala","Mahabaleshwar"],
+      "route": [
+        "Mumbai",
+        "Lonavala",
+        "Mahabaleshwar"
+      ],
       "days": [
         {
           "day": "Day 1 — Mumbai: Maximum City",
@@ -1167,9 +3643,20 @@
           "evening": "Sunset at Marine Drive. Dinner at Leopold Cafe or local seafood.",
           "distanceKm": 25,
           "driveTime": "1h",
-          "mustSee": ["Gateway of India","Marine Drive","Colaba"],
-          "optional": ["Elephanta Caves","Chhatrapati Shivaji Terminus"],
-          "galleryQueries": ["Mumbai Gateway of India","Marine Drive","Colaba"]
+          "mustSee": [
+            "Gateway of India",
+            "Marine Drive",
+            "Colaba"
+          ],
+          "optional": [
+            "Elephanta Caves",
+            "Chhatrapati Shivaji Terminus"
+          ],
+          "galleryQueries": [
+            "Mumbai Gateway of India",
+            "Marine Drive",
+            "Colaba"
+          ]
         },
         {
           "day": "Day 2 — Mumbai Heritage & Lonavala Drive",
@@ -1179,9 +3666,19 @@
           "evening": "Visit Lonavala Lake. Try chikki (local sweet). Evening walk.",
           "distanceKm": 85,
           "driveTime": "2h 30m",
-          "mustSee": ["CST Mumbai","Lonavala Lake"],
-          "optional": ["Crawford Market","Hanging Gardens Mumbai"],
-          "galleryQueries": ["CST Mumbai","Mumbai heritage","Lonavala"]
+          "mustSee": [
+            "CST Mumbai",
+            "Lonavala Lake"
+          ],
+          "optional": [
+            "Crawford Market",
+            "Hanging Gardens Mumbai"
+          ],
+          "galleryQueries": [
+            "CST Mumbai",
+            "Mumbai heritage",
+            "Lonavala"
+          ]
         },
         {
           "day": "Day 3 — Lonavala & Khandala Sightseeing",
@@ -1191,9 +3688,20 @@
           "evening": "Sunset at Lion's Point. Dinner at local restaurant.",
           "distanceKm": 40,
           "driveTime": "1h 30m",
-          "mustSee": ["Tiger Point","Karla Caves","Lion's Point"],
-          "optional": ["Bhushi Dam","Rajmachi Fort Trek"],
-          "galleryQueries": ["Lonavala waterfalls","Karla Caves","Tiger Point Lonavala"]
+          "mustSee": [
+            "Tiger Point",
+            "Karla Caves",
+            "Lion's Point"
+          ],
+          "optional": [
+            "Bhushi Dam",
+            "Rajmachi Fort Trek"
+          ],
+          "galleryQueries": [
+            "Lonavala waterfalls",
+            "Karla Caves",
+            "Tiger Point Lonavala"
+          ]
         },
         {
           "day": "Day 4 — Mahabaleshwar: Hill Station",
@@ -1203,9 +3711,20 @@
           "evening": "Visit Mapro Garden. Strawberry cream and local products.",
           "distanceKm": 65,
           "driveTime": "2h",
-          "mustSee": ["Arthur's Seat","Venna Lake","Mapro Garden"],
-          "optional": ["Pratapgad Fort","Wilson Point"],
-          "galleryQueries": ["Mahabaleshwar","Arthur's Seat viewpoint","Venna Lake"]
+          "mustSee": [
+            "Arthur's Seat",
+            "Venna Lake",
+            "Mapro Garden"
+          ],
+          "optional": [
+            "Pratapgad Fort",
+            "Wilson Point"
+          ],
+          "galleryQueries": [
+            "Mahabaleshwar",
+            "Arthur's Seat viewpoint",
+            "Venna Lake"
+          ]
         },
         {
           "day": "Day 5 — Mahabaleshwar Exploration & Return",
@@ -1215,9 +3734,18 @@
           "evening": "Drive back to Mumbai (265 km) or Pune (120 km) for departure.",
           "distanceKm": 120,
           "driveTime": "3h",
-          "mustSee": ["Elephant's Head Point","Mahabaleshwar Temple"],
-          "optional": ["Kate's Point","Lingmala Waterfall"],
-          "galleryQueries": ["Mahabaleshwar viewpoints","Sahyadri mountains"]
+          "mustSee": [
+            "Elephant's Head Point",
+            "Mahabaleshwar Temple"
+          ],
+          "optional": [
+            "Kate's Point",
+            "Lingmala Waterfall"
+          ],
+          "galleryQueries": [
+            "Mahabaleshwar viewpoints",
+            "Sahyadri mountains"
+          ]
         }
       ]
     },
@@ -1228,7 +3756,12 @@
       "durationDays": 5,
       "summary": "Heritage, wildlife, and spiritual coastal circuit.",
       "bestTime": "November to February",
-      "route": ["Ahmedabad","Gir National Park","Somnath","Dwarka"],
+      "route": [
+        "Ahmedabad",
+        "Gir National Park",
+        "Somnath",
+        "Dwarka"
+      ],
       "days": [
         {
           "day": "Day 1 — Ahmedabad: Heritage Walk",
@@ -1238,9 +3771,20 @@
           "evening": "Dinner at local Gujarati thali restaurant. Kankaria Lake walk.",
           "distanceKm": 20,
           "driveTime": "45m",
-          "mustSee": ["Sabarmati Ashram","Old City Heritage Walk","Kankaria Lake"],
-          "optional": ["Sidi Saiyyed Mosque","Adalaj Stepwell"],
-          "galleryQueries": ["Ahmedabad heritage","Sabarmati Ashram","Ahmedabad old city"]
+          "mustSee": [
+            "Sabarmati Ashram",
+            "Old City Heritage Walk",
+            "Kankaria Lake"
+          ],
+          "optional": [
+            "Sidi Saiyyed Mosque",
+            "Adalaj Stepwell"
+          ],
+          "galleryQueries": [
+            "Ahmedabad heritage",
+            "Sabarmati Ashram",
+            "Ahmedabad old city"
+          ]
         },
         {
           "day": "Day 2 — Gir National Park: Asiatic Lions",
@@ -1250,9 +3794,19 @@
           "evening": "Evening safari in Gir National Park. Spot Asiatic lions and other wildlife.",
           "distanceKm": 350,
           "driveTime": "7h",
-          "mustSee": ["Gir Safari","Asiatic Lions"],
-          "optional": ["Devalia Safari Park","Kamleshwar Dam"],
-          "galleryQueries": ["Gir National Park","Asiatic lion","Gujarat wildlife"]
+          "mustSee": [
+            "Gir Safari",
+            "Asiatic Lions"
+          ],
+          "optional": [
+            "Devalia Safari Park",
+            "Kamleshwar Dam"
+          ],
+          "galleryQueries": [
+            "Gir National Park",
+            "Asiatic lion",
+            "Gujarat wildlife"
+          ]
         },
         {
           "day": "Day 3 — Gir to Somnath",
@@ -1262,9 +3816,19 @@
           "evening": "Attend evening aarti at Somnath Temple. Beach walk. Seafood dinner.",
           "distanceKm": 60,
           "driveTime": "1h 30m",
-          "mustSee": ["Somnath Temple","Somnath Beach"],
-          "optional": ["Triveni Sangam","Sound & Light Show"],
-          "galleryQueries": ["Somnath Temple","Somnath beach","Gujarat coast"]
+          "mustSee": [
+            "Somnath Temple",
+            "Somnath Beach"
+          ],
+          "optional": [
+            "Triveni Sangam",
+            "Sound & Light Show"
+          ],
+          "galleryQueries": [
+            "Somnath Temple",
+            "Somnath beach",
+            "Gujarat coast"
+          ]
         },
         {
           "day": "Day 4 — Dwarka: Krishna's Kingdom",
@@ -1274,9 +3838,20 @@
           "evening": "Sunset at Dwarka beach. Evening temple rituals.",
           "distanceKm": 230,
           "driveTime": "4h 30m",
-          "mustSee": ["Dwarkadhish Temple","Gomti Ghat","Dwarka Beach"],
-          "optional": ["Bet Dwarka","Nageshwar Jyotirlinga"],
-          "galleryQueries": ["Dwarka temple","Dwarkadhish","Gomti Ghat"]
+          "mustSee": [
+            "Dwarkadhish Temple",
+            "Gomti Ghat",
+            "Dwarka Beach"
+          ],
+          "optional": [
+            "Bet Dwarka",
+            "Nageshwar Jyotirlinga"
+          ],
+          "galleryQueries": [
+            "Dwarka temple",
+            "Dwarkadhish",
+            "Gomti Ghat"
+          ]
         },
         {
           "day": "Day 5 — Dwarka Exploration & Return",
@@ -1286,9 +3861,18 @@
           "evening": "Return to Ahmedabad (440 km) or depart from Rajkot (220 km).",
           "distanceKm": 220,
           "driveTime": "5h",
-          "mustSee": ["Rukmini Temple","Nageshwar Temple"],
-          "optional": ["Gopi Talav","Beyt Dwarka"],
-          "galleryQueries": ["Dwarka temples","Gujarat Arabian Sea"]
+          "mustSee": [
+            "Rukmini Temple",
+            "Nageshwar Temple"
+          ],
+          "optional": [
+            "Gopi Talav",
+            "Beyt Dwarka"
+          ],
+          "galleryQueries": [
+            "Dwarka temples",
+            "Gujarat Arabian Sea"
+          ]
         }
       ]
     },
@@ -1299,7 +3883,11 @@
       "durationDays": 5,
       "summary": "Colonial heritage meets Himalayan tea estates.",
       "bestTime": "October to May",
-      "route": ["Kolkata","Darjeeling","Kalimpong"],
+      "route": [
+        "Kolkata",
+        "Darjeeling",
+        "Kalimpong"
+      ],
       "days": [
         {
           "day": "Day 1 — Kolkata: City of Joy",
@@ -1309,9 +3897,20 @@
           "evening": "Walk through College Street. Dinner at Bengali restaurant.",
           "distanceKm": 20,
           "driveTime": "1h",
-          "mustSee": ["Victoria Memorial","Howrah Bridge","Park Street"],
-          "optional": ["Kalighat Temple","Prinsep Ghat"],
-          "galleryQueries": ["Kolkata Victoria Memorial","Howrah Bridge","Kolkata streets"]
+          "mustSee": [
+            "Victoria Memorial",
+            "Howrah Bridge",
+            "Park Street"
+          ],
+          "optional": [
+            "Kalighat Temple",
+            "Prinsep Ghat"
+          ],
+          "galleryQueries": [
+            "Kolkata Victoria Memorial",
+            "Howrah Bridge",
+            "Kolkata streets"
+          ]
         },
         {
           "day": "Day 2 — Kolkata to Darjeeling",
@@ -1321,9 +3920,19 @@
           "evening": "Arrive Darjeeling. Check in. Walk on Mall Road. Mountain air.",
           "distanceKm": 100,
           "driveTime": "4h",
-          "mustSee": ["Scenic Drive","Mall Road Darjeeling"],
-          "optional": ["Batasia Loop","Ghoom Monastery"],
-          "galleryQueries": ["Darjeeling drive","Darjeeling hills","Mall Road"]
+          "mustSee": [
+            "Scenic Drive",
+            "Mall Road Darjeeling"
+          ],
+          "optional": [
+            "Batasia Loop",
+            "Ghoom Monastery"
+          ],
+          "galleryQueries": [
+            "Darjeeling drive",
+            "Darjeeling hills",
+            "Mall Road"
+          ]
         },
         {
           "day": "Day 3 — Darjeeling: Tea Capital",
@@ -1333,9 +3942,20 @@
           "evening": "Explore Chowrasta. Tibetan market shopping. Momos dinner.",
           "distanceKm": 30,
           "driveTime": "2h",
-          "mustSee": ["Tiger Hill Sunrise","Tea Estate","Chowrasta"],
-          "optional": ["Padmaja Naidu Zoo","Peace Pagoda"],
-          "galleryQueries": ["Tiger Hill Darjeeling","Darjeeling tea garden","Kanchenjunga"]
+          "mustSee": [
+            "Tiger Hill Sunrise",
+            "Tea Estate",
+            "Chowrasta"
+          ],
+          "optional": [
+            "Padmaja Naidu Zoo",
+            "Peace Pagoda"
+          ],
+          "galleryQueries": [
+            "Tiger Hill Darjeeling",
+            "Darjeeling tea garden",
+            "Kanchenjunga"
+          ]
         },
         {
           "day": "Day 4 — Darjeeling Toy Train & Kalimpong",
@@ -1345,9 +3965,20 @@
           "evening": "Explore Kalimpong town. Durpin Monastery. Peaceful hill town vibes.",
           "distanceKm": 50,
           "driveTime": "2h 30m",
-          "mustSee": ["Toy Train","Kalimpong Nurseries","Durpin Monastery"],
-          "optional": ["Deolo Hill","Kalimpong Cactus Nursery"],
-          "galleryQueries": ["Darjeeling toy train","Kalimpong","Kalimpong monastery"]
+          "mustSee": [
+            "Toy Train",
+            "Kalimpong Nurseries",
+            "Durpin Monastery"
+          ],
+          "optional": [
+            "Deolo Hill",
+            "Kalimpong Cactus Nursery"
+          ],
+          "galleryQueries": [
+            "Darjeeling toy train",
+            "Kalimpong",
+            "Kalimpong monastery"
+          ]
         },
         {
           "day": "Day 5 — Return to Kolkata or Departure",
@@ -1357,9 +3988,19 @@
           "evening": "Departure with mountain memories.",
           "distanceKm": 80,
           "driveTime": "3h",
-          "mustSee": ["Kalimpong Views","Local Market"],
-          "optional": ["Teesta River Valley","Mirik Lake"],
-          "galleryQueries": ["Kalimpong views","Teesta Valley","West Bengal hills"]
+          "mustSee": [
+            "Kalimpong Views",
+            "Local Market"
+          ],
+          "optional": [
+            "Teesta River Valley",
+            "Mirik Lake"
+          ],
+          "galleryQueries": [
+            "Kalimpong views",
+            "Teesta Valley",
+            "West Bengal hills"
+          ]
         }
       ]
     },
@@ -1370,7 +4011,12 @@
       "durationDays": 4,
       "summary": "Wettest place on Earth, living bridges, and crystal waters.",
       "bestTime": "October to May",
-      "route": ["Shillong","Cherrapunji","Mawlynnong","Dawki"],
+      "route": [
+        "Shillong",
+        "Cherrapunji",
+        "Mawlynnong",
+        "Dawki"
+      ],
       "days": [
         {
           "day": "Day 1 — Guwahati to Shillong",
@@ -1380,9 +4026,20 @@
           "evening": "Walk on Police Bazaar. Try Jadoh (local rice dish). Live music cafes.",
           "distanceKm": 100,
           "driveTime": "3h",
-          "mustSee": ["Umiam Lake","Ward's Lake","Police Bazaar"],
-          "optional": ["Don Bosco Museum","Elephant Falls"],
-          "galleryQueries": ["Shillong","Umiam Lake","Shillong city"]
+          "mustSee": [
+            "Umiam Lake",
+            "Ward's Lake",
+            "Police Bazaar"
+          ],
+          "optional": [
+            "Don Bosco Museum",
+            "Elephant Falls"
+          ],
+          "galleryQueries": [
+            "Shillong",
+            "Umiam Lake",
+            "Shillong city"
+          ]
         },
         {
           "day": "Day 2 — Cherrapunji: Living Root Bridges",
@@ -1392,9 +4049,20 @@
           "evening": "Return and relax. Spectacular monsoon cloud views.",
           "distanceKm": 55,
           "driveTime": "2h + 4h trek",
-          "mustSee": ["Nohkalikai Falls","Double Decker Root Bridge","Seven Sisters Falls"],
-          "optional": ["Mawsmai Cave","Eco Park"],
-          "galleryQueries": ["Cherrapunji waterfalls","Living root bridge","Nohkalikai Falls"]
+          "mustSee": [
+            "Nohkalikai Falls",
+            "Double Decker Root Bridge",
+            "Seven Sisters Falls"
+          ],
+          "optional": [
+            "Mawsmai Cave",
+            "Eco Park"
+          ],
+          "galleryQueries": [
+            "Cherrapunji waterfalls",
+            "Living root bridge",
+            "Nohkalikai Falls"
+          ]
         },
         {
           "day": "Day 3 — Mawlynnong: Cleanest Village",
@@ -1404,9 +4072,20 @@
           "evening": "Continue to Dawki. Crystal clear Umngot River. Stay near Indo-Bangladesh border.",
           "distanceKm": 120,
           "driveTime": "4h",
-          "mustSee": ["Mawlynnong Village","Sky View","Dawki River"],
-          "optional": ["Balancing Rock","Border View"],
-          "galleryQueries": ["Mawlynnong","Dawki river","Umngot River crystal"]
+          "mustSee": [
+            "Mawlynnong Village",
+            "Sky View",
+            "Dawki River"
+          ],
+          "optional": [
+            "Balancing Rock",
+            "Border View"
+          ],
+          "galleryQueries": [
+            "Mawlynnong",
+            "Dawki river",
+            "Umngot River crystal"
+          ]
         },
         {
           "day": "Day 4 — Dawki & Return to Guwahati",
@@ -1416,9 +4095,19 @@
           "evening": "Departure from Guwahati with memories of Meghalaya magic.",
           "distanceKm": 180,
           "driveTime": "5h",
-          "mustSee": ["Umngot River Boat Ride","Crystal Clear Waters"],
-          "optional": ["Indo-Bangladesh Border","Shnongpdeng"],
-          "galleryQueries": ["Dawki boating","Umngot crystal water","Meghalaya"]
+          "mustSee": [
+            "Umngot River Boat Ride",
+            "Crystal Clear Waters"
+          ],
+          "optional": [
+            "Indo-Bangladesh Border",
+            "Shnongpdeng"
+          ],
+          "galleryQueries": [
+            "Dawki boating",
+            "Umngot crystal water",
+            "Meghalaya"
+          ]
         }
       ]
     },
@@ -1429,7 +4118,13 @@
       "durationDays": 5,
       "summary": "Himalayan monasteries, alpine valleys, and Indo-China border.",
       "bestTime": "March to June, September to December",
-      "route": ["Gangtok","Tsomgo Lake","Nathula Pass","Lachung","Yumthang Valley"],
+      "route": [
+        "Gangtok",
+        "Tsomgo Lake",
+        "Nathula Pass",
+        "Lachung",
+        "Yumthang Valley"
+      ],
       "days": [
         {
           "day": "Day 1 — NJP/Bagdogra to Gangtok",
@@ -1439,9 +4134,19 @@
           "evening": "Explore MG Marg cafes. Try momos and thukpa. Mountain views.",
           "distanceKm": 125,
           "driveTime": "5h",
-          "mustSee": ["MG Marg","Gangtok Views"],
-          "optional": ["Enchey Monastery","Flower Exhibition Centre"],
-          "galleryQueries": ["Gangtok","MG Marg","Sikkim capital"]
+          "mustSee": [
+            "MG Marg",
+            "Gangtok Views"
+          ],
+          "optional": [
+            "Enchey Monastery",
+            "Flower Exhibition Centre"
+          ],
+          "galleryQueries": [
+            "Gangtok",
+            "MG Marg",
+            "Sikkim capital"
+          ]
         },
         {
           "day": "Day 2 — Gangtok: Tsomgo Lake & Nathula Pass",
@@ -1451,9 +4156,20 @@
           "evening": "Return to Gangtok. Rest after high altitude day.",
           "distanceKm": 112,
           "driveTime": "6h",
-          "mustSee": ["Tsomgo Lake","Nathula Pass","Baba Mandir"],
-          "optional": ["Yak ride at lake","Old Silk Route"],
-          "galleryQueries": ["Tsomgo Lake","Nathula Pass","Sikkim lake"]
+          "mustSee": [
+            "Tsomgo Lake",
+            "Nathula Pass",
+            "Baba Mandir"
+          ],
+          "optional": [
+            "Yak ride at lake",
+            "Old Silk Route"
+          ],
+          "galleryQueries": [
+            "Tsomgo Lake",
+            "Nathula Pass",
+            "Sikkim lake"
+          ]
         },
         {
           "day": "Day 3 — Gangtok to Lachung",
@@ -1463,9 +4179,20 @@
           "evening": "Arrive Lachung village. Traditional Sikkimese dinner. Prepare for next day.",
           "distanceKm": 118,
           "driveTime": "6h",
-          "mustSee": ["Teesta River","Lachung Village","Mountain Views"],
-          "optional": ["Seven Sisters Waterfall","Singhik Viewpoint"],
-          "galleryQueries": ["Lachung","North Sikkim","Teesta River"]
+          "mustSee": [
+            "Teesta River",
+            "Lachung Village",
+            "Mountain Views"
+          ],
+          "optional": [
+            "Seven Sisters Waterfall",
+            "Singhik Viewpoint"
+          ],
+          "galleryQueries": [
+            "Lachung",
+            "North Sikkim",
+            "Teesta River"
+          ]
         },
         {
           "day": "Day 4 — Yumthang Valley: Valley of Flowers",
@@ -1475,9 +4202,20 @@
           "evening": "Return to Lachung. Relax at village. Hot springs at Yumthang (optional).",
           "distanceKm": 50,
           "driveTime": "3h",
-          "mustSee": ["Yumthang Valley","Hot Springs","Alpine Meadows"],
-          "optional": ["Zero Point","Shingba Rhododendron Sanctuary"],
-          "galleryQueries": ["Yumthang Valley","Valley of flowers Sikkim","Zero Point"]
+          "mustSee": [
+            "Yumthang Valley",
+            "Hot Springs",
+            "Alpine Meadows"
+          ],
+          "optional": [
+            "Zero Point",
+            "Shingba Rhododendron Sanctuary"
+          ],
+          "galleryQueries": [
+            "Yumthang Valley",
+            "Valley of flowers Sikkim",
+            "Zero Point"
+          ]
         },
         {
           "day": "Day 5 — Lachung to Gangtok & Departure",
@@ -1487,9 +4225,18 @@
           "evening": "Departure from Gangtok or drive to NJP for onward journey.",
           "distanceKm": 118,
           "driveTime": "6h",
-          "mustSee": ["Lal Bazaar Shopping","Sikkim Handicrafts"],
-          "optional": ["Rumtek Monastery","Tashi Viewpoint"],
-          "galleryQueries": ["Gangtok market","Sikkim handicrafts"]
+          "mustSee": [
+            "Lal Bazaar Shopping",
+            "Sikkim Handicrafts"
+          ],
+          "optional": [
+            "Rumtek Monastery",
+            "Tashi Viewpoint"
+          ],
+          "galleryQueries": [
+            "Gangtok market",
+            "Sikkim handicrafts"
+          ]
         }
       ]
     },
@@ -1500,7 +4247,11 @@
       "durationDays": 5,
       "summary": "Tropical paradise with pristine beaches, coral reefs, and history.",
       "bestTime": "October to May",
-      "route": ["Port Blair","Havelock Island","Neil Island"],
+      "route": [
+        "Port Blair",
+        "Havelock Island",
+        "Neil Island"
+      ],
       "days": [
         {
           "day": "Day 1 — Port Blair: Island Capital",
@@ -1510,9 +4261,19 @@
           "evening": "Light & Sound Show at Cellular Jail. Moving historical narration.",
           "distanceKm": 10,
           "driveTime": "30m",
-          "mustSee": ["Cellular Jail","Light & Sound Show"],
-          "optional": ["Corbyn's Cove Beach","Marina Park"],
-          "galleryQueries": ["Cellular Jail","Port Blair","Andaman history"]
+          "mustSee": [
+            "Cellular Jail",
+            "Light & Sound Show"
+          ],
+          "optional": [
+            "Corbyn's Cove Beach",
+            "Marina Park"
+          ],
+          "galleryQueries": [
+            "Cellular Jail",
+            "Port Blair",
+            "Andaman history"
+          ]
         },
         {
           "day": "Day 2 — Havelock Island: Radhanagar Beach",
@@ -1522,9 +4283,19 @@
           "evening": "Sunset at Radhanagar. Seafood dinner at beach shack.",
           "distanceKm": 70,
           "driveTime": "2h 30m ferry",
-          "mustSee": ["Radhanagar Beach","Turquoise Waters"],
-          "optional": ["Beach walk","Coconut palm groves"],
-          "galleryQueries": ["Radhanagar Beach","Havelock Island","Andaman beach"]
+          "mustSee": [
+            "Radhanagar Beach",
+            "Turquoise Waters"
+          ],
+          "optional": [
+            "Beach walk",
+            "Coconut palm groves"
+          ],
+          "galleryQueries": [
+            "Radhanagar Beach",
+            "Havelock Island",
+            "Andaman beach"
+          ]
         },
         {
           "day": "Day 3 — Havelock: Scuba Diving & Snorkeling",
@@ -1534,9 +4305,20 @@
           "evening": "Visit Kalapathar Beach for black rocks and sunset. Quiet beach.",
           "distanceKm": 15,
           "driveTime": "1h",
-          "mustSee": ["Elephant Beach Diving","Coral Reefs","Kalapathar Beach"],
-          "optional": ["Mangrove Kayaking","Beach hopping"],
-          "galleryQueries": ["Havelock scuba diving","Elephant Beach","Andaman coral"]
+          "mustSee": [
+            "Elephant Beach Diving",
+            "Coral Reefs",
+            "Kalapathar Beach"
+          ],
+          "optional": [
+            "Mangrove Kayaking",
+            "Beach hopping"
+          ],
+          "galleryQueries": [
+            "Havelock scuba diving",
+            "Elephant Beach",
+            "Andaman coral"
+          ]
         },
         {
           "day": "Day 4 — Neil Island: Tranquil Paradise",
@@ -1546,9 +4328,20 @@
           "evening": "Sunset at Laxmanpur Beach (famous for sunset views). Stay overnight.",
           "distanceKm": 40,
           "driveTime": "1h ferry",
-          "mustSee": ["Bharatpur Beach","Laxmanpur Beach","Natural Bridge"],
-          "optional": ["Sitapur Beach","Cycling around island"],
-          "galleryQueries": ["Neil Island","Laxmanpur Beach","Andaman sunset"]
+          "mustSee": [
+            "Bharatpur Beach",
+            "Laxmanpur Beach",
+            "Natural Bridge"
+          ],
+          "optional": [
+            "Sitapur Beach",
+            "Cycling around island"
+          ],
+          "galleryQueries": [
+            "Neil Island",
+            "Laxmanpur Beach",
+            "Andaman sunset"
+          ]
         },
         {
           "day": "Day 5 — Return to Port Blair & Departure",
@@ -1558,9 +4351,18 @@
           "evening": "Departure from Port Blair airport. Island memories.",
           "distanceKm": 40,
           "driveTime": "2h ferry",
-          "mustSee": ["Aberdeen Bazaar Shopping","Last Sea Views"],
-          "optional": ["Ross Island","Chidiya Tapu"],
-          "galleryQueries": ["Andaman islands","Port Blair market"]
+          "mustSee": [
+            "Aberdeen Bazaar Shopping",
+            "Last Sea Views"
+          ],
+          "optional": [
+            "Ross Island",
+            "Chidiya Tapu"
+          ],
+          "galleryQueries": [
+            "Andaman islands",
+            "Port Blair market"
+          ]
         }
       ]
     }
