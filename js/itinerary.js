@@ -11,7 +11,7 @@
     if (!it){ root.innerHTML = '<div class="text-gray-600">Itinerary not found.</div>'; return; }
     document.title = `${it.title} — DesiTrails`;
     renderSidebar(it);
-    it.days.forEach((d, idx) => root.appendChild(renderDay(d, idx+1)) );
+    it.days.forEach((d, idx) => root.appendChild(renderDay(d, idx+1, id)) );
     setupLazyImages();
   });
 
@@ -33,7 +33,7 @@
       <a class="text-earth-700 hover:underline" href="/states/${it.state}/">Back to ${capitalize(it.state)}</a>`;
   }
 
-  function renderDay(d, n){
+  function renderDay(d, n, itineraryId){
     const el = document.createElement('section');
     el.className = 'space-y-4';
     el.innerHTML = `
@@ -51,14 +51,14 @@
           <div class="text-sm"><span class="font-semibold">Optional:</span> ${d.optional.join(', ')}</div>
         </div>
         <div class="md:col-span-2 grid sm:grid-cols-2 gap-3">
-          ${d.galleryQueries.map((q,i) => imageCard(q, n, i)).join('')}
+          ${d.galleryQueries.map((q,i) => imageCard(q, n, i, itineraryId)).join('')}
         </div>
       </div>`;
     return el;
   }
 
-  function imageCard(q, dayNum, idx){
-    const local = `/assets/images/itineraries/${id}/day-${dayNum}-${idx+1}.jpg`;
+  function imageCard(q, dayNum, idx, itineraryId){
+    const local = `/assets/images/itineraries/${itineraryId}/day-${dayNum}-${idx+1}.jpg`;
     const src = unsplashUrl(q);
     return `<figure class="rounded-xl overflow-hidden border border-gray-100">
       <img class="w-full h-40 sm:h-48 object-cover fade-in" alt="${q}" src="${local}" loading="lazy" onerror="this.onerror=null; this.dataset.src='${src}'; this.removeAttribute('src');" data-src="${src}" />

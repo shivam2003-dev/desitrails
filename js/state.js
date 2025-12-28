@@ -16,26 +16,30 @@
   });
 
   function renderRoutes(state){
-    const routes = [
-      { days: 4, title: '4 Days', desc: 'Backwaters & beaches', link: `/states/${state.slug}/itinerary-4-days.html` },
-      { days: 6, title: '6 Days', desc: 'Hills + backwaters', link: '#' },
-      { days: 8, title: '8 Days', desc: 'Extended slow travel', link: '#' }
-    ];
-    routes.forEach(r => {
-      const card = document.createElement('a');
-      card.href = r.link;
-      card.className = 'block rounded-xl overflow-hidden border border-gray-100 hover:shadow transition-shadow';
-      const local = `/assets/images/states/${state.slug}/routes/${r.days}.jpg`;
-      const img = unsplashUrl(`${state.name} ${r.days} days`);
-      card.innerHTML = `
-        <div class="aspect-video bg-gray-100">
-          <img alt="${state.name} ${r.title}" loading="lazy" class="w-full h-full object-cover" src="${local}" onerror="this.onerror=null; this.src='${img}';" />
-        </div>
-        <div class="p-4">
-          <h3 class="text-xl font-semibold">${r.title}</h3>
-          <p class="text-gray-600">${r.desc}</p>
-        </div>`;
-      routesEl.appendChild(card);
+    fetch('/data/itineraries.json').then(r=>r.json()).then(data => {
+      const stateItineraries = (data.itineraries || []).filter(it => it.state === state.slug);
+      if (stateItineraries.length === 0) {
+        routesEl.innerHTML = '<div class="text-gray-600 col-span-full">Itineraries coming soon for this state.</div>';
+        return;
+      }
+      stateItineraries.forEach(it => {
+        const card = document.createElement('a');
+        card.href = `/states/${state.slug}/itinerary-${it.durationDays}-days.html`;
+        card.className = 'block rounded-xl overflow-hidden border border-gray-100 hover:shadow transition-shadow';
+        const local = `/assets/images/states/${state.slug}/routes/${it.durationDays}.jpg`;
+        const img = unsplashUrl(`${state.name} ${it.durationDays} days`);
+        card.innerHTML = `
+          <div class="aspect-video bg-gray-100">
+            <img alt="${it.title}" loading="lazy" class="w-full h-full object-cover" src="${local}" onerror="this.onerror=null; this.src='${img}';" />
+          </div>
+          <div class="p-4">
+            <h3 class="text-xl font-semibold">${it.durationDays} Days</h3>
+            <p class="text-gray-600">${it.summary}</p>
+          </div>`;
+        routesEl.appendChild(card);
+      });
+    }).catch(() => {
+      routesEl.innerHTML = '<div class="text-gray-600 col-span-full">Unable to load routes.</div>';
     });
   }
 
