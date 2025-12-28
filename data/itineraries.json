@@ -1,0 +1,63 @@
+{
+  "itineraries": [
+    {
+      "id": "kerala-4-days",
+      "state": "kerala",
+      "title": "Kerala 4 Days: Trivandrum → Varkala → Alleppey → Kochi",
+      "durationDays": 4,
+      "summary": "Beach, backwaters, and heritage with slow travel emphasis.",
+      "bestTime": "October to March",
+      "route": ["Trivandrum","Varkala","Alleppey","Kochi"],
+      "days": [
+        {
+          "day": "Day 1 — Trivandrum & Kovalam",
+          "theme": "Beach & Culture",
+          "morning": "Arrive in Trivandrum. Visit Padmanabhaswamy Temple (dress modestly).",
+          "afternoon": "Head to Kovalam Lighthouse Beach for a calm lunch and sea time.",
+          "evening": "Sunset at Hawa Beach; try local seafood and stroll the promenade.",
+          "distanceKm": 20,
+          "driveTime": "45m",
+          "mustSee": ["Padmanabhaswamy Temple","Kovalam Lighthouse Beach"],
+          "optional": ["Shangumugham Beach"],
+          "galleryQueries": ["Trivandrum","Padmanabhaswamy Temple","Kovalam","Lighthouse Beach"]
+        },
+        {
+          "day": "Day 2 — Varkala Cliffs",
+          "theme": "Beach & Wellness",
+          "morning": "Drive to Varkala (60 km). Coffee with cliff views at North Cliff.",
+          "afternoon": "Relax at Varkala Beach; optional Ayurveda massage.",
+          "evening": "Sunset on the cliff trail; dinner at a slow cafe.",
+          "distanceKm": 60,
+          "driveTime": "1h 30m",
+          "mustSee": ["Varkala Cliff","Varkala Beach"],
+          "optional": ["Anjengo Fort","Kappil Beach"],
+          "galleryQueries": ["Varkala","Varkala Cliff","Kappil Beach"]
+        },
+        {
+          "day": "Day 3 — Alleppey Backwaters",
+          "theme": "Backwaters & Village Life",
+          "morning": "Drive to Alleppey (110 km). Board a day houseboat or shikara.",
+          "afternoon": "Cruise past paddy fields and coconut groves; village lunch.",
+          "evening": "Golden hour on canals; dock and unwind.",
+          "distanceKm": 110,
+          "driveTime": "3h",
+          "mustSee": ["Alleppey Backwaters","Houseboat Ride"],
+          "optional": ["Kumarakom Bird Sanctuary"],
+          "galleryQueries": ["Alleppey","Houseboat","Backwaters","Kumarakom"]
+        },
+        {
+          "day": "Day 4 — Kochi Fort & Departure",
+          "theme": "Heritage & Cafes",
+          "morning": "Drive to Kochi (55 km). Explore Fort Kochi streets and Chinese fishing nets.",
+          "afternoon": "Visit Mattancherry Palace and Jew Town; cafe breaks.",
+          "evening": "Kathakali performance (optional) and dinner before departure.",
+          "distanceKm": 55,
+          "driveTime": "1h 30m",
+          "mustSee": ["Fort Kochi","Chinese Fishing Nets","Mattancherry"],
+          "optional": ["Kathakali Show","Jew Town"],
+          "galleryQueries": ["Fort Kochi","Chinese fishing nets","Mattancherry"]
+        }
+      ]
+    }
+  ]
+}
