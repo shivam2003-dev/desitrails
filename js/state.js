@@ -63,6 +63,8 @@
   }
 
   function unsplashUrl(q){
-    return `https://source.unsplash.com/1600x900/?${encodeURIComponent(q)},india`;
+    // Use a more reliable image service
+    const seed = q.toLowerCase().replace(/\s+/g, '-');
+    return `https://picsum.photos/seed/${seed}/1600/900`;
   }
 })();

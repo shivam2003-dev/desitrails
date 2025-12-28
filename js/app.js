@@ -1,11 +1,15 @@
 /* DesiTrails — common app code */
 (function(){
   // Wait for DOM to be ready
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', init);
-  } else {
-    init();
+  function startApp() {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', init);
+    } else {
+      // DOM already loaded, run immediately
+      setTimeout(init, 100);
+    }
   }
+  startApp();
   
   function init() {
     const gridEl = document.getElementById('state-grid');
@@ -93,7 +97,11 @@
   }
 
   function unsplashUrl(q){
-    return `https://source.unsplash.com/1600x900/?${encodeURIComponent(q)},india`;
+    // Use a more reliable image service
+    // Format: https://images.unsplash.com/photo-{id}?w=1600&h=900&fit=crop
+    // For now, use a working placeholder service
+    const seed = q.toLowerCase().replace(/\s+/g, '-');
+    return `https://picsum.photos/seed/${seed}/1600/900`;
   }
 
   function observeFadeIns(){
