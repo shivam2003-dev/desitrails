@@ -59,16 +59,28 @@
       })
       .catch(err => {
         console.error('Failed to load state data:', err);
-        routesEl.innerHTML = '<div class="text-gray-600 col-span-full">Unable to load state data. Error: ' + err.message + '</div>';
+        const errorMsg = `<div class="text-gray-600 col-span-full p-4 border border-red-200 rounded bg-red-50">
+          <p class="font-semibold text-red-800">Error loading state data</p>
+          <p class="text-sm text-red-600">${err.message}</p>
+          <p class="text-xs text-gray-500 mt-2">URL tried: ${statesUrl}</p>
+        </div>`;
+        if (routesEl) routesEl.innerHTML = errorMsg;
       });
   }
 
-  // Wait for DOM to be ready
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', init);
-  } else {
-    init();
+  // Wait for DOM to be ready and base tag to be set
+  function startApp() {
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', function() {
+        // Wait a bit for base tag to be processed
+        setTimeout(init, 100);
+      });
+    } else {
+      // DOM already loaded, wait for base tag
+      setTimeout(init, 100);
+    }
   }
+  startApp();
 
   function renderHeroImage(state, basePath){
     basePath = basePath || '';
@@ -134,7 +146,12 @@
       })
       .catch(err => {
         console.error('Failed to load itineraries:', err);
-        routesEl.innerHTML = '<div class="text-gray-600 col-span-full">Unable to load routes. Error: ' + err.message + '</div>';
+        const errorMsg = `<div class="text-gray-600 col-span-full p-4 border border-red-200 rounded bg-red-50">
+          <p class="font-semibold text-red-800">Error loading itineraries</p>
+          <p class="text-sm text-red-600">${err.message}</p>
+          <p class="text-xs text-gray-500 mt-2">URL tried: ${itinerariesUrl}</p>
+        </div>`;
+        if (routesEl) routesEl.innerHTML = errorMsg;
       });
   }
 
