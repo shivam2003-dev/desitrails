@@ -185,6 +185,19 @@
           </div>
         </div>
         
+        ${it.generalTips && it.generalTips.length > 0 ? `
+        <!-- General Tips Section -->
+        <div class="bg-gradient-to-r from-purple-50 to-pink-50 rounded-xl p-5 border-2 border-purple-100 shadow-lg">
+          <div class="flex items-center gap-2 mb-4">
+            <span class="text-2xl">🌟</span>
+            <h4 class="text-base font-bold text-gray-800">General Travel Tips</h4>
+          </div>
+          <div class="grid md:grid-cols-1 gap-2">
+            ${it.generalTips.map(tip => `<div class="text-xs text-gray-700 flex items-start gap-2 p-2 bg-white/60 rounded-lg"><span class="text-purple-500 mt-0.5 flex-shrink-0">✓</span><span>${tip}</span></div>`).join('')}
+          </div>
+        </div>
+        ` : ''}
+        
         <!-- Back Link -->
         <a class="block w-full text-center bg-earth-500 hover:bg-earth-600 text-white font-semibold py-3 px-4 rounded-xl shadow-md hover:shadow-lg transition-all transform hover:scale-105" href="${basePath ? basePath + '/states/' + it.state + '/' : '/states/' + it.state + '/'}">
           ← Back to ${capitalize(it.state)}
