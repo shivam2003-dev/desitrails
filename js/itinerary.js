@@ -1,7 +1,8 @@
 /* DesiTrails — itinerary renderer */
-/* Version: 2.0 - Fixed sidebar scope issue */
+/* Version: 4.0 - BEAUTIFUL DESIGN - Enhanced Kerala styling */
+/* Updated: 2025-12-28 - Beautiful timeline design, gradient cards, enhanced sidebar */
 (function(){
-  console.log('Itinerary.js: Script loaded! (v2.0)');
+  console.log('Itinerary.js: Script loaded! (v4.0 - Beautiful design with timeline)');
   
   function init() {
     const root = document.getElementById('itinerary-root');
@@ -78,7 +79,6 @@
         try {
           renderSidebar(it, basePath, sidebarEl);
           it.days.forEach((d, idx) => root.appendChild(renderDay(d, idx+1, id, basePath)) );
-          setupLazyImages();
         } catch (renderError) {
           console.error('Itinerary.js: Error rendering content:', renderError);
           root.innerHTML = `<div class="text-gray-600 p-4 border border-red-200 rounded bg-red-50">
@@ -124,20 +124,71 @@
         throw new Error('Sidebar element not provided to renderSidebar');
       }
       const routeSummary = it.route.join(' → ');
+      
+      // Calculate total distance and travel time
+      const totalDistance = it.days.reduce((sum, day) => sum + (day.distanceKm || 0), 0);
+      const totalDays = it.days.length;
+      
       sidebarEl.innerHTML = `
-      <h3 class="text-xl font-semibold mb-2">${it.title}</h3>
-      <div class="text-gray-700 mb-3">${routeSummary}</div>
-      <div class="grid grid-cols-2 gap-3 mb-4">
-        <div class="border border-gray-100 rounded p-3">
-          <div class="text-xs text-gray-500">Duration</div>
-          <div class="text-lg font-semibold">${it.durationDays} days</div>
+      <div class="space-y-5">
+        <!-- Title Section -->
+        <div class="bg-gradient-to-br from-earth-500 to-earth-600 rounded-2xl p-5 text-white shadow-xl">
+          <h3 class="text-xl font-bold mb-2 leading-tight">${it.title}</h3>
+          <p class="text-sm text-earth-100 leading-relaxed">${it.summary}</p>
         </div>
-        <div class="border border-gray-100 rounded p-3">
-          <div class="text-xs text-gray-500">Best time</div>
-          <div class="text-lg font-semibold">${it.bestTime}</div>
+        
+        <!-- Trip Summary Card -->
+        <div class="bg-white rounded-xl p-5 border-2 border-earth-100 shadow-lg">
+          <div class="flex items-center gap-2 mb-4">
+            <span class="text-2xl">📊</span>
+            <h4 class="text-base font-bold text-gray-800">Trip Summary</h4>
+          </div>
+          <div class="space-y-3">
+            <div class="flex items-center justify-between p-3 bg-gradient-to-r from-earth-50 to-white rounded-lg border border-earth-100">
+              <span class="text-sm font-medium text-gray-700 flex items-center gap-2">
+                <span>📅</span> Duration
+              </span>
+              <span class="text-lg font-bold text-earth-700">${it.durationDays} days</span>
+            </div>
+            <div class="flex items-center justify-between p-3 bg-gradient-to-r from-earth-50 to-white rounded-lg border border-earth-100">
+              <span class="text-sm font-medium text-gray-700 flex items-center gap-2">
+                <span>🗺️</span> Total Distance
+              </span>
+              <span class="text-lg font-bold text-earth-700">${totalDistance} km</span>
+            </div>
+            <div class="flex items-center justify-between p-3 bg-gradient-to-r from-earth-50 to-white rounded-lg border border-earth-100">
+              <span class="text-sm font-medium text-gray-700 flex items-center gap-2">
+                <span>🌤️</span> Best Time
+              </span>
+              <span class="text-sm font-bold text-earth-700 text-right">${it.bestTime}</span>
+            </div>
+          </div>
         </div>
-      </div>
-      <a class="text-earth-700 hover:underline" href="${basePath}/states/${it.state}/">Back to ${capitalize(it.state)}</a>`;
+        
+        <!-- Route Card -->
+        <div class="bg-white rounded-xl p-5 border-2 border-earth-100 shadow-lg">
+          <div class="flex items-center gap-2 mb-4">
+            <span class="text-2xl">🗺️</span>
+            <h4 class="text-base font-bold text-gray-800">Your Route</h4>
+          </div>
+          <div class="space-y-2">
+            ${it.route.map((place, idx) => 
+              `<div class="flex items-center ${idx < it.route.length - 1 ? 'mb-2' : ''}">
+                <div class="flex-shrink-0 w-8 h-8 rounded-full bg-gradient-to-br from-earth-400 to-earth-600 text-white flex items-center justify-center text-sm font-bold shadow-md mr-3">${idx + 1}</div>
+                <div class="flex-1">
+                  <div class="text-sm font-semibold text-gray-800">${place}</div>
+                  ${idx < it.route.length - 1 ? '<div class="text-xs text-gray-400 mt-1 ml-11">↓ ${it.days[idx]?.distanceKm || '?'} km</div>' : ''}
+                </div>
+              </div>`
+            ).join('')}
+          </div>
+        </div>
+        
+        <!-- Back Link -->
+        <a class="block w-full text-center bg-earth-500 hover:bg-earth-600 text-white font-semibold py-3 px-4 rounded-xl shadow-md hover:shadow-lg transition-all transform hover:scale-105" href="${basePath}/states/${it.state}/">
+          ← Back to ${capitalize(it.state)}
+        </a>
+      </div>`;
     } catch (error) {
       console.error('Itinerary.js: Error in renderSidebar:', error);
       throw error; // Re-throw to be caught by caller
@@ -147,49 +198,116 @@
   function renderDay(d, n, itineraryId, basePath){
     basePath = basePath || '';
     const el = document.createElement('section');
-    el.className = 'space-y-4';
+    el.className = 'space-y-6 mb-12';
+    
+    // Beautiful day card with gradient and shadow
     el.innerHTML = `
-      <div>
-        <h2 class="text-2xl font-semibold">${d.day}</h2>
-        <p class="text-gray-600">${d.theme}</p>
-      </div>
-      <div class="grid md:grid-cols-3 gap-4">
-        <div class="space-y-2">
-          <div class="text-sm"><span class="font-semibold">Morning:</span> ${d.morning}</div>
-          <div class="text-sm"><span class="font-semibold">Afternoon:</span> ${d.afternoon}</div>
-          <div class="text-sm"><span class="font-semibold">Evening:</span> ${d.evening}</div>
-          <div class="text-sm text-gray-600">Distance: ${d.distanceKm} km • Travel: ${d.driveTime}</div>
-          <div class="text-sm"><span class="font-semibold">Must-see:</span> ${d.mustSee.join(', ')}</div>
-          <div class="text-sm"><span class="font-semibold">Optional:</span> ${d.optional.join(', ')}</div>
+      <div class="bg-gradient-to-r from-earth-50 to-white rounded-2xl shadow-lg border border-earth-100 p-6 md:p-8">
+        <!-- Day Header with Icon -->
+        <div class="flex items-start justify-between mb-6 pb-4 border-b-2 border-earth-200">
+          <div class="flex-1">
+            <div class="flex items-center gap-3 mb-2">
+              <div class="w-10 h-10 rounded-full bg-earth-500 text-white flex items-center justify-center font-bold text-lg shadow-md">${n}</div>
+              <h2 class="text-3xl font-bold text-gray-900">${d.day}</h2>
+            </div>
+            <p class="text-earth-600 font-medium ml-13 mt-1 flex items-center gap-2">
+              <span class="w-2 h-2 rounded-full bg-earth-400"></span>
+              ${d.theme}
+            </p>
+          </div>
         </div>
-        <div class="md:col-span-2 grid sm:grid-cols-2 gap-3">
-          ${d.galleryQueries.map((q,i) => imageCard(q, n, i, itineraryId, basePath)).join('')}
+        
+        <!-- Beautiful Activity Timeline -->
+        <div class="space-y-4 mb-6">
+          <div class="flex gap-4 group">
+            <div class="flex flex-col items-center">
+              <div class="w-3 h-3 rounded-full bg-amber-400 border-2 border-white shadow-md"></div>
+              <div class="w-0.5 h-full bg-gradient-to-b from-amber-200 to-transparent mt-1"></div>
+            </div>
+            <div class="flex-1 bg-gradient-to-r from-amber-50 to-white rounded-xl p-4 border-l-4 border-amber-400 shadow-sm hover:shadow-md transition-shadow">
+              <div class="flex items-center gap-2 mb-2">
+                <span class="text-amber-600 font-bold text-sm uppercase tracking-wide">🌅 Morning</span>
+              </div>
+              <p class="text-gray-700 leading-relaxed">${d.morning}</p>
+            </div>
+          </div>
+          
+          <div class="flex gap-4 group">
+            <div class="flex flex-col items-center">
+              <div class="w-3 h-3 rounded-full bg-blue-400 border-2 border-white shadow-md"></div>
+              <div class="w-0.5 h-full bg-gradient-to-b from-blue-200 to-transparent mt-1"></div>
+            </div>
+            <div class="flex-1 bg-gradient-to-r from-blue-50 to-white rounded-xl p-4 border-l-4 border-blue-400 shadow-sm hover:shadow-md transition-shadow">
+              <div class="flex items-center gap-2 mb-2">
+                <span class="text-blue-600 font-bold text-sm uppercase tracking-wide">☀️ Afternoon</span>
+              </div>
+              <p class="text-gray-700 leading-relaxed">${d.afternoon}</p>
+            </div>
+          </div>
+          
+          <div class="flex gap-4">
+            <div class="flex flex-col items-center">
+              <div class="w-3 h-3 rounded-full bg-purple-400 border-2 border-white shadow-md"></div>
+            </div>
+            <div class="flex-1 bg-gradient-to-r from-purple-50 to-white rounded-xl p-4 border-l-4 border-purple-400 shadow-sm hover:shadow-md transition-shadow">
+              <div class="flex items-center gap-2 mb-2">
+                <span class="text-purple-600 font-bold text-sm uppercase tracking-wide">🌙 Evening</span>
+              </div>
+              <p class="text-gray-700 leading-relaxed">${d.evening}</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Enhanced Info Cards -->
+        <div class="grid md:grid-cols-2 gap-4">
+          <!-- Travel Info Card -->
+          <div class="bg-white rounded-xl p-5 border-2 border-earth-100 shadow-md hover:shadow-lg transition-all">
+            <div class="flex items-center gap-2 mb-3">
+              <span class="text-2xl">🚗</span>
+              <h3 class="text-base font-bold text-gray-800">Travel Details</h3>
+            </div>
+            <div class="space-y-3">
+              <div class="flex items-center justify-between p-2 bg-earth-50 rounded-lg">
+                <span class="text-sm font-medium text-gray-600 flex items-center gap-2">
+                  <span>📏</span> Distance
+                </span>
+                <span class="text-base font-bold text-earth-700">${d.distanceKm} km</span>
+              </div>
+              <div class="flex items-center justify-between p-2 bg-earth-50 rounded-lg">
+                <span class="text-sm font-medium text-gray-600 flex items-center gap-2">
+                  <span>⏱️</span> Drive Time
+                </span>
+                <span class="text-base font-bold text-earth-700">${d.driveTime}</span>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Attractions Card -->
+          <div class="bg-white rounded-xl p-5 border-2 border-earth-100 shadow-md hover:shadow-lg transition-all">
+            <div class="flex items-center gap-2 mb-3">
+              <span class="text-2xl">📍</span>
+              <h3 class="text-base font-bold text-gray-800">Places to Visit</h3>
+            </div>
+            <div class="space-y-3">
+              <div>
+                <div class="text-xs font-semibold text-green-700 mb-2 uppercase tracking-wide">Must-see</div>
+                <div class="flex flex-wrap gap-2">
+                  ${d.mustSee.map(place => `<span class="inline-flex items-center gap-1 bg-gradient-to-r from-green-100 to-green-50 text-green-800 px-3 py-1.5 rounded-full text-xs font-semibold border border-green-200 shadow-sm">✨ ${place}</span>`).join('')}
+                </div>
+              </div>
+              ${d.optional && d.optional.length > 0 ? `
+              <div>
+                <div class="text-xs font-semibold text-blue-700 mb-2 uppercase tracking-wide">Optional</div>
+                <div class="flex flex-wrap gap-2">
+                  ${d.optional.map(place => `<span class="inline-flex items-center gap-1 bg-gradient-to-r from-blue-100 to-blue-50 text-blue-800 px-3 py-1.5 rounded-full text-xs font-semibold border border-blue-200 shadow-sm">💫 ${place}</span>`).join('')}
+                </div>
+              </div>
+              ` : ''}
+            </div>
+          </div>
         </div>
       </div>`;
     return el;
-  }
-
-  function imageCard(q, dayNum, idx, itineraryId, basePath){
-    basePath = basePath || '';
-    const local = `${basePath}/assets/images/itineraries/${itineraryId}/day-${dayNum}-${idx+1}.jpg`;
-    const fallback = getImageUrl(q, 1200, 800);
-    return `<figure class="rounded-xl overflow-hidden border border-gray-100">
-      <img class="w-full h-40 sm:h-48 object-cover fade-in" alt="${q}" src="${local}" loading="lazy" onerror="this.onerror=null; this.src='${fallback}';" />
-      <figcaption class="px-3 py-2 text-xs text-gray-600">${q}</figcaption>
-    </figure>`;
-  }
-
-  function setupLazyImages(){
-    const imgs = document.querySelectorAll('img[data-src]');
-    const io = new IntersectionObserver((entries)=>{
-      entries.forEach(e=>{ if(e.isIntersecting){ const img=e.target; img.src = img.dataset.src; img.classList.add('show'); io.unobserve(img); } });
-    },{rootMargin:'100px'});
-    imgs.forEach(img => io.observe(img));
-  }
-
-  function getImageUrl(q, width = 1200, height = 800){
-    const seed = q.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
-    return `https://picsum.photos/seed/${seed}/${width}/${height}`;
   }
 
   function capitalize(s){ return s.charAt(0).toUpperCase() + s.slice(1); }
