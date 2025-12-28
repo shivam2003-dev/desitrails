@@ -28,8 +28,34 @@
     details summary::-webkit-details-marker { display: none; }
     details summary { list-style: none; }
     details[open] summary .arrow { transform: rotate(180deg); }
-    @keyframes fadeIn { from { opacity: 0; transform: translateY(-10px); } to { opacity: 1; transform: translateY(0); } }
-    .animate-fadeIn { animation: fadeIn 0.3s ease-out; }
+    @keyframes fadeIn { 
+      from { opacity: 0; transform: translateY(-10px); } 
+      to { opacity: 1; transform: translateY(0); } 
+    }
+    @keyframes slideDown {
+      from { opacity: 0; max-height: 0; transform: translateY(-20px); }
+      to { opacity: 1; max-height: 1000px; transform: translateY(0); }
+    }
+    .animate-fadeIn { animation: fadeIn 0.4s ease-out; }
+    .facts-details[open] > div:last-child {
+      animation: slideDown 0.5s ease-out;
+    }
+    .facts-details summary::-webkit-details-marker { display: none; }
+    .facts-details summary::marker { display: none; }
+    /* Glow effect on hover */
+    .facts-details summary:hover > div {
+      box-shadow: 0 20px 40px -10px rgba(147, 51, 234, 0.4);
+    }
+    /* Stagger animation for facts */
+    .facts-details[open] li {
+      animation: fadeIn 0.4s ease-out forwards;
+      opacity: 0;
+    }
+    .facts-details[open] li:nth-child(1) { animation-delay: 0.1s; }
+    .facts-details[open] li:nth-child(2) { animation-delay: 0.2s; }
+    .facts-details[open] li:nth-child(3) { animation-delay: 0.3s; }
+    .facts-details[open] li:nth-child(4) { animation-delay: 0.4s; }
+    .facts-details[open] li:nth-child(5) { animation-delay: 0.5s; }
   </style>
 </head>
 <body class="bg-white text-gray-900 min-h-screen" data-itinerary-id="kerala-10-days-complete">

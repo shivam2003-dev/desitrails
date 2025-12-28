@@ -1,6 +1,6 @@
 /* DesiTrails — itinerary renderer */
-/* Version: 5.5 - ENHANCED KERALA - Detailed Food, Hotels, Tips & Interesting Facts (VISIBLE) */
-/* Updated: 2025-12-28 - Made interesting facts section more prominent and visible */
+/* Version: 6.0 - BEAUTIFUL KERALA - Stunning Interesting Facts Section */
+/* Updated: 2025-12-28 - Completely redesigned facts section with beautiful gradients, icons, and animations */
 (function(){
   console.log('Itinerary.js: Script loaded! (v5.3 - Enhanced with Interesting Facts)');
   
@@ -459,28 +459,80 @@
         ` : ''}
         
         ${d.interestingFacts && Array.isArray(d.interestingFacts) && d.interestingFacts.length > 0 ? `
-        <!-- Interesting Facts - Collapsible -->
-        <div class="mt-6 mb-4">
-          <details class="group" open="false">
-            <summary class="cursor-pointer list-none outline-none">
-              <div class="bg-gradient-to-r from-purple-100 to-indigo-100 rounded-xl p-5 border-2 border-purple-300 shadow-lg hover:shadow-xl transition-all flex items-center justify-between">
-                <div class="flex items-center gap-3">
-                  <span class="text-3xl">🔍</span>
-                  <h3 class="text-lg font-bold text-gray-900">Interesting Facts About This Place</h3>
-                  <span class="text-xs bg-purple-200 text-purple-800 px-2 py-1 rounded-full font-semibold">${d.interestingFacts.length} facts</span>
+        <!-- Interesting Facts - Beautiful Collapsible -->
+        <div class="mt-8 mb-6">
+          <details class="group facts-details" open="false">
+            <summary class="cursor-pointer list-none outline-none focus:outline-none">
+              <div class="relative bg-gradient-to-r from-purple-500 via-indigo-500 to-purple-600 rounded-2xl p-6 border-4 border-purple-300 shadow-2xl hover:shadow-purple-500/50 transition-all duration-300 flex items-center justify-between transform hover:scale-[1.02] overflow-hidden">
+                <!-- Decorative background pattern -->
+                <div class="absolute inset-0 opacity-10">
+                  <div class="absolute top-0 left-0 w-32 h-32 bg-white rounded-full blur-3xl"></div>
+                  <div class="absolute bottom-0 right-0 w-40 h-40 bg-indigo-300 rounded-full blur-3xl"></div>
                 </div>
-                <span class="arrow text-purple-700 font-bold text-xl transform transition-transform duration-300">▼</span>
+                
+                <div class="relative flex items-center gap-4 z-10">
+                  <div class="w-14 h-14 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center border-2 border-white/30 shadow-lg">
+                    <span class="text-4xl">✨</span>
+                  </div>
+                  <div class="flex flex-col">
+                    <h3 class="text-xl font-bold text-white drop-shadow-lg">Interesting Facts</h3>
+                    <p class="text-sm text-purple-100 font-medium">Discover amazing things about this place</p>
+                  </div>
+                  <div class="flex items-center gap-2 bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full border border-white/30">
+                    <span class="text-white font-bold text-lg">${d.interestingFacts.length}</span>
+                    <span class="text-purple-100 text-sm">facts</span>
+                  </div>
+                </div>
+                
+                <div class="relative z-10">
+                  <span class="arrow text-white font-bold text-2xl transform transition-transform duration-500 drop-shadow-lg">▼</span>
+                </div>
               </div>
             </summary>
-            <div class="mt-3 bg-gradient-to-br from-purple-50 via-white to-indigo-50 rounded-xl p-6 border-2 border-purple-200 shadow-lg animate-fadeIn">
-              <ul class="space-y-3">
-                ${d.interestingFacts.map((fact, idx) => `
-                  <li class="flex items-start gap-3 bg-white/90 p-4 rounded-lg border-2 border-purple-100 hover:shadow-md hover:border-purple-200 transition-all">
-                    <span class="flex-shrink-0 w-7 h-7 rounded-full bg-gradient-to-br from-purple-500 to-indigo-600 text-white flex items-center justify-center text-sm font-bold shadow-md">${idx + 1}</span>
-                    <span class="text-sm text-gray-800 leading-relaxed flex-1 font-medium">${fact}</span>
+            <div class="mt-4 bg-gradient-to-br from-purple-50 via-indigo-50/30 to-purple-50 rounded-2xl p-6 border-4 border-purple-200/50 shadow-xl backdrop-blur-sm animate-fadeIn overflow-hidden">
+              <!-- Decorative top border -->
+              <div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-purple-400 via-indigo-400 to-purple-400"></div>
+              
+              <ul class="space-y-4 relative z-10">
+                ${d.interestingFacts.map((fact, idx) => {
+                  const icons = ['🌟', '💎', '🏛️', '🌊', '🎭', '🌿', '⛰️', '🦋', '🎨', '🏆'];
+                  const icon = icons[idx % icons.length];
+                  const colors = [
+                    'from-purple-400 to-indigo-500',
+                    'from-indigo-400 to-purple-500',
+                    'from-purple-500 to-pink-500',
+                    'from-indigo-500 to-blue-500',
+                    'from-purple-400 to-pink-400'
+                  ];
+                  const colorClass = colors[idx % colors.length];
+                  
+                  return `
+                  <li class="group/fact flex items-start gap-4 bg-white/90 backdrop-blur-sm p-5 rounded-xl border-2 border-purple-100 hover:border-purple-300 hover:shadow-xl transition-all duration-300 transform hover:scale-[1.02] hover:-translate-y-1">
+                    <div class="flex-shrink-0 relative">
+                      <div class="w-12 h-12 rounded-xl bg-gradient-to-br ${colorClass} text-white flex items-center justify-center text-xl font-bold shadow-lg transform group-hover/fact:rotate-6 transition-transform duration-300">
+                        <span class="drop-shadow-md">${icon}</span>
+                      </div>
+                      <div class="absolute -top-1 -right-1 w-6 h-6 rounded-full bg-gradient-to-br from-yellow-400 to-orange-500 text-white flex items-center justify-center text-xs font-bold shadow-md border-2 border-white">
+                        ${idx + 1}
+                      </div>
+                    </div>
+                    <div class="flex-1 pt-1">
+                      <p class="text-base text-gray-800 leading-relaxed font-medium group-hover/fact:text-gray-900 transition-colors">
+                        ${fact}
+                      </p>
+                    </div>
                   </li>
-                `).join('')}
+                `;
+                }).join('')}
               </ul>
+              
+              <!-- Decorative bottom accent -->
+              <div class="mt-6 pt-4 border-t-2 border-purple-200/50">
+                <div class="flex items-center justify-center gap-2 text-purple-600">
+                  <span class="text-sm font-semibold">💡</span>
+                  <span class="text-xs font-medium italic">Tap to learn more amazing facts!</span>
+                </div>
+              </div>
             </div>
           </details>
         </div>
