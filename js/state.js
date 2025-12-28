@@ -15,7 +15,27 @@
 
     if (!routesEl || !themesEl) {
       console.error('State.js: Routes or themes element not found. routesEl:', routesEl, 'themesEl:', themesEl);
+      // Try to find them again after a delay
+      setTimeout(() => {
+        const retryRoutes = document.getElementById('routes');
+        const retryThemes = document.getElementById('themes');
+        console.log('State.js: Retry - routesEl:', retryRoutes, 'themesEl:', retryThemes);
+        if (retryRoutes && retryThemes) {
+          console.log('State.js: Found elements on retry, continuing...');
+          // Re-run init with found elements
+          init();
+        }
+      }, 500);
       return;
+    }
+    
+    // Test: Can we modify the DOM?
+    console.log('State.js: Testing DOM modification...');
+    try {
+      routesEl.innerHTML = '<div class="col-span-full text-blue-600">Script is running! Loading data...</div>';
+      console.log('State.js: Successfully modified routesEl innerHTML');
+    } catch (e) {
+      console.error('State.js: Failed to modify DOM:', e);
     }
 
     // Get base path - check if we're on GitHub Pages
