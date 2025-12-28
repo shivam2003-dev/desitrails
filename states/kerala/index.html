@@ -71,6 +71,15 @@
     </div>
   </footer>
 
+  <script>
+    // Immediate test to see if scripts are running
+    console.log('HTML: Script tag reached');
+    window.addEventListener('load', function() {
+      console.log('HTML: Window loaded');
+      const routesEl = document.getElementById('routes');
+      console.log('HTML: routesEl found:', !!routesEl);
+    });
+  </script>
   <script src="../../js/state.js"></script>
 </body>
 </html>

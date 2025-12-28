@@ -128,7 +128,9 @@
     // Try multiple times to ensure base tag is set
     function tryInit(attempts) {
       if (attempts <= 0) {
-        console.error('State.js: Failed to initialize after multiple attempts');
+        console.error('State.js: Failed to initialize after multiple attempts - running anyway');
+        // Run anyway even if base tag isn't found
+        init();
         return;
       }
       
@@ -143,15 +145,23 @@
       init();
     }
     
-    if (document.readyState === 'loading') {
-      document.addEventListener('DOMContentLoaded', function() {
-        console.log('State.js: DOMContentLoaded fired');
+    // Use window.load to ensure everything is ready
+    if (document.readyState === 'complete') {
+      console.log('State.js: Document already complete');
+      setTimeout(() => tryInit(5), 100);
+    } else {
+      window.addEventListener('load', function() {
+        console.log('State.js: Window load event fired');
         setTimeout(() => tryInit(5), 100);
       });
-    } else {
-      // DOM already loaded
-      console.log('State.js: DOM already loaded, initializing...');
-      setTimeout(() => tryInit(5), 100);
+      
+      // Also try on DOMContentLoaded as backup
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', function() {
+          console.log('State.js: DOMContentLoaded fired');
+          setTimeout(() => tryInit(5), 200);
+        });
+      }
     }
   }
   startApp();
