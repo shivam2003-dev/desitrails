@@ -3,9 +3,6 @@
   console.log('Itinerary.js: Script loaded!');
   
   function init() {
-    const id = document.body.dataset.itineraryId || new URL(location.href).searchParams.get('id');
-    console.log('Itinerary.js: Itinerary ID:', id);
-    
     const root = document.getElementById('itinerary-root');
     const sidebar = document.getElementById('itinerary-sidebar');
     const yearEl = document.getElementById('year');
@@ -14,6 +11,10 @@
       console.error('Itinerary.js: Root or sidebar element not found');
       return;
     }
+    
+    try {
+      const id = document.body.dataset.itineraryId || new URL(location.href).searchParams.get('id');
+      console.log('Itinerary.js: Itinerary ID:', id);
     
     if (yearEl) yearEl.textContent = new Date().getFullYear();
 
@@ -76,6 +77,16 @@
           <p class="text-xs text-gray-500 mt-2">URL tried: ${itinerariesUrl}</p>
         </div>`;
       });
+    } catch (error) {
+      console.error('Itinerary.js: Fatal error in init():', error);
+      if (root) {
+        root.innerHTML = `<div class="text-gray-600 p-4 border border-red-500 rounded bg-red-100">
+          <p class="font-semibold text-red-800">JavaScript Error</p>
+          <p class="text-sm text-red-600">${error.message}</p>
+          <p class="text-xs text-gray-600 mt-2">Check console for details</p>
+        </div>`;
+      }
+    }
   }
   
   // Wait for DOM to be ready

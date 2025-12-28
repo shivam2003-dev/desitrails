@@ -171,28 +171,46 @@
   startApp();
 
   function renderHeroImage(state, basePath){
-    console.log('renderHeroImage called for state:', state.slug, 'basePath:', basePath);
     basePath = basePath || '';
-    const heroImg = document.getElementById('hero-img');
-    console.log('renderHeroImage: heroImg element:', heroImg);
     
-    if (!heroImg) {
-      console.error('renderHeroImage: hero-img element not found!');
-      return;
+    // Try to find hero image element - with retry logic
+    function findAndSetHeroImage(attempts) {
+      const heroImg = document.getElementById('hero-img');
+      
+      if (!heroImg) {
+        if (attempts > 0) {
+          console.log(`renderHeroImage: hero-img not found, retrying... (${attempts} attempts left)`);
+          setTimeout(() => findAndSetHeroImage(attempts - 1), 100);
+          return;
+        }
+        console.error('renderHeroImage: hero-img element not found after retries!');
+        return;
+      }
+      
+      const localHero = `${basePath}/assets/images/states/${state.slug}/hero.jpg`;
+      const fallbackHero = getImageUrl(state.heroQuery || state.name, 1600, 900);
+      
+      console.log('renderHeroImage: Setting src to:', localHero);
+      
+      // Set the image source
+      heroImg.src = localHero;
+      heroImg.alt = state.name || 'State hero image';
+      
+      // Handle error - fallback to Picsum
+      heroImg.onerror = function() {
+        console.log('renderHeroImage: Local image failed, using fallback:', fallbackHero);
+        this.onerror = null; // Prevent infinite loop
+        this.src = fallbackHero;
+      };
+      
+      // Log success when image loads
+      heroImg.onload = function() {
+        console.log('renderHeroImage: Image loaded successfully:', this.src);
+      };
     }
     
-    const localHero = `${basePath}/assets/images/states/${state.slug}/hero.jpg`;
-    const fallbackHero = getImageUrl(state.heroQuery || state.name, 1600, 900);
-    console.log('renderHeroImage: Setting src to:', localHero);
-    console.log('renderHeroImage: Fallback will be:', fallbackHero);
-    
-    heroImg.src = localHero;
-    heroImg.onerror = function() {
-      console.log('renderHeroImage: Local image failed, using fallback');
-      this.onerror = null;
-      this.src = fallbackHero;
-    };
-    console.log('renderHeroImage: Image src set to:', heroImg.src);
+    // Start with retry logic (5 attempts)
+    findAndSetHeroImage(5);
   }
 
   function renderRoutes(state, basePath){
